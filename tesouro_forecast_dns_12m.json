@@ -1,0 +1,903 @@
+{
+  "asOf": "2026-01-02",
+  "generatedAtISO": "2026-01-05T18:20:57.690652Z",
+  "horizonMonths": 12,
+  "model": {
+    "name": "Dynamic Nelson–Siegel (per curve family) + VAR(1) on factors",
+    "tradingDaysHorizon": 252,
+    "notes": [
+      "Betas ajustados por WLS usando spread bid/ask como proxy de qualidade.",
+      "Tau calibrado por grid-search no dia asOf e mantido fixo para estabilidade."
+    ]
+  },
+  "macro": {
+    "ipca_12m": 3.962,
+    "yearsCovered": [
+      2026,
+      2027
+    ],
+    "annual": {
+      "selic": {
+        "2026": {
+          "Indicador": "Selic",
+          "Data": "2026-01-02",
+          "DataReferencia": "2026",
+          "Media": 12.215,
+          "Mediana": 12.25,
+          "Minimo": 10.5,
+          "Maximo": 15.0,
+          "numeroRespondentes": 147,
+          "baseCalculo": 0
+        },
+        "2027": {
+          "Indicador": "Selic",
+          "Data": "2026-01-02",
+          "DataReferencia": "2027",
+          "Media": 10.375,
+          "Mediana": 10.5,
+          "Minimo": 8.5,
+          "Maximo": 13.0,
+          "numeroRespondentes": 122,
+          "baseCalculo": 0
+        }
+      },
+      "ipca": {
+        "2026": {
+          "Indicador": "IPCA",
+          "Data": "2026-01-02",
+          "DataReferencia": "2026",
+          "Media": 4.0652,
+          "Mediana": 4.0574,
+          "Minimo": 3.2989,
+          "Maximo": 5.7335,
+          "numeroRespondentes": 150,
+          "baseCalculo": 0
+        },
+        "2027": {
+          "Indicador": "IPCA",
+          "Data": "2026-01-02",
+          "DataReferencia": "2027",
+          "Media": 3.7658,
+          "Mediana": 3.8,
+          "Minimo": 2.7817,
+          "Maximo": 6.0,
+          "numeroRespondentes": 137,
+          "baseCalculo": 0
+        }
+      }
+    }
+  },
+  "curve": {
+    "nominal": {
+      "tau": 0.492436974789916,
+      "beta_asOf": [
+        13.992249344168581,
+        8.296900667594986,
+        -12.959550149083192
+      ],
+      "beta_12m": [
+        13.216739568090759,
+        1.8054613056339126,
+        -3.303699387017128
+      ]
+    },
+    "real": {
+      "tau": 0.8823529411764706,
+      "beta_asOf": [
+        6.920152548226518,
+        4.668010786975192,
+        0.10105581642336513
+      ],
+      "beta_12m": [
+        7.090472668010123,
+        4.600491480722729,
+        0.8186311651926836
+      ]
+    }
+  },
+  "bonds": {
+    "Tesouro IPCA+ 2035|15-05-2035": {
+      "y0": 7.26,
+      "y12m": 7.601104167052667,
+      "pu0": 2387.3599999999997,
+      "pu12m": 2592.374108826836,
+      "expReturn12mPct": 8.587481939332008,
+      "family": "real",
+      "ttmYears": 9.363449691991786
+    },
+    "Tesouro IPCA+ com Juros Semestrais 2045|15-05-2045": {
+      "y0": 7.14,
+      "y12m": 7.337393586487319,
+      "pu0": 4105.9,
+      "pu12m": 4421.338223091286,
+      "expReturn12mPct": 7.682559806407507,
+      "family": "real",
+      "ttmYears": 19.364818617385353
+    },
+    "Tesouro IPCA+ com Juros Semestrais 2035|15-05-2035": {
+      "y0": 7.36,
+      "y12m": 7.601104167052667,
+      "pu0": 4226.79,
+      "pu12m": 4629.9885514038115,
+      "expReturn12mPct": 9.539119554172593,
+      "family": "real",
+      "ttmYears": 9.363449691991786
+    },
+    "Tesouro IPCA+ com Juros Semestrais 2050|15-08-2050": {
+      "y0": 7.13,
+      "y12m": 7.284719321174336,
+      "pu0": 4121.64,
+      "pu12m": 4436.639156888371,
+      "expReturn12mPct": 7.642568416658668,
+      "family": "real",
+      "ttmYears": 24.61601642710472
+    },
+    "Tesouro Prefixado 2027|01-01-2027": {
+      "y0": 13.71,
+      "y12m": 13.010862556266158,
+      "pu0": 880.9949999999999,
+      "pu12m": 1001.3390261016056,
+      "expReturn12mPct": 13.660012383907482,
+      "family": "nominal",
+      "ttmYears": 0.9965776865160849
+    },
+    "Tesouro Prefixado 2031|01-01-2031": {
+      "y0": 13.52,
+      "y12m": 13.06921625589064,
+      "pu0": 533.52,
+      "pu12m": 615.359876648534,
+      "expReturn12mPct": 15.339608008797057,
+      "family": "nominal",
+      "ttmYears": 4.996577686516085
+    },
+    "Tesouro Prefixado 2028|01-01-2028": {
+      "y0": 13.1,
+      "y12m": 12.910887444308148,
+      "pu0": 783.475,
+      "pu12m": 887.5882561108212,
+      "expReturn12mPct": 13.288650704977334,
+      "family": "nominal",
+      "ttmYears": 1.995893223819302
+    },
+    "Tesouro Prefixado 2032|01-01-2032": {
+      "y0": 13.66,
+      "y12m": 13.09370836520296,
+      "pu0": 466.54499999999996,
+      "pu12m": 543.6736900015804,
+      "expReturn12mPct": 16.531886527897743,
+      "family": "nominal",
+      "ttmYears": 5.9958932238193015
+    },
+    "Tesouro Prefixado 2029|01-01-2029": {
+      "y0": 13.22,
+      "y12m": 12.97869984744031,
+      "pu0": 691.905,
+      "pu12m": 786.7212352597779,
+      "expReturn12mPct": 13.703649382469841,
+      "family": "nominal",
+      "ttmYears": 2.9979466119096507
+    },
+    "Tesouro IPCA+ com Juros Semestrais 2030|15-08-2030": {
+      "y0": 7.71,
+      "y12m": 8.116426239269273,
+      "pu0": 4404.65,
+      "pu12m": 4865.500231684923,
+      "expReturn12mPct": 10.462811612385181,
+      "family": "real",
+      "ttmYears": 4.616016427104722
+    },
+    "Tesouro IPCA+ com Juros Semestrais 2060|15-08-2060": {
+      "y0": 7.13,
+      "y12m": 7.228599183243152,
+      "pu0": 4057.885,
+      "pu12m": 4381.818591736497,
+      "expReturn12mPct": 7.982818432175809,
+      "family": "real",
+      "ttmYears": 34.61738535249829
+    },
+    "Tesouro IPCA+ com Juros Semestrais 2040|15-08-2040": {
+      "y0": 7.24,
+      "y12m": 7.417588470199013,
+      "pu0": 4205.945,
+      "pu12m": 4584.686708534931,
+      "expReturn12mPct": 9.004913486384902,
+      "family": "real",
+      "ttmYears": 14.617385352498289
+    },
+    "Tesouro IPCA+ com Juros Semestrais 2032|15-08-2032": {
+      "y0": 7.63,
+      "y12m": 7.812198258031682,
+      "pu0": 4323.405000000001,
+      "pu12m": 4791.898102461217,
+      "expReturn12mPct": 10.836206704234641,
+      "family": "real",
+      "ttmYears": 6.617385352498289
+    },
+    "Tesouro IPCA+ com Juros Semestrais 2055|15-05-2055": {
+      "y0": 7.09,
+      "y12m": 7.2533138482997614,
+      "pu0": 4038.915,
+      "pu12m": 4306.42905064735,
+      "expReturn12mPct": 6.623413729859373,
+      "family": "real",
+      "ttmYears": 29.363449691991786
+    },
+    "Tesouro IPCA+ com Juros Semestrais 2026|15-08-2026": {
+      "y0": 10.31,
+      "y12m": 10.583623857533185,
+      "pu0": 4573.72,
+      "pu12m": 5051.212841031748,
+      "expReturn12mPct": 10.439922886222774,
+      "family": "real",
+      "ttmYears": 0.6160164271047228
+    },
+    "Tesouro IPCA+ 2045|15-05-2045": {
+      "y0": 6.99,
+      "y12m": 7.337393586487319,
+      "pu0": 1248.275,
+      "pu12m": 1308.1966488696985,
+      "expReturn12mPct": 4.800356401409811,
+      "family": "real",
+      "ttmYears": 19.364818617385353
+    },
+    "Tesouro IPCA+ 2026|15-08-2026": {
+      "y0": 10.31,
+      "y12m": 10.583623857533185,
+      "pu0": 4312.4349999999995,
+      "pu12m": 4762.64988851848,
+      "expReturn12mPct": 10.439922886222774,
+      "family": "real",
+      "ttmYears": 0.6160164271047228
+    },
+    "Tesouro IPCA+ 2029|15-05-2029": {
+      "y0": 7.78,
+      "y12m": 8.462090161050275,
+      "pu0": 3569.3050000000003,
+      "pu12m": 3940.1917615246425,
+      "expReturn12mPct": 10.391007815937336,
+      "family": "real",
+      "ttmYears": 3.3648186173853527
+    },
+    "Tesouro IPCA+ 2040|15-08-2040": {
+      "y0": 7.13,
+      "y12m": 7.417588470199013,
+      "pu0": 1683.6950000000002,
+      "pu12m": 1807.9837480174035,
+      "expReturn12mPct": 7.381903968201087,
+      "family": "real",
+      "ttmYears": 14.617385352498289
+    },
+    "Tesouro IPCA+ 2050|15-08-2050": {
+      "y0": 6.99,
+      "y12m": 7.284719321174336,
+      "pu0": 877.415,
+      "pu12m": 914.5537662232016,
+      "expReturn12mPct": 4.232748040915824,
+      "family": "real",
+      "ttmYears": 24.61601642710472
+    },
+    "Tesouro Prefixado com Juros Semestrais 2031|01-01-2031": {
+      "y0": 13.57,
+      "y12m": 13.06921625589064,
+      "pu0": 883.45,
+      "pu12m": 1021.2122325652086,
+      "expReturn12mPct": 15.593664900697114,
+      "family": "nominal",
+      "ttmYears": 4.996577686516085
+    },
+    "Tesouro Prefixado com Juros Semestrais 2035|01-01-2035": {
+      "y0": 13.67,
+      "y12m": 13.134731998133658,
+      "pu0": 825.6,
+      "pu12m": 974.5582214894908,
+      "expReturn12mPct": 18.04242023855267,
+      "family": "nominal",
+      "ttmYears": 8.996577686516085
+    },
+    "Tesouro Prefixado com Juros Semestrais 2029|01-01-2029": {
+      "y0": 13.25,
+      "y12m": 12.97869984744031,
+      "pu0": 928.89,
+      "pu12m": 1057.0210483951103,
+      "expReturn12mPct": 13.793995887038314,
+      "family": "nominal",
+      "ttmYears": 2.9979466119096507
+    },
+    "Tesouro Prefixado com Juros Semestrais 2033|01-01-2033": {
+      "y0": 13.69,
+      "y12m": 13.111312676072398,
+      "pu0": 848.27,
+      "pu12m": 994.3726433643612,
+      "expReturn12mPct": 17.223601372718743,
+      "family": "nominal",
+      "ttmYears": 6.997946611909651
+    },
+    "Tesouro Prefixado com Juros Semestrais 2027|01-01-2027": {
+      "y0": 13.7,
+      "y12m": 13.010862556266158,
+      "pu0": 969.955,
+      "pu12m": 1102.3543520466892,
+      "expReturn12mPct": 13.650050986560114,
+      "family": "nominal",
+      "ttmYears": 0.9965776865160849
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2084|15-12-2084": {
+      "y0": 7.05,
+      "y12m": 7.171583185314898,
+      "pu0": 179.135,
+      "pu12m": 186.66941606044077,
+      "expReturn12mPct": 4.20599886144013,
+      "family": "real",
+      "ttmYears": 58.95140314852841
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2064|15-12-2064": {
+      "y0": 6.99,
+      "y12m": 7.213230217641557,
+      "pu0": 704.3050000000001,
+      "pu12m": 723.81107018101,
+      "expReturn12mPct": 2.7695487297420662,
+      "family": "real",
+      "ttmYears": 38.95140314852841
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2074|15-12-2074": {
+      "y0": 7.02,
+      "y12m": 7.188155517084815,
+      "pu0": 356.19,
+      "pu12m": 367.5585364908634,
+      "expReturn12mPct": 3.1917056882179162,
+      "family": "real",
+      "ttmYears": 48.95003422313484
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2069|15-12-2069": {
+      "y0": 7.0,
+      "y12m": 7.199266766222694,
+      "pu0": 501.96500000000003,
+      "pu12m": 515.4969071440918,
+      "expReturn12mPct": 2.695786985963511,
+      "family": "real",
+      "ttmYears": 43.950718685831625
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2079|15-12-2079": {
+      "y0": 7.05,
+      "y12m": 7.1791035565463535,
+      "pu0": 251.29500000000002,
+      "pu12m": 262.3788828376481,
+      "expReturn12mPct": 4.4107056796387045,
+      "family": "real",
+      "ttmYears": 53.949349760438054
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2049|15-12-2049": {
+      "y0": 7.18,
+      "y12m": 7.290115061539149,
+      "pu0": 1888.62,
+      "pu12m": 2055.4073188264447,
+      "expReturn12mPct": 8.83117402264324,
+      "family": "real",
+      "ttmYears": 23.95071868583162
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2059|15-12-2059": {
+      "y0": 7.0,
+      "y12m": 7.231317156607415,
+      "pu0": 983.175,
+      "pu12m": 1018.5615014454145,
+      "expReturn12mPct": 3.5992067989335075,
+      "family": "real",
+      "ttmYears": 33.949349760438054
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2054|15-12-2054": {
+      "y0": 7.06,
+      "y12m": 7.255639270866786,
+      "pu0": 1363.35,
+      "pu12m": 1441.9418210358067,
+      "expReturn12mPct": 5.76461077755579,
+      "family": "real",
+      "ttmYears": 28.95003422313484
+    },
+    "Tesouro Educa+ 2044|15-12-2044": {
+      "y0": 7.07,
+      "y12m": 7.342780043786225,
+      "pu0": 1502.145,
+      "pu12m": 1597.4134483985713,
+      "expReturn12mPct": 6.342160603574976,
+      "family": "real",
+      "ttmYears": 18.951403148528406
+    },
+    "Tesouro Educa+ 2034|15-12-2034": {
+      "y0": 7.55,
+      "y12m": 7.624672023291339,
+      "pu0": 2880.705,
+      "pu12m": 3203.2252394797433,
+      "expReturn12mPct": 11.195878768556433,
+      "family": "real",
+      "ttmYears": 8.950034223134839
+    },
+    "Tesouro Educa+ 2047|15-12-2047": {
+      "y0": 7.0,
+      "y12m": 7.308318702496311,
+      "pu0": 1241.0149999999999,
+      "pu12m": 1299.7411223178801,
+      "expReturn12mPct": 4.732104150061067,
+      "family": "real",
+      "ttmYears": 21.949349760438057
+    },
+    "Tesouro Educa+ 2041|15-12-2041": {
+      "y0": 7.14,
+      "y12m": 7.3902446499478565,
+      "pu0": 1826.255,
+      "pu12m": 1964.4445348406189,
+      "expReturn12mPct": 7.566825817896117,
+      "family": "real",
+      "ttmYears": 15.950718685831623
+    },
+    "Tesouro Educa+ 2043|15-12-2043": {
+      "y0": 7.09,
+      "y12m": 7.356865536862717,
+      "pu0": 1603.26,
+      "pu12m": 1711.2240429534322,
+      "expReturn12mPct": 6.734032094197584,
+      "family": "real",
+      "ttmYears": 17.949349760438057
+    },
+    "Tesouro Educa+ 2038|15-12-2038": {
+      "y0": 7.24,
+      "y12m": 7.459705074747636,
+      "pu0": 2221.8,
+      "pu12m": 2417.211975154652,
+      "expReturn12mPct": 8.79520997185399,
+      "family": "real",
+      "ttmYears": 12.950034223134839
+    },
+    "Tesouro Educa+ 2030|15-12-2030": {
+      "y0": 7.96,
+      "y12m": 8.049908214754995,
+      "pu0": 3813.9700000000003,
+      "pu12m": 4266.6471915526245,
+      "expReturn12mPct": 11.868923760612283,
+      "family": "real",
+      "ttmYears": 4.950034223134839
+    },
+    "Tesouro Educa+ 2036|15-12-2036": {
+      "y0": 7.39,
+      "y12m": 7.527085472380968,
+      "pu0": 2523.1,
+      "pu12m": 2781.374930415968,
+      "expReturn12mPct": 10.236412762711256,
+      "family": "real",
+      "ttmYears": 10.951403148528405
+    },
+    "Tesouro Educa+ 2037|15-12-2037": {
+      "y0": 7.31,
+      "y12m": 7.490579123991561,
+      "pu0": 2366.835,
+      "pu12m": 2592.307418270428,
+      "expReturn12mPct": 9.526326012182018,
+      "family": "real",
+      "ttmYears": 11.950718685831623
+    },
+    "Tesouro Educa+ 2031|15-12-2031": {
+      "y0": 7.8,
+      "y12m": 7.89227350369806,
+      "pu0": 3552.29,
+      "pu12m": 3964.265215514891,
+      "expReturn12mPct": 11.597454473449265,
+      "family": "real",
+      "ttmYears": 5.949349760438056
+    },
+    "Tesouro Educa+ 2042|15-12-2042": {
+      "y0": 7.12,
+      "y12m": 7.372571137992156,
+      "pu0": 1709.665,
+      "pu12m": 1833.7608395704387,
+      "expReturn12mPct": 7.258488626160031,
+      "family": "real",
+      "ttmYears": 16.95003422313484
+    },
+    "Tesouro Educa+ 2039|15-12-2039": {
+      "y0": 7.2,
+      "y12m": 7.4332539933790915,
+      "pu0": 2081.75,
+      "pu12m": 2255.6645503217965,
+      "expReturn12mPct": 8.354247643655398,
+      "family": "real",
+      "ttmYears": 13.949349760438055
+    },
+    "Tesouro Educa+ 2035|15-12-2035": {
+      "y0": 7.47,
+      "y12m": 7.571048292166468,
+      "pu0": 2693.88,
+      "pu12m": 2984.6088709795945,
+      "expReturn12mPct": 10.792198278304689,
+      "family": "real",
+      "ttmYears": 9.949349760438055
+    },
+    "Tesouro Educa+ 2032|15-12-2032": {
+      "y0": 7.7,
+      "y12m": 7.777759947322855,
+      "pu0": 3309.875,
+      "pu12m": 3690.0857320918335,
+      "expReturn12mPct": 11.48716287146292,
+      "family": "real",
+      "ttmYears": 6.951403148528406
+    },
+    "Tesouro Educa+ 2033|15-12-2033": {
+      "y0": 7.63,
+      "y12m": 7.691701393270748,
+      "pu0": 3085.225,
+      "pu12m": 3438.4664217556897,
+      "expReturn12mPct": 11.44945414858527,
+      "family": "real",
+      "ttmYears": 7.950718685831622
+    },
+    "Tesouro Educa+ 2045|15-12-2045": {
+      "y0": 7.04,
+      "y12m": 7.330142169511223,
+      "pu0": 1410.31,
+      "pu12m": 1490.928329634155,
+      "expReturn12mPct": 5.716355243468119,
+      "family": "real",
+      "ttmYears": 19.95071868583162
+    },
+    "Tesouro Educa+ 2046|15-12-2046": {
+      "y0": 7.02,
+      "y12m": 7.318709946919627,
+      "pu0": 1322.6599999999999,
+      "pu12m": 1391.9971265902427,
+      "expReturn12mPct": 5.24224869507226,
+      "family": "real",
+      "ttmYears": 20.95003422313484
+    },
+    "Tesouro Educa+ 2040|15-12-2040": {
+      "y0": 7.17,
+      "y12m": 7.41028064945172,
+      "pu0": 1949.315,
+      "pu12m": 2105.0405136315,
+      "expReturn12mPct": 7.988730073461681,
+      "family": "real",
+      "ttmYears": 14.951403148528405
+    }
+  },
+  "meta": {
+    "Tesouro IPCA+ 2035|15-05-2035": {
+      "name": "Tesouro IPCA+ 2035",
+      "maturityISO": "2035-05-15",
+      "family": "real",
+      "ttmYears": 9.363449691991786
+    },
+    "Tesouro IGPM+ com Juros Semestrais 2031|01-01-2031": {
+      "name": "Tesouro IGPM+ com Juros Semestrais 2031",
+      "maturityISO": "2031-01-01",
+      "family": "other",
+      "ttmYears": 4.996577686516085
+    },
+    "Tesouro IPCA+ com Juros Semestrais 2045|15-05-2045": {
+      "name": "Tesouro IPCA+ com Juros Semestrais 2045",
+      "maturityISO": "2045-05-15",
+      "family": "real",
+      "ttmYears": 19.364818617385353
+    },
+    "Tesouro IPCA+ com Juros Semestrais 2035|15-05-2035": {
+      "name": "Tesouro IPCA+ com Juros Semestrais 2035",
+      "maturityISO": "2035-05-15",
+      "family": "real",
+      "ttmYears": 9.363449691991786
+    },
+    "Tesouro IPCA+ com Juros Semestrais 2050|15-08-2050": {
+      "name": "Tesouro IPCA+ com Juros Semestrais 2050",
+      "maturityISO": "2050-08-15",
+      "family": "real",
+      "ttmYears": 24.61601642710472
+    },
+    "Tesouro Selic 2031|01-03-2031": {
+      "name": "Tesouro Selic 2031",
+      "maturityISO": "2031-03-01",
+      "family": "selic",
+      "ttmYears": 5.158110882956879
+    },
+    "Tesouro Selic 2026|01-03-2026": {
+      "name": "Tesouro Selic 2026",
+      "maturityISO": "2026-03-01",
+      "family": "selic",
+      "ttmYears": 0.15879534565366188
+    },
+    "Tesouro Selic 2027|01-03-2027": {
+      "name": "Tesouro Selic 2027",
+      "maturityISO": "2027-03-01",
+      "family": "selic",
+      "ttmYears": 1.158110882956879
+    },
+    "Tesouro Selic 2028|01-03-2028": {
+      "name": "Tesouro Selic 2028",
+      "maturityISO": "2028-03-01",
+      "family": "selic",
+      "ttmYears": 2.1601642710472277
+    },
+    "Tesouro Selic 2029|01-03-2029": {
+      "name": "Tesouro Selic 2029",
+      "maturityISO": "2029-03-01",
+      "family": "selic",
+      "ttmYears": 3.159479808350445
+    },
+    "Tesouro Prefixado 2027|01-01-2027": {
+      "name": "Tesouro Prefixado 2027",
+      "maturityISO": "2027-01-01",
+      "family": "nominal",
+      "ttmYears": 0.9965776865160849
+    },
+    "Tesouro Prefixado 2031|01-01-2031": {
+      "name": "Tesouro Prefixado 2031",
+      "maturityISO": "2031-01-01",
+      "family": "nominal",
+      "ttmYears": 4.996577686516085
+    },
+    "Tesouro Prefixado 2028|01-01-2028": {
+      "name": "Tesouro Prefixado 2028",
+      "maturityISO": "2028-01-01",
+      "family": "nominal",
+      "ttmYears": 1.995893223819302
+    },
+    "Tesouro Prefixado 2032|01-01-2032": {
+      "name": "Tesouro Prefixado 2032",
+      "maturityISO": "2032-01-01",
+      "family": "nominal",
+      "ttmYears": 5.9958932238193015
+    },
+    "Tesouro Prefixado 2029|01-01-2029": {
+      "name": "Tesouro Prefixado 2029",
+      "maturityISO": "2029-01-01",
+      "family": "nominal",
+      "ttmYears": 2.9979466119096507
+    },
+    "Tesouro IPCA+ com Juros Semestrais 2030|15-08-2030": {
+      "name": "Tesouro IPCA+ com Juros Semestrais 2030",
+      "maturityISO": "2030-08-15",
+      "family": "real",
+      "ttmYears": 4.616016427104722
+    },
+    "Tesouro IPCA+ com Juros Semestrais 2060|15-08-2060": {
+      "name": "Tesouro IPCA+ com Juros Semestrais 2060",
+      "maturityISO": "2060-08-15",
+      "family": "real",
+      "ttmYears": 34.61738535249829
+    },
+    "Tesouro IPCA+ com Juros Semestrais 2040|15-08-2040": {
+      "name": "Tesouro IPCA+ com Juros Semestrais 2040",
+      "maturityISO": "2040-08-15",
+      "family": "real",
+      "ttmYears": 14.617385352498289
+    },
+    "Tesouro IPCA+ com Juros Semestrais 2032|15-08-2032": {
+      "name": "Tesouro IPCA+ com Juros Semestrais 2032",
+      "maturityISO": "2032-08-15",
+      "family": "real",
+      "ttmYears": 6.617385352498289
+    },
+    "Tesouro IPCA+ com Juros Semestrais 2055|15-05-2055": {
+      "name": "Tesouro IPCA+ com Juros Semestrais 2055",
+      "maturityISO": "2055-05-15",
+      "family": "real",
+      "ttmYears": 29.363449691991786
+    },
+    "Tesouro IPCA+ com Juros Semestrais 2026|15-08-2026": {
+      "name": "Tesouro IPCA+ com Juros Semestrais 2026",
+      "maturityISO": "2026-08-15",
+      "family": "real",
+      "ttmYears": 0.6160164271047228
+    },
+    "Tesouro IPCA+ 2045|15-05-2045": {
+      "name": "Tesouro IPCA+ 2045",
+      "maturityISO": "2045-05-15",
+      "family": "real",
+      "ttmYears": 19.364818617385353
+    },
+    "Tesouro IPCA+ 2026|15-08-2026": {
+      "name": "Tesouro IPCA+ 2026",
+      "maturityISO": "2026-08-15",
+      "family": "real",
+      "ttmYears": 0.6160164271047228
+    },
+    "Tesouro IPCA+ 2029|15-05-2029": {
+      "name": "Tesouro IPCA+ 2029",
+      "maturityISO": "2029-05-15",
+      "family": "real",
+      "ttmYears": 3.3648186173853527
+    },
+    "Tesouro IPCA+ 2040|15-08-2040": {
+      "name": "Tesouro IPCA+ 2040",
+      "maturityISO": "2040-08-15",
+      "family": "real",
+      "ttmYears": 14.617385352498289
+    },
+    "Tesouro IPCA+ 2050|15-08-2050": {
+      "name": "Tesouro IPCA+ 2050",
+      "maturityISO": "2050-08-15",
+      "family": "real",
+      "ttmYears": 24.61601642710472
+    },
+    "Tesouro Prefixado com Juros Semestrais 2031|01-01-2031": {
+      "name": "Tesouro Prefixado com Juros Semestrais 2031",
+      "maturityISO": "2031-01-01",
+      "family": "nominal",
+      "ttmYears": 4.996577686516085
+    },
+    "Tesouro Prefixado com Juros Semestrais 2035|01-01-2035": {
+      "name": "Tesouro Prefixado com Juros Semestrais 2035",
+      "maturityISO": "2035-01-01",
+      "family": "nominal",
+      "ttmYears": 8.996577686516085
+    },
+    "Tesouro Prefixado com Juros Semestrais 2029|01-01-2029": {
+      "name": "Tesouro Prefixado com Juros Semestrais 2029",
+      "maturityISO": "2029-01-01",
+      "family": "nominal",
+      "ttmYears": 2.9979466119096507
+    },
+    "Tesouro Prefixado com Juros Semestrais 2033|01-01-2033": {
+      "name": "Tesouro Prefixado com Juros Semestrais 2033",
+      "maturityISO": "2033-01-01",
+      "family": "nominal",
+      "ttmYears": 6.997946611909651
+    },
+    "Tesouro Prefixado com Juros Semestrais 2027|01-01-2027": {
+      "name": "Tesouro Prefixado com Juros Semestrais 2027",
+      "maturityISO": "2027-01-01",
+      "family": "nominal",
+      "ttmYears": 0.9965776865160849
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2084|15-12-2084": {
+      "name": "Tesouro Renda+ Aposentadoria Extra 2084",
+      "maturityISO": "2084-12-15",
+      "family": "real",
+      "ttmYears": 58.95140314852841
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2064|15-12-2064": {
+      "name": "Tesouro Renda+ Aposentadoria Extra 2064",
+      "maturityISO": "2064-12-15",
+      "family": "real",
+      "ttmYears": 38.95140314852841
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2074|15-12-2074": {
+      "name": "Tesouro Renda+ Aposentadoria Extra 2074",
+      "maturityISO": "2074-12-15",
+      "family": "real",
+      "ttmYears": 48.95003422313484
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2069|15-12-2069": {
+      "name": "Tesouro Renda+ Aposentadoria Extra 2069",
+      "maturityISO": "2069-12-15",
+      "family": "real",
+      "ttmYears": 43.950718685831625
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2079|15-12-2079": {
+      "name": "Tesouro Renda+ Aposentadoria Extra 2079",
+      "maturityISO": "2079-12-15",
+      "family": "real",
+      "ttmYears": 53.949349760438054
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2049|15-12-2049": {
+      "name": "Tesouro Renda+ Aposentadoria Extra 2049",
+      "maturityISO": "2049-12-15",
+      "family": "real",
+      "ttmYears": 23.95071868583162
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2059|15-12-2059": {
+      "name": "Tesouro Renda+ Aposentadoria Extra 2059",
+      "maturityISO": "2059-12-15",
+      "family": "real",
+      "ttmYears": 33.949349760438054
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2054|15-12-2054": {
+      "name": "Tesouro Renda+ Aposentadoria Extra 2054",
+      "maturityISO": "2054-12-15",
+      "family": "real",
+      "ttmYears": 28.95003422313484
+    },
+    "Tesouro Educa+ 2044|15-12-2044": {
+      "name": "Tesouro Educa+ 2044",
+      "maturityISO": "2044-12-15",
+      "family": "real",
+      "ttmYears": 18.951403148528406
+    },
+    "Tesouro Educa+ 2034|15-12-2034": {
+      "name": "Tesouro Educa+ 2034",
+      "maturityISO": "2034-12-15",
+      "family": "real",
+      "ttmYears": 8.950034223134839
+    },
+    "Tesouro Educa+ 2047|15-12-2047": {
+      "name": "Tesouro Educa+ 2047",
+      "maturityISO": "2047-12-15",
+      "family": "real",
+      "ttmYears": 21.949349760438057
+    },
+    "Tesouro Educa+ 2041|15-12-2041": {
+      "name": "Tesouro Educa+ 2041",
+      "maturityISO": "2041-12-15",
+      "family": "real",
+      "ttmYears": 15.950718685831623
+    },
+    "Tesouro Educa+ 2043|15-12-2043": {
+      "name": "Tesouro Educa+ 2043",
+      "maturityISO": "2043-12-15",
+      "family": "real",
+      "ttmYears": 17.949349760438057
+    },
+    "Tesouro Educa+ 2038|15-12-2038": {
+      "name": "Tesouro Educa+ 2038",
+      "maturityISO": "2038-12-15",
+      "family": "real",
+      "ttmYears": 12.950034223134839
+    },
+    "Tesouro Educa+ 2030|15-12-2030": {
+      "name": "Tesouro Educa+ 2030",
+      "maturityISO": "2030-12-15",
+      "family": "real",
+      "ttmYears": 4.950034223134839
+    },
+    "Tesouro Educa+ 2036|15-12-2036": {
+      "name": "Tesouro Educa+ 2036",
+      "maturityISO": "2036-12-15",
+      "family": "real",
+      "ttmYears": 10.951403148528405
+    },
+    "Tesouro Educa+ 2037|15-12-2037": {
+      "name": "Tesouro Educa+ 2037",
+      "maturityISO": "2037-12-15",
+      "family": "real",
+      "ttmYears": 11.950718685831623
+    },
+    "Tesouro Educa+ 2031|15-12-2031": {
+      "name": "Tesouro Educa+ 2031",
+      "maturityISO": "2031-12-15",
+      "family": "real",
+      "ttmYears": 5.949349760438056
+    },
+    "Tesouro Educa+ 2042|15-12-2042": {
+      "name": "Tesouro Educa+ 2042",
+      "maturityISO": "2042-12-15",
+      "family": "real",
+      "ttmYears": 16.95003422313484
+    },
+    "Tesouro Educa+ 2039|15-12-2039": {
+      "name": "Tesouro Educa+ 2039",
+      "maturityISO": "2039-12-15",
+      "family": "real",
+      "ttmYears": 13.949349760438055
+    },
+    "Tesouro Educa+ 2035|15-12-2035": {
+      "name": "Tesouro Educa+ 2035",
+      "maturityISO": "2035-12-15",
+      "family": "real",
+      "ttmYears": 9.949349760438055
+    },
+    "Tesouro Educa+ 2032|15-12-2032": {
+      "name": "Tesouro Educa+ 2032",
+      "maturityISO": "2032-12-15",
+      "family": "real",
+      "ttmYears": 6.951403148528406
+    },
+    "Tesouro Educa+ 2033|15-12-2033": {
+      "name": "Tesouro Educa+ 2033",
+      "maturityISO": "2033-12-15",
+      "family": "real",
+      "ttmYears": 7.950718685831622
+    },
+    "Tesouro Educa+ 2045|15-12-2045": {
+      "name": "Tesouro Educa+ 2045",
+      "maturityISO": "2045-12-15",
+      "family": "real",
+      "ttmYears": 19.95071868583162
+    },
+    "Tesouro Educa+ 2046|15-12-2046": {
+      "name": "Tesouro Educa+ 2046",
+      "maturityISO": "2046-12-15",
+      "family": "real",
+      "ttmYears": 20.95003422313484
+    },
+    "Tesouro Educa+ 2040|15-12-2040": {
+      "name": "Tesouro Educa+ 2040",
+      "maturityISO": "2040-12-15",
+      "family": "real",
+      "ttmYears": 14.951403148528405
+    }
+  }
+}

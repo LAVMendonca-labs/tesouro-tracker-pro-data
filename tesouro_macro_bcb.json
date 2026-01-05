@@ -1,0 +1,83 @@
+{
+  "asOf": "2026-01-05",
+  "generatedAtISO": "2026-01-05T18:19:52.419245Z",
+  "horizonMonths": 12,
+  "yearsCovered": [
+    2026,
+    2027
+  ],
+  "targetYear": 2026,
+  "ipca_12m": 3.962,
+  "selic_end": 12.215,
+  "annual": {
+    "selic": {
+      "2026": {
+        "Indicador": "Selic",
+        "Data": "2026-01-02",
+        "DataReferencia": "2026",
+        "Media": 12.215,
+        "Mediana": 12.25,
+        "Minimo": 10.5,
+        "Maximo": 15.0,
+        "numeroRespondentes": 147,
+        "baseCalculo": 0
+      },
+      "2027": {
+        "Indicador": "Selic",
+        "Data": "2026-01-02",
+        "DataReferencia": "2027",
+        "Media": 10.375,
+        "Mediana": 10.5,
+        "Minimo": 8.5,
+        "Maximo": 13.0,
+        "numeroRespondentes": 122,
+        "baseCalculo": 0
+      }
+    },
+    "ipca": {
+      "2026": {
+        "Indicador": "IPCA",
+        "Data": "2026-01-02",
+        "DataReferencia": "2026",
+        "Media": 4.0652,
+        "Mediana": 4.0574,
+        "Minimo": 3.2989,
+        "Maximo": 5.7335,
+        "numeroRespondentes": 150,
+        "baseCalculo": 0
+      },
+      "2027": {
+        "Indicador": "IPCA",
+        "Data": "2026-01-02",
+        "DataReferencia": "2027",
+        "Media": 3.7658,
+        "Mediana": 3.8,
+        "Minimo": 2.7817,
+        "Maximo": 6.0,
+        "numeroRespondentes": 137,
+        "baseCalculo": 0
+      }
+    }
+  },
+  "raw": {
+    "ipca12m": {
+      "Indicador": "IPCA",
+      "Data": "2026-01-02",
+      "Suavizada": "N",
+      "Media": 3.962,
+      "Mediana": 3.9585,
+      "DesvioPadrao": 0.3049,
+      "Minimo": 3.2592,
+      "Maximo": 5.1986,
+      "numeroRespondentes": 139,
+      "baseCalculo": 0
+    }
+  },
+  "source": {
+    "provider": "BCB Olinda / Expectativas (Focus) - OData v1",
+    "endpoints": {
+      "ipca_12m": "https://olinda.bcb.gov.br/olinda/servico/Expectativas/versao/v1/odata/ExpectativasMercadoInflacao12Meses",
+      "annual": "https://olinda.bcb.gov.br/olinda/servico/Expectativas/versao/v1/odata/ExpectativasMercadoAnuais"
+    }
+  }
+}
