@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-01-08",
-  "asOfMarket": "2026-01-08",
-  "asOfMacro": "2026-01-09",
-  "generatedAtISO": "2026-01-09T19:00:04.079104Z",
+  "asOf": "2026-01-09",
+  "asOfMarket": "2026-01-09",
+  "asOfMacro": "2026-01-13",
+  "generatedAtISO": "2026-01-13T03:08:56.377854Z",
   "horizonMonths": 12,
   "warnings": [
     "macro_asof_newer_than_market"
@@ -24,9 +24,9 @@
     }
   },
   "macro": {
-    "asOf": "2026-01-09",
-    "generatedAtISO": "2026-01-09T18:59:17.057781Z",
-    "ipca_12m": 3.962,
+    "asOf": "2026-01-13",
+    "generatedAtISO": "2026-01-13T03:08:30.826658Z",
+    "ipca_12m": 4.0685,
     "yearsCovered": [
       2026,
       2027
@@ -35,48 +35,48 @@
       "selic": {
         "2026": {
           "Indicador": "Selic",
-          "Data": "2026-01-02",
+          "Data": "2026-01-09",
           "DataReferencia": "2026",
-          "Media": 12.215,
+          "Media": 12.2122,
           "Mediana": 12.25,
           "Minimo": 10.5,
           "Maximo": 15.0,
-          "numeroRespondentes": 147,
+          "numeroRespondentes": 143,
           "baseCalculo": 0
         },
         "2027": {
           "Indicador": "Selic",
-          "Data": "2026-01-02",
+          "Data": "2026-01-09",
           "DataReferencia": "2027",
-          "Media": 10.375,
+          "Media": 10.4032,
           "Mediana": 10.5,
-          "Minimo": 8.5,
+          "Minimo": 8.0,
           "Maximo": 13.0,
-          "numeroRespondentes": 122,
+          "numeroRespondentes": 124,
           "baseCalculo": 0
         }
       },
       "ipca": {
         "2026": {
           "Indicador": "IPCA",
-          "Data": "2026-01-02",
+          "Data": "2026-01-09",
           "DataReferencia": "2026",
-          "Media": 4.0652,
-          "Mediana": 4.0574,
-          "Minimo": 3.2989,
+          "Media": 4.0641,
+          "Mediana": 4.0475,
+          "Minimo": 3.3887,
           "Maximo": 5.7335,
-          "numeroRespondentes": 150,
+          "numeroRespondentes": 146,
           "baseCalculo": 0
         },
         "2027": {
           "Indicador": "IPCA",
-          "Data": "2026-01-02",
+          "Data": "2026-01-09",
           "DataReferencia": "2027",
-          "Media": 3.7658,
+          "Media": 3.7706,
           "Mediana": 3.8,
-          "Minimo": 2.7817,
+          "Minimo": 2.7016,
           "Maximo": 6.0,
-          "numeroRespondentes": 137,
+          "numeroRespondentes": 135,
           "baseCalculo": 0
         }
       }
@@ -86,1203 +86,1203 @@
     "nominal": {
       "tau": 0.5899159663865546,
       "beta_asOf": [
-        14.189269175335937,
-        5.860092785910281,
-        -11.403065035852254
+        14.132459921228088,
+        5.827380349154747,
+        -10.959825104445036
       ],
       "beta_12m": [
-        12.508506931808785,
-        0.6179545688268772,
-        -3.374734980555589
+        12.641933132754662,
+        1.0007165818372692,
+        -3.7350847155171367
       ]
     },
     "real": {
-      "tau": 0.9310924369747899,
+      "tau": 0.9798319327731093,
       "beta_asOf": [
-        7.068175140113574,
-        4.43413691933407,
-        0.05295893014200428
+        7.0608376161614,
+        4.404704716491711,
+        -0.05820914035985322
       ],
       "beta_12m": [
-        7.14476326416326,
-        4.68501698721768,
-        0.7003524312494195
+        7.143186554569561,
+        4.6991048559153175,
+        0.4615163482078547
       ]
     }
   },
   "bonds": {
     "Tesouro IPCA+ com Juros Semestrais 2045|15-05-2045": {
-      "y0": 7.31,
-      "y12m": 7.403920554578481,
-      "pu0": 4041.135,
-      "pu12m": 4176.246503691805,
-      "expReturn12mPct": 14.740195515520305,
-      "expTotalReturn12mPct": 15.085510101938615,
-      "expReturn12mRealPct": 10.367437636367427,
-      "expTotalReturn12mRealPct": 10.699592256727097,
-      "expReturn12mNominalPct": 14.740195515520305,
-      "expTotalReturn12mNominalPct": 15.085510101938615,
+      "y0": 7.3,
+      "y12m": 7.404565234240152,
+      "pu0": 4046.9700000000003,
+      "pu12m": 4181.857262275839,
+      "expReturn12mPct": 14.84148168282684,
+      "expTotalReturn12mPct": 15.189170296962317,
+      "expReturn12mRealPct": 10.351817968767518,
+      "expTotalReturn12mRealPct": 10.685913890334064,
+      "expReturn12mNominalPct": 14.84148168282684,
+      "expTotalReturn12mNominalPct": 15.189170296962317,
       "cashflows12mCount": 2,
-      "cashflows12mTotal": 283.8506472346129,
+      "cashflows12mTotal": 284.0477053747914,
       "totalReturnAssumptions": {
         "couponRatePct": 6.0,
         "couponFrequency": 2,
         "couponLabel": "semestral_6pct",
-        "reinvestRatePct": 12.215,
+        "reinvestRatePct": 12.2122,
         "maturityISO": "2045-05-15"
       },
       "family": "real",
-      "ttmYears": 19.34839151266256
+      "ttmYears": 19.345653661875428
     },
     "Tesouro IPCA+ com Juros Semestrais 2035|15-05-2035": {
-      "y0": 7.57,
-      "y12m": 7.68116635963826,
-      "pu0": 4175.745,
-      "pu12m": 4348.7211822343415,
-      "expReturn12mPct": 15.322747447564232,
-      "expTotalReturn12mPct": 15.656329690311388,
-      "expReturn12mRealPct": 10.927788468444465,
-      "expTotalReturn12mRealPct": 11.248657865673417,
-      "expReturn12mNominalPct": 15.322747447564232,
-      "expTotalReturn12mNominalPct": 15.656329690311388,
+      "y0": 7.56,
+      "y12m": 7.684251549396118,
+      "pu0": 4180.26,
+      "pu12m": 4354.077948019673,
+      "expReturn12mPct": 15.454513838114824,
+      "expTotalReturn12mPct": 15.790513905371228,
+      "expReturn12mRealPct": 10.940883973646987,
+      "expTotalReturn12mRealPct": 11.26374830555954,
+      "expReturn12mNominalPct": 15.454513838114824,
+      "expTotalReturn12mNominalPct": 15.790513905371228,
       "cashflows12mCount": 2,
-      "cashflows12mTotal": 283.34039834730464,
+      "cashflows12mTotal": 283.5394483771023,
       "totalReturnAssumptions": {
         "couponRatePct": 6.0,
         "couponFrequency": 2,
         "couponLabel": "semestral_6pct",
-        "reinvestRatePct": 12.215,
+        "reinvestRatePct": 12.2122,
         "maturityISO": "2035-05-15"
       },
       "family": "real",
-      "ttmYears": 9.347022587268993
-    },
-    "Tesouro IPCA+ 2035|15-05-2035": {
-      "y0": 7.49,
-      "y12m": 7.68116635963826,
-      "pu0": 2344.26,
-      "pu12m": 2580.9145097974742,
-      "expReturn12mPct": 14.457028771367074,
-      "expTotalReturn12mPct": 14.457028771367074,
-      "expReturn12mRealPct": 10.095062399114173,
-      "expTotalReturn12mRealPct": 10.095062399114173,
-      "expReturn12mNominalPct": 14.457028771367074,
-      "expTotalReturn12mNominalPct": 14.457028771367074,
-      "cashflows12mCount": 0,
-      "cashflows12mTotal": null,
-      "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 0,
-        "couponLabel": "zero",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2035-05-15"
-      },
-      "family": "real",
-      "ttmYears": 9.347022587268993
-    },
-    "Tesouro Prefixado 2032|01-01-2032": {
-      "y0": 13.69,
-      "y12m": 12.236675838423029,
-      "pu0": 466.76,
-      "pu12m": 565.7234804524379,
-      "expReturn12mPct": 21.202219653020382,
-      "expTotalReturn12mPct": 21.202219653020382,
-      "expReturn12mRealPct": 21.202219653020382,
-      "expTotalReturn12mRealPct": 21.202219653020382,
-      "expReturn12mNominalPct": 21.202219653020382,
-      "expTotalReturn12mNominalPct": 21.202219653020382,
-      "cashflows12mCount": 0,
-      "cashflows12mTotal": null,
-      "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 0,
-        "couponLabel": "zero",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2032-01-01"
-      },
-      "family": "nominal",
-      "ttmYears": 5.979466119096509
-    },
-    "Tesouro Prefixado 2027|01-01-2027": {
-      "y0": 13.66,
-      "y12m": 11.805008693715397,
-      "pu0": 883.1700000000001,
-      "pu12m": 0.0,
-      "expReturn12mPct": 13.371494627547476,
-      "expTotalReturn12mPct": 13.622174281953313,
-      "expReturn12mRealPct": 13.371494627547476,
-      "expTotalReturn12mRealPct": 13.622174281953313,
-      "expReturn12mNominalPct": 13.371494627547476,
-      "expTotalReturn12mNominalPct": 13.622174281953313,
-      "cashflows12mCount": 1,
-      "cashflows12mTotal": 1001.2630291021111,
-      "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 0,
-        "couponLabel": "zero",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2027-01-01"
-      },
-      "family": "nominal",
-      "ttmYears": 0.9801505817932923
-    },
-    "Tesouro Prefixado 2028|01-01-2028": {
-      "y0": 13.02,
-      "y12m": 11.833353885353036,
-      "pu0": 786.1,
-      "pu12m": 897.614130951037,
-      "expReturn12mPct": 14.185743665060047,
-      "expTotalReturn12mPct": 14.185743665060047,
-      "expReturn12mRealPct": 14.185743665060047,
-      "expTotalReturn12mRealPct": 14.185743665060047,
-      "expReturn12mNominalPct": 14.185743665060047,
-      "expTotalReturn12mNominalPct": 14.185743665060047,
-      "cashflows12mCount": 0,
-      "cashflows12mTotal": null,
-      "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 0,
-        "couponLabel": "zero",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2028-01-01"
-      },
-      "family": "nominal",
-      "ttmYears": 1.9794661190965093
-    },
-    "Tesouro Prefixado 2029|01-01-2029": {
-      "y0": 13.13,
-      "y12m": 11.98807917468232,
-      "pu0": 694.9,
-      "pu12m": 802.0417955165967,
-      "expReturn12mPct": 15.418304146869577,
-      "expTotalReturn12mPct": 15.418304146869577,
-      "expReturn12mRealPct": 15.418304146869577,
-      "expTotalReturn12mRealPct": 15.418304146869577,
-      "expReturn12mNominalPct": 15.418304146869577,
-      "expTotalReturn12mNominalPct": 15.418304146869577,
-      "cashflows12mCount": 0,
-      "cashflows12mTotal": null,
-      "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 0,
-        "couponLabel": "zero",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2029-01-01"
-      },
-      "family": "nominal",
-      "ttmYears": 2.9815195071868583
-    },
-    "Tesouro Prefixado 2031|01-01-2031": {
-      "y0": 13.52,
-      "y12m": 12.182754766943672,
-      "pu0": 534.5899999999999,
-      "pu12m": 636.1243471009461,
-      "expReturn12mPct": 18.99293797133246,
-      "expTotalReturn12mPct": 18.99293797133246,
-      "expReturn12mRealPct": 18.99293797133246,
-      "expTotalReturn12mRealPct": 18.99293797133246,
-      "expReturn12mNominalPct": 18.99293797133246,
-      "expTotalReturn12mNominalPct": 18.99293797133246,
-      "cashflows12mCount": 0,
-      "cashflows12mTotal": null,
-      "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 0,
-        "couponLabel": "zero",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2031-01-01"
-      },
-      "family": "nominal",
-      "ttmYears": 4.980150581793292
-    },
-    "Tesouro IPCA+ com Juros Semestrais 2026|15-08-2026": {
-      "y0": 10.36,
-      "y12m": 10.747558988644478,
-      "pu0": 4582.15,
-      "pu12m": 0.0,
-      "expReturn12mPct": 12.831240663060317,
-      "expTotalReturn12mPct": 18.343511426634507,
-      "expReturn12mRealPct": 8.531233203536214,
-      "expTotalReturn12mRealPct": 13.833430894590816,
-      "expReturn12mNominalPct": 12.831240663060317,
-      "expTotalReturn12mNominalPct": 18.343511426634507,
-      "cashflows12mCount": 2,
-      "cashflows12mTotal": 4973.063902235835,
-      "totalReturnAssumptions": {
-        "couponRatePct": 6.0,
-        "couponFrequency": 2,
-        "couponLabel": "semestral_6pct",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2026-08-15"
-      },
-      "family": "real",
-      "ttmYears": 0.5995893223819302
-    },
-    "Tesouro IPCA+ com Juros Semestrais 2032|15-08-2032": {
-      "y0": 7.77,
-      "y12m": 7.903174492675035,
-      "pu0": 4300.905000000001,
-      "pu12m": 4496.158740731342,
-      "expReturn12mPct": 15.454179120179369,
-      "expTotalReturn12mPct": 15.97986041630055,
-      "expReturn12mRealPct": 11.054211269674852,
-      "expTotalReturn12mRealPct": 11.559858810238888,
-      "expReturn12mNominalPct": 15.454179120179369,
-      "expTotalReturn12mNominalPct": 15.97986041630055,
-      "cashflows12mCount": 2,
-      "cashflows12mTotal": 280.1773844766687,
-      "totalReturnAssumptions": {
-        "couponRatePct": 6.0,
-        "couponFrequency": 2,
-        "couponLabel": "semestral_6pct",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2032-08-15"
-      },
-      "family": "real",
-      "ttmYears": 6.6009582477754964
-    },
-    "Tesouro IPCA+ com Juros Semestrais 2060|15-08-2060": {
-      "y0": 7.24,
-      "y12m": 7.289680543619601,
-      "pu0": 4009.4399999999996,
-      "pu12m": 4147.253758308279,
-      "expReturn12mPct": 14.82805073788349,
-      "expTotalReturn12mPct": 15.394106453903467,
-      "expReturn12mRealPct": 10.451944689293668,
-      "expTotalReturn12mRealPct": 10.996427977437406,
-      "expReturn12mNominalPct": 14.82805073788349,
-      "expTotalReturn12mNominalPct": 15.394106453903467,
-      "cashflows12mCount": 2,
-      "cashflows12mTotal": 281.2506928421366,
-      "totalReturnAssumptions": {
-        "couponRatePct": 6.0,
-        "couponFrequency": 2,
-        "couponLabel": "semestral_6pct",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2060-08-15"
-      },
-      "family": "real",
-      "ttmYears": 34.600958247775495
+      "ttmYears": 9.344284736481862
     },
     "Tesouro IPCA+ com Juros Semestrais 2050|15-08-2050": {
       "y0": 7.26,
-      "y12m": 7.34859905467433,
-      "pu0": 4068.505,
-      "pu12m": 4197.795441684648,
-      "expReturn12mPct": 14.449482386486533,
-      "expTotalReturn12mPct": 15.007085603541071,
-      "expReturn12mRealPct": 10.087803607555191,
-      "expTotalReturn12mRealPct": 10.62415652213411,
-      "expReturn12mNominalPct": 14.449482386486533,
-      "expTotalReturn12mNominalPct": 15.007085603541071,
+      "y12m": 7.348763331515172,
+      "pu0": 4070.1800000000003,
+      "pu12m": 4203.754770092097,
+      "expReturn12mPct": 14.675327870636767,
+      "expTotalReturn12mPct": 15.235797638545057,
+      "expReturn12mRealPct": 10.192159847251347,
+      "expTotalReturn12mRealPct": 10.730718361987579,
+      "expReturn12mNominalPct": 14.675327870636767,
+      "expTotalReturn12mNominalPct": 15.235797638545057,
       "cashflows12mCount": 2,
-      "cashflows12mTotal": 281.13235247891566,
+      "cashflows12mTotal": 281.26448157875836,
       "totalReturnAssumptions": {
         "couponRatePct": 6.0,
         "couponFrequency": 2,
         "couponLabel": "semestral_6pct",
-        "reinvestRatePct": 12.215,
+        "reinvestRatePct": 12.2122,
         "maturityISO": "2050-08-15"
       },
       "family": "real",
-      "ttmYears": 24.59958932238193
+      "ttmYears": 24.5968514715948
     },
-    "Tesouro IPCA+ com Juros Semestrais 2030|15-08-2030": {
-      "y0": 7.82,
-      "y12m": 8.222110270924697,
-      "pu0": 4394.55,
-      "pu12m": 4573.804802294076,
-      "expReturn12mPct": 14.82660081045568,
-      "expTotalReturn12mPct": 15.340754168501025,
-      "expReturn12mRealPct": 10.450550018714221,
-      "expTotalReturn12mRealPct": 10.94510895182954,
-      "expReturn12mNominalPct": 14.82660081045568,
-      "expTotalReturn12mNominalPct": 15.340754168501025,
-      "cashflows12mCount": 2,
-      "cashflows12mTotal": 279.9998435533306,
-      "totalReturnAssumptions": {
-        "couponRatePct": 6.0,
-        "couponFrequency": 2,
-        "couponLabel": "semestral_6pct",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2030-08-15"
-      },
-      "family": "real",
-      "ttmYears": 4.59958932238193
-    },
-    "Tesouro IPCA+ com Juros Semestrais 2040|15-08-2040": {
-      "y0": 7.43,
-      "y12m": 7.4881841748009155,
-      "pu0": 4143.755,
-      "pu12m": 4310.059086943306,
-      "expReturn12mPct": 15.178959595570163,
-      "expTotalReturn12mPct": 15.72576144646134,
-      "expReturn12mRealPct": 10.789480382803497,
-      "expTotalReturn12mRealPct": 11.315443572133411,
-      "expReturn12mNominalPct": 15.178959595570163,
-      "expTotalReturn12mNominalPct": 15.72576144646134,
-      "cashflows12mCount": 2,
-      "cashflows12mTotal": 280.7855458931331,
-      "totalReturnAssumptions": {
-        "couponRatePct": 6.0,
-        "couponFrequency": 2,
-        "couponLabel": "semestral_6pct",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2040-08-15"
-      },
-      "family": "real",
-      "ttmYears": 14.600958247775496
-    },
-    "Tesouro IPCA+ com Juros Semestrais 2055|15-05-2055": {
-      "y0": 7.21,
-      "y12m": 7.3156247790218325,
-      "pu0": 3986.98,
-      "pu12m": 4098.7144352825035,
-      "expReturn12mPct": 14.281996106516592,
-      "expTotalReturn12mPct": 14.63223595005445,
-      "expReturn12mRealPct": 9.926700242893173,
-      "expTotalReturn12mRealPct": 10.26359241843602,
-      "expReturn12mNominalPct": 14.281996106516592,
-      "expTotalReturn12mNominalPct": 14.63223595005445,
-      "cashflows12mCount": 2,
-      "cashflows12mTotal": 284.0411180615986,
-      "totalReturnAssumptions": {
-        "couponRatePct": 6.0,
-        "couponFrequency": 2,
-        "couponLabel": "semestral_6pct",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2055-05-15"
-      },
-      "family": "real",
-      "ttmYears": 29.347022587268995
-    },
-    "Tesouro IPCA+ 2040|15-08-2040": {
-      "y0": 7.32,
-      "y12m": 7.4881841748009155,
-      "pu0": 1643.635,
-      "pu12m": 1795.0566384554986,
-      "expReturn12mPct": 13.539610830330663,
-      "expTotalReturn12mPct": 13.539610830330663,
-      "expReturn12mRealPct": 9.212607327995492,
-      "expTotalReturn12mRealPct": 9.212607327995492,
-      "expReturn12mNominalPct": 13.539610830330663,
-      "expTotalReturn12mNominalPct": 13.539610830330663,
+    "Tesouro IPCA+ 2035|15-05-2035": {
+      "y0": 7.48,
+      "y12m": 7.684251549396118,
+      "pu0": 2347.2749999999996,
+      "pu12m": 2584.02612673934,
+      "expReturn12mPct": 14.565069269929198,
+      "expTotalReturn12mPct": 14.565069269929198,
+      "expReturn12mRealPct": 10.086211745080575,
+      "expTotalReturn12mRealPct": 10.086211745080575,
+      "expReturn12mNominalPct": 14.565069269929198,
+      "expTotalReturn12mNominalPct": 14.565069269929198,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
         "couponRatePct": 0.0,
         "couponFrequency": 0,
         "couponLabel": "zero",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2040-08-15"
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2035-05-15"
       },
       "family": "real",
-      "ttmYears": 14.600958247775496
+      "ttmYears": 9.344284736481862
     },
-    "Tesouro IPCA+ 2029|15-05-2029": {
-      "y0": 7.85,
-      "y12m": 8.581998472588884,
-      "pu0": 3567.83,
-      "pu12m": 3936.9878773877826,
-      "expReturn12mPct": 14.718788089395707,
-      "expTotalReturn12mPct": 14.718788089395707,
-      "expReturn12mRealPct": 10.34684604893683,
-      "expTotalReturn12mRealPct": 10.34684604893683,
-      "expReturn12mNominalPct": 14.718788089395707,
-      "expTotalReturn12mNominalPct": 14.718788089395707,
+    "Tesouro Prefixado 2032|01-01-2032": {
+      "y0": 13.67,
+      "y12m": 12.372204524702196,
+      "pu0": 467.485,
+      "pu12m": 562.597251647428,
+      "expReturn12mPct": 20.345519459967278,
+      "expTotalReturn12mPct": 20.345519459967278,
+      "expReturn12mRealPct": 20.345519459967278,
+      "expTotalReturn12mRealPct": 20.345519459967278,
+      "expReturn12mNominalPct": 20.345519459967278,
+      "expTotalReturn12mNominalPct": 20.345519459967278,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
         "couponRatePct": 0.0,
         "couponFrequency": 0,
         "couponLabel": "zero",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2029-05-15"
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2032-01-01"
       },
-      "family": "real",
-      "ttmYears": 3.34839151266256
+      "family": "nominal",
+      "ttmYears": 5.976728268309377
     },
-    "Tesouro IPCA+ 2026|15-08-2026": {
-      "y0": 10.36,
-      "y12m": 10.747558988644478,
-      "pu0": 4320.355,
-      "pu12m": 0.0,
-      "expReturn12mPct": 12.89167179766142,
-      "expTotalReturn12mPct": 18.21390583167608,
-      "expReturn12mRealPct": 8.589361302842779,
-      "expTotalReturn12mRealPct": 13.708764579053966,
-      "expReturn12mNominalPct": 12.89167179766142,
-      "expTotalReturn12mNominalPct": 18.21390583167608,
-      "cashflows12mCount": 1,
-      "cashflows12mTotal": 4691.445900515433,
-      "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 0,
-        "couponLabel": "zero",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2026-08-15"
-      },
-      "family": "real",
-      "ttmYears": 0.5995893223819302
-    },
-    "Tesouro IPCA+ 2050|15-08-2050": {
-      "y0": 7.08,
-      "y12m": 7.34859905467433,
-      "pu0": 860.9549999999999,
-      "pu12m": 903.3457808798759,
-      "expReturn12mPct": 9.08076969392555,
-      "expTotalReturn12mPct": 9.08076969392555,
-      "expReturn12mRealPct": 4.923692978131955,
-      "expTotalReturn12mRealPct": 4.923692978131955,
-      "expReturn12mNominalPct": 9.08076969392555,
-      "expTotalReturn12mNominalPct": 9.08076969392555,
+    "Tesouro Prefixado 2031|01-01-2031": {
+      "y0": 13.51,
+      "y12m": 12.318738843570248,
+      "pu0": 535.0899999999999,
+      "pu12m": 633.359886597039,
+      "expReturn12mPct": 18.365113643880292,
+      "expTotalReturn12mPct": 18.365113643880292,
+      "expReturn12mRealPct": 18.365113643880292,
+      "expTotalReturn12mRealPct": 18.365113643880292,
+      "expReturn12mNominalPct": 18.365113643880292,
+      "expTotalReturn12mNominalPct": 18.365113643880292,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
         "couponRatePct": 0.0,
         "couponFrequency": 0,
         "couponLabel": "zero",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2050-08-15"
-      },
-      "family": "real",
-      "ttmYears": 24.59958932238193
-    },
-    "Tesouro IPCA+ 2045|15-05-2045": {
-      "y0": 7.15,
-      "y12m": 7.403920554578481,
-      "pu0": 1214.8899999999999,
-      "pu12m": 1295.7152698524183,
-      "expReturn12mPct": 10.878475322372495,
-      "expTotalReturn12mPct": 10.878475322372495,
-      "expReturn12mRealPct": 6.652887903630655,
-      "expTotalReturn12mRealPct": 6.652887903630655,
-      "expReturn12mNominalPct": 10.878475322372495,
-      "expTotalReturn12mNominalPct": 10.878475322372495,
-      "cashflows12mCount": 0,
-      "cashflows12mTotal": null,
-      "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 0,
-        "couponLabel": "zero",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2045-05-15"
-      },
-      "family": "real",
-      "ttmYears": 19.34839151266256
-    },
-    "Tesouro Prefixado com Juros Semestrais 2035|01-01-2035": {
-      "y0": 13.76,
-      "y12m": 12.327411865698727,
-      "pu0": 823.49,
-      "pu12m": 898.9274088804452,
-      "expReturn12mPct": 21.48363148585737,
-      "expTotalReturn12mPct": 21.879998378249965,
-      "expReturn12mRealPct": 21.48363148585737,
-      "expTotalReturn12mRealPct": 21.879998378249965,
-      "expReturn12mNominalPct": 21.48363148585737,
-      "expTotalReturn12mNominalPct": 21.879998378249965,
-      "cashflows12mCount": 2,
-      "cashflows12mTotal": 101.47814804244166,
-      "totalReturnAssumptions": {
-        "couponRatePct": 10.0,
-        "couponFrequency": 2,
-        "couponLabel": "semestral_10pct",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2035-01-01"
-      },
-      "family": "nominal",
-      "ttmYears": 8.980150581793293
-    },
-    "Tesouro Prefixado com Juros Semestrais 2029|01-01-2029": {
-      "y0": 13.15,
-      "y12m": 11.98807917468232,
-      "pu0": 932.88,
-      "pu12m": 974.5871775943056,
-      "expReturn12mPct": 15.267534970877627,
-      "expTotalReturn12mPct": 15.61481171559076,
-      "expReturn12mRealPct": 15.267534970877627,
-      "expTotalReturn12mRealPct": 15.61481171559076,
-      "expReturn12mNominalPct": 15.267534970877627,
-      "expTotalReturn12mNominalPct": 15.61481171559076,
-      "cashflows12mCount": 2,
-      "cashflows12mTotal": 100.72060264201772,
-      "totalReturnAssumptions": {
-        "couponRatePct": 10.0,
-        "couponFrequency": 2,
-        "couponLabel": "semestral_10pct",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2029-01-01"
-      },
-      "family": "nominal",
-      "ttmYears": 2.9815195071868583
-    },
-    "Tesouro Prefixado com Juros Semestrais 2033|01-01-2033": {
-      "y0": 13.75,
-      "y12m": 12.275593993516557,
-      "pu0": 847.76,
-      "pu12m": 919.0381137133758,
-      "expReturn12mPct": 20.354953211269123,
-      "expTotalReturn12mPct": 20.739232488583138,
-      "expReturn12mRealPct": 20.354953211269123,
-      "expTotalReturn12mRealPct": 20.739232488583138,
-      "expReturn12mNominalPct": 20.354953211269123,
-      "expTotalReturn12mNominalPct": 20.739232488583138,
-      "cashflows12mCount": 2,
-      "cashflows12mTotal": 101.28303763047941,
-      "totalReturnAssumptions": {
-        "couponRatePct": 10.0,
-        "couponFrequency": 2,
-        "couponLabel": "semestral_10pct",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2033-01-01"
-      },
-      "family": "nominal",
-      "ttmYears": 6.981519507186858
-    },
-    "Tesouro Prefixado com Juros Semestrais 2027|01-01-2027": {
-      "y0": 13.64,
-      "y12m": 11.805008693715397,
-      "pu0": 972.4200000000001,
-      "pu12m": 0.0,
-      "expReturn12mPct": 13.45221997557935,
-      "expTotalReturn12mPct": 14.01201714765843,
-      "expReturn12mRealPct": 13.45221997557935,
-      "expTotalReturn12mRealPct": 14.01201714765843,
-      "expReturn12mNominalPct": 13.45221997557935,
-      "expTotalReturn12mNominalPct": 14.01201714765843,
-      "cashflows12mCount": 2,
-      "cashflows12mTotal": 1103.2320774865289,
-      "totalReturnAssumptions": {
-        "couponRatePct": 10.0,
-        "couponFrequency": 2,
-        "couponLabel": "semestral_10pct",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2027-01-01"
-      },
-      "family": "nominal",
-      "ttmYears": 0.9801505817932923
-    },
-    "Tesouro Prefixado com Juros Semestrais 2031|01-01-2031": {
-      "y0": 13.58,
-      "y12m": 12.182754766943672,
-      "pu0": 884.9300000000001,
-      "pu12m": 944.8136121043834,
-      "expReturn12mPct": 18.190288310179547,
-      "expTotalReturn12mPct": 18.55771660086325,
-      "expReturn12mRealPct": 18.190288310179547,
-      "expTotalReturn12mRealPct": 18.55771660086325,
-      "expReturn12mNominalPct": 18.190288310179547,
-      "expTotalReturn12mNominalPct": 18.55771660086325,
-      "cashflows12mCount": 2,
-      "cashflows12mTotal": 101.08770623888849,
-      "totalReturnAssumptions": {
-        "couponRatePct": 10.0,
-        "couponFrequency": 2,
-        "couponLabel": "semestral_10pct",
-        "reinvestRatePct": 12.215,
+        "reinvestRatePct": 12.2122,
         "maturityISO": "2031-01-01"
       },
       "family": "nominal",
-      "ttmYears": 4.980150581793292
+      "ttmYears": 4.97741273100616
     },
-    "Tesouro Renda+ Aposentadoria Extra 2059|15-12-2059": {
-      "y0": 7.12,
-      "y12m": 7.292533522172719,
-      "pu0": 961.165,
-      "pu12m": 1035.3383679802334,
-      "expReturn12mPct": 11.984776195513813,
-      "expTotalReturn12mPct": 11.984776195513813,
-      "expReturn12mRealPct": 7.717027563449919,
-      "expTotalReturn12mRealPct": 7.717027563449919,
-      "expReturn12mNominalPct": 11.984776195513813,
-      "expTotalReturn12mNominalPct": 11.984776195513813,
+    "Tesouro Prefixado 2028|01-01-2028": {
+      "y0": 13.06,
+      "y12m": 11.985448941854795,
+      "pu0": 785.94,
+      "pu12m": 896.8412870320825,
+      "expReturn12mPct": 14.110655652095883,
+      "expTotalReturn12mPct": 14.110655652095883,
+      "expReturn12mRealPct": 14.110655652095883,
+      "expTotalReturn12mRealPct": 14.110655652095883,
+      "expReturn12mNominalPct": 14.110655652095883,
+      "expTotalReturn12mNominalPct": 14.110655652095883,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
         "couponRatePct": 0.0,
-        "couponFrequency": 12,
-        "couponLabel": "amortizing_monthly_240",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2059-12-15"
+        "couponFrequency": 0,
+        "couponLabel": "zero",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2028-01-01"
       },
-      "family": "real",
-      "ttmYears": 33.93292265571527
+      "family": "nominal",
+      "ttmYears": 1.9767282683093772
     },
-    "Tesouro Renda+ Aposentadoria Extra 2049|15-12-2049": {
-      "y0": 7.35,
-      "y12m": 7.354265046102712,
-      "pu0": 1857.1399999999999,
-      "pu12m": 2076.4132083147574,
-      "expReturn12mPct": 16.236831882797652,
-      "expTotalReturn12mPct": 16.236831882797652,
-      "expReturn12mRealPct": 11.807037073928605,
-      "expTotalReturn12mRealPct": 11.807037073928605,
-      "expReturn12mNominalPct": 16.236831882797652,
-      "expTotalReturn12mNominalPct": 16.236831882797652,
+    "Tesouro Prefixado 2027|01-01-2027": {
+      "y0": 13.73,
+      "y12m": 12.01879786819884,
+      "pu0": 883.095,
+      "pu12m": 0.0,
+      "expReturn12mPct": 13.399979123999085,
+      "expTotalReturn12mPct": 13.68652523606011,
+      "expReturn12mRealPct": 13.399979123999085,
+      "expTotalReturn12mRealPct": 13.68652523606011,
+      "expReturn12mNominalPct": 13.399979123999085,
+      "expTotalReturn12mNominalPct": 13.68652523606011,
+      "cashflows12mCount": 1,
+      "cashflows12mTotal": 1001.4295456450798,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 0,
+        "couponLabel": "zero",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2027-01-01"
+      },
+      "family": "nominal",
+      "ttmYears": 0.9774127310061602
+    },
+    "Tesouro Prefixado 2029|01-01-2029": {
+      "y0": 13.15,
+      "y12m": 12.127844460312946,
+      "pu0": 694.875,
+      "pu12m": 800.4344367807902,
+      "expReturn12mPct": 15.191140389392356,
+      "expTotalReturn12mPct": 15.191140389392356,
+      "expReturn12mRealPct": 15.191140389392356,
+      "expTotalReturn12mRealPct": 15.191140389392356,
+      "expReturn12mNominalPct": 15.191140389392356,
+      "expTotalReturn12mNominalPct": 15.191140389392356,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
         "couponRatePct": 0.0,
-        "couponFrequency": 12,
-        "couponLabel": "amortizing_monthly_240",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2049-12-15"
+        "couponFrequency": 0,
+        "couponLabel": "zero",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2029-01-01"
       },
-      "family": "real",
-      "ttmYears": 23.93429158110883
+      "family": "nominal",
+      "ttmYears": 2.9787816563997263
     },
-    "Tesouro Renda+ Aposentadoria Extra 2069|15-12-2069": {
-      "y0": 7.06,
-      "y12m": 7.258894539652088,
-      "pu0": 493.95,
-      "pu12m": 518.5111732368847,
-      "expReturn12mPct": 9.131407211363518,
-      "expTotalReturn12mPct": 9.131407211363518,
-      "expReturn12mRealPct": 4.972400695796075,
-      "expTotalReturn12mRealPct": 4.972400695796075,
-      "expReturn12mNominalPct": 9.131407211363518,
-      "expTotalReturn12mNominalPct": 9.131407211363518,
-      "cashflows12mCount": 0,
-      "cashflows12mTotal": null,
+    "Tesouro IPCA+ com Juros Semestrais 2026|15-08-2026": {
+      "y0": 10.36,
+      "y12m": 10.756971860481574,
+      "pu0": 4584.555,
+      "pu12m": 0.0,
+      "expReturn12mPct": 12.971010907999304,
+      "expTotalReturn12mPct": 18.526174247708948,
+      "expReturn12mRealPct": 8.554472206286533,
+      "expTotalReturn12mRealPct": 13.892459531663226,
+      "expReturn12mNominalPct": 12.971010907999304,
+      "expTotalReturn12mNominalPct": 18.526174247708948,
+      "cashflows12mCount": 2,
+      "cashflows12mTotal": 4976.73948325692,
       "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 12,
-        "couponLabel": "amortizing_monthly_240",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2069-12-15"
+        "couponRatePct": 6.0,
+        "couponFrequency": 2,
+        "couponLabel": "semestral_6pct",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2026-08-15"
       },
       "family": "real",
-      "ttmYears": 43.93429158110883
+      "ttmYears": 0.5968514715947981
     },
-    "Tesouro Renda+ Aposentadoria Extra 2064|15-12-2064": {
-      "y0": 7.07,
-      "y12m": 7.273549184827717,
-      "pu0": 691.55,
-      "pu12m": 732.3567606126066,
-      "expReturn12mPct": 10.096556354287944,
-      "expTotalReturn12mPct": 10.096556354287944,
-      "expReturn12mRealPct": 5.900767928943207,
-      "expTotalReturn12mRealPct": 5.900767928943207,
-      "expReturn12mNominalPct": 10.096556354287944,
-      "expTotalReturn12mNominalPct": 10.096556354287944,
-      "cashflows12mCount": 0,
-      "cashflows12mTotal": null,
+    "Tesouro IPCA+ com Juros Semestrais 2032|15-08-2032": {
+      "y0": 7.78,
+      "y12m": 7.90807501147699,
+      "pu0": 4300.635,
+      "pu12m": 4501.818177706302,
+      "expReturn12mPct": 15.720023559288144,
+      "expTotalReturn12mPct": 16.248672058994007,
+      "expReturn12mRealPct": 11.196013740265442,
+      "expTotalReturn12mRealPct": 11.703995021542536,
+      "expReturn12mNominalPct": 15.720023559288144,
+      "expTotalReturn12mNominalPct": 16.248672058994007,
+      "cashflows12mCount": 2,
+      "cashflows12mTotal": 280.31650781236283,
       "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 12,
-        "couponLabel": "amortizing_monthly_240",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2064-12-15"
+        "couponRatePct": 6.0,
+        "couponFrequency": 2,
+        "couponLabel": "semestral_6pct",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2032-08-15"
       },
       "family": "real",
-      "ttmYears": 38.93497604380561
+      "ttmYears": 6.598220396988364
     },
-    "Tesouro Renda+ Aposentadoria Extra 2079|15-12-2079": {
-      "y0": 7.09,
-      "y12m": 7.237735728642129,
-      "pu0": 247.82999999999998,
-      "pu12m": 260.46891527349777,
-      "expReturn12mPct": 9.263888026725486,
-      "expTotalReturn12mPct": 9.263888026725486,
-      "expReturn12mRealPct": 5.09983265686067,
-      "expTotalReturn12mRealPct": 5.09983265686067,
-      "expReturn12mNominalPct": 9.263888026725486,
-      "expTotalReturn12mNominalPct": 9.263888026725486,
-      "cashflows12mCount": 0,
-      "cashflows12mTotal": null,
+    "Tesouro IPCA+ com Juros Semestrais 2040|15-08-2040": {
+      "y0": 7.41,
+      "y12m": 7.489566957032495,
+      "pu0": 4152.6900000000005,
+      "pu12m": 4315.512413989196,
+      "expReturn12mPct": 15.188440945847038,
+      "expTotalReturn12mPct": 15.737065504759506,
+      "expReturn12mRealPct": 10.685213052794108,
+      "expTotalReturn12mRealPct": 11.212389440377724,
+      "expReturn12mNominalPct": 15.188440945847038,
+      "expTotalReturn12mNominalPct": 15.737065504759506,
+      "cashflows12mCount": 2,
+      "cashflows12mTotal": 280.9013599328799,
       "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 12,
-        "couponLabel": "amortizing_monthly_240",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2079-12-15"
+        "couponRatePct": 6.0,
+        "couponFrequency": 2,
+        "couponLabel": "semestral_6pct",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2040-08-15"
       },
       "family": "real",
-      "ttmYears": 53.93292265571527
+      "ttmYears": 14.598220396988363
     },
-    "Tesouro Renda+ Aposentadoria Extra 2084|15-12-2084": {
-      "y0": 7.09,
-      "y12m": 7.229844773861728,
-      "pu0": 176.335,
-      "pu12m": 184.63188321564192,
-      "expReturn12mPct": 8.853601626815788,
-      "expTotalReturn12mPct": 8.853601626815788,
-      "expReturn12mRealPct": 4.70518230393393,
-      "expTotalReturn12mRealPct": 4.70518230393393,
-      "expReturn12mNominalPct": 8.853601626815788,
-      "expTotalReturn12mNominalPct": 8.853601626815788,
-      "cashflows12mCount": 0,
-      "cashflows12mTotal": null,
+    "Tesouro IPCA+ com Juros Semestrais 2030|15-08-2030": {
+      "y0": 7.83,
+      "y12m": 8.228863497479528,
+      "pu0": 4394.85,
+      "pu12m": 4579.64497622456,
+      "expReturn12mPct": 15.077947266904367,
+      "expTotalReturn12mPct": 15.594933241284004,
+      "expReturn12mRealPct": 10.579039062640817,
+      "expTotalReturn12mRealPct": 11.07581375851867,
+      "expReturn12mNominalPct": 15.077947266904367,
+      "expTotalReturn12mNominalPct": 15.594933241284004,
+      "cashflows12mCount": 2,
+      "cashflows12mTotal": 280.1379220199103,
       "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 12,
-        "couponLabel": "amortizing_monthly_240",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2084-12-15"
+        "couponRatePct": 6.0,
+        "couponFrequency": 2,
+        "couponLabel": "semestral_6pct",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2030-08-15"
       },
       "family": "real",
-      "ttmYears": 58.93497604380561
+      "ttmYears": 4.596851471594798
     },
-    "Tesouro Renda+ Aposentadoria Extra 2054|15-12-2054": {
+    "Tesouro IPCA+ com Juros Semestrais 2055|15-05-2055": {
       "y0": 7.21,
-      "y12m": 7.318066119743212,
-      "pu0": 1334.105,
-      "pu12m": 1465.3909562029664,
-      "expReturn12mPct": 14.192641950050987,
-      "expTotalReturn12mPct": 14.192641950050987,
-      "expReturn12mRealPct": 9.840751380361091,
-      "expTotalReturn12mRealPct": 9.840751380361091,
-      "expReturn12mNominalPct": 14.192641950050987,
-      "expTotalReturn12mNominalPct": 14.192641950050987,
+      "y12m": 7.315504315733376,
+      "pu0": 3988.615,
+      "pu12m": 4104.664594098122,
+      "expReturn12mPct": 14.51278465439183,
+      "expTotalReturn12mPct": 14.8658071791534,
+      "expReturn12mRealPct": 10.035971167444346,
+      "expTotalReturn12mRealPct": 10.375192473374174,
+      "expReturn12mNominalPct": 14.51278465439183,
+      "expTotalReturn12mNominalPct": 14.8658071791534,
+      "cashflows12mCount": 2,
+      "cashflows12mTotal": 284.24665728223874,
+      "totalReturnAssumptions": {
+        "couponRatePct": 6.0,
+        "couponFrequency": 2,
+        "couponLabel": "semestral_6pct",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2055-05-15"
+      },
+      "family": "real",
+      "ttmYears": 29.34428473648186
+    },
+    "Tesouro IPCA+ com Juros Semestrais 2060|15-08-2060": {
+      "y0": 7.25,
+      "y12m": 7.2893368880470035,
+      "pu0": 4006.145,
+      "pu12m": 4153.513583909102,
+      "expReturn12mPct": 15.206487011297675,
+      "expTotalReturn12mPct": 15.77617204834425,
+      "expReturn12mRealPct": 10.702553617374777,
+      "expTotalReturn12mRealPct": 11.24996713543891,
+      "expReturn12mNominalPct": 15.206487011297675,
+      "expTotalReturn12mNominalPct": 15.77617204834425,
+      "cashflows12mCount": 2,
+      "cashflows12mTotal": 281.3912327056771,
+      "totalReturnAssumptions": {
+        "couponRatePct": 6.0,
+        "couponFrequency": 2,
+        "couponLabel": "semestral_6pct",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2060-08-15"
+      },
+      "family": "real",
+      "ttmYears": 34.59822039698837
+    },
+    "Tesouro IPCA+ 2045|15-05-2045": {
+      "y0": 7.14,
+      "y12m": 7.404565234240152,
+      "pu0": 1217.57,
+      "pu12m": 1297.423525438854,
+      "expReturn12mPct": 10.89376393729593,
+      "expTotalReturn12mPct": 10.89376393729593,
+      "expReturn12mRealPct": 6.558434048050965,
+      "expTotalReturn12mRealPct": 6.558434048050965,
+      "expReturn12mNominalPct": 10.89376393729593,
+      "expTotalReturn12mNominalPct": 10.89376393729593,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
         "couponRatePct": 0.0,
-        "couponFrequency": 12,
-        "couponLabel": "amortizing_monthly_240",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2054-12-15"
+        "couponFrequency": 0,
+        "couponLabel": "zero",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2045-05-15"
       },
       "family": "real",
-      "ttmYears": 28.933607118412045
+      "ttmYears": 19.345653661875428
+    },
+    "Tesouro IPCA+ 2026|15-08-2026": {
+      "y0": 10.36,
+      "y12m": 10.756971860481574,
+      "pu0": 4322.625,
+      "pu12m": 0.0,
+      "expReturn12mPct": 13.033861080103337,
+      "expTotalReturn12mPct": 18.39896218384176,
+      "expReturn12mRealPct": 8.614865285944662,
+      "expTotalReturn12mRealPct": 13.770220752525253,
+      "expReturn12mNominalPct": 13.033861080103337,
+      "expTotalReturn12mNominalPct": 18.39896218384176,
+      "cashflows12mCount": 1,
+      "cashflows12mTotal": 4695.013320566565,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 0,
+        "couponLabel": "zero",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2026-08-15"
+      },
+      "family": "real",
+      "ttmYears": 0.5968514715947981
+    },
+    "Tesouro IPCA+ 2050|15-08-2050": {
+      "y0": 7.09,
+      "y12m": 7.348763331515172,
+      "pu0": 859.35,
+      "pu12m": 904.6339054509373,
+      "expReturn12mPct": 9.552444975179931,
+      "expTotalReturn12mPct": 9.552444975179931,
+      "expReturn12mRealPct": 5.269553203111332,
+      "expTotalReturn12mRealPct": 5.269553203111332,
+      "expReturn12mNominalPct": 9.552444975179931,
+      "expTotalReturn12mNominalPct": 9.552444975179931,
+      "cashflows12mCount": 0,
+      "cashflows12mTotal": null,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 0,
+        "couponLabel": "zero",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2050-08-15"
+      },
+      "family": "real",
+      "ttmYears": 24.5968514715948
+    },
+    "Tesouro IPCA+ 2040|15-08-2040": {
+      "y0": 7.3,
+      "y12m": 7.489566957032495,
+      "pu0": 1648.775,
+      "pu12m": 1797.3092516784448,
+      "expReturn12mPct": 13.443785755059512,
+      "expTotalReturn12mPct": 13.443785755059512,
+      "expReturn12mRealPct": 9.008764184224338,
+      "expTotalReturn12mRealPct": 9.008764184224338,
+      "expReturn12mNominalPct": 13.443785755059512,
+      "expTotalReturn12mNominalPct": 13.443785755059512,
+      "cashflows12mCount": 0,
+      "cashflows12mTotal": null,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 0,
+        "couponLabel": "zero",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2040-08-15"
+      },
+      "family": "real",
+      "ttmYears": 14.598220396988363
+    },
+    "Tesouro IPCA+ 2029|15-05-2029": {
+      "y0": 7.88,
+      "y12m": 8.589669896478828,
+      "pu0": 3566.0950000000003,
+      "pu12m": 3942.1883103637824,
+      "expReturn12mPct": 15.043941391660432,
+      "expTotalReturn12mPct": 15.043941391660432,
+      "expReturn12mRealPct": 10.546362628134753,
+      "expTotalReturn12mRealPct": 10.546362628134753,
+      "expReturn12mNominalPct": 15.043941391660432,
+      "expTotalReturn12mNominalPct": 15.043941391660432,
+      "cashflows12mCount": 0,
+      "cashflows12mTotal": null,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 0,
+        "couponLabel": "zero",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2029-05-15"
+      },
+      "family": "real",
+      "ttmYears": 3.345653661875428
+    },
+    "Tesouro Prefixado com Juros Semestrais 2027|01-01-2027": {
+      "y0": 13.7,
+      "y12m": 12.01879786819884,
+      "pu0": 972.4300000000001,
+      "pu12m": 0.0,
+      "expReturn12mPct": 13.471958528901219,
+      "expTotalReturn12mPct": 14.067707754679581,
+      "expReturn12mRealPct": 13.471958528901219,
+      "expTotalReturn12mRealPct": 14.067707754679581,
+      "expReturn12mNominalPct": 13.471958528901219,
+      "expTotalReturn12mNominalPct": 14.067707754679581,
+      "cashflows12mCount": 2,
+      "cashflows12mTotal": 1103.4353663225943,
+      "totalReturnAssumptions": {
+        "couponRatePct": 10.0,
+        "couponFrequency": 2,
+        "couponLabel": "semestral_10pct",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2027-01-01"
+      },
+      "family": "nominal",
+      "ttmYears": 0.9774127310061602
+    },
+    "Tesouro Prefixado com Juros Semestrais 2029|01-01-2029": {
+      "y0": 13.18,
+      "y12m": 12.127844460312946,
+      "pu0": 932.69,
+      "pu12m": 972.7210825183009,
+      "expReturn12mPct": 15.09295928061758,
+      "expTotalReturn12mPct": 15.44381168586244,
+      "expReturn12mRealPct": 15.09295928061758,
+      "expTotalReturn12mRealPct": 15.44381168586244,
+      "expReturn12mNominalPct": 15.09295928061758,
+      "expTotalReturn12mNominalPct": 15.44381168586244,
+      "cashflows12mCount": 2,
+      "cashflows12mTotal": 100.73943939609113,
+      "totalReturnAssumptions": {
+        "couponRatePct": 10.0,
+        "couponFrequency": 2,
+        "couponLabel": "semestral_10pct",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2029-01-01"
+      },
+      "family": "nominal",
+      "ttmYears": 2.9787816563997263
+    },
+    "Tesouro Prefixado com Juros Semestrais 2035|01-01-2035": {
+      "y0": 13.73,
+      "y12m": 12.462255666155801,
+      "pu0": 825.175,
+      "pu12m": 893.0213460391107,
+      "expReturn12mPct": 20.520585719087148,
+      "expTotalReturn12mPct": 20.920084504510307,
+      "expReturn12mRealPct": 20.520585719087148,
+      "expTotalReturn12mRealPct": 20.920084504510307,
+      "expReturn12mNominalPct": 20.520585719087148,
+      "expTotalReturn12mNominalPct": 20.920084504510307,
+      "cashflows12mCount": 2,
+      "cashflows12mTotal": 101.48439716836664,
+      "totalReturnAssumptions": {
+        "couponRatePct": 10.0,
+        "couponFrequency": 2,
+        "couponLabel": "semestral_10pct",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2035-01-01"
+      },
+      "family": "nominal",
+      "ttmYears": 8.97741273100616
+    },
+    "Tesouro Prefixado com Juros Semestrais 2031|01-01-2031": {
+      "y0": 13.57,
+      "y12m": 12.318738843570248,
+      "pu0": 885.6800000000001,
+      "pu12m": 941.1879692206608,
+      "expReturn12mPct": 17.68217937341092,
+      "expTotalReturn12mPct": 18.052975051884836,
+      "expReturn12mRealPct": 17.68217937341092,
+      "expTotalReturn12mRealPct": 18.052975051884836,
+      "expReturn12mNominalPct": 17.68217937341092,
+      "expTotalReturn12mNominalPct": 18.052975051884836,
+      "cashflows12mCount": 2,
+      "cashflows12mTotal": 101.09955705376532,
+      "totalReturnAssumptions": {
+        "couponRatePct": 10.0,
+        "couponFrequency": 2,
+        "couponLabel": "semestral_10pct",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2031-01-01"
+      },
+      "family": "nominal",
+      "ttmYears": 4.97741273100616
+    },
+    "Tesouro Prefixado com Juros Semestrais 2033|01-01-2033": {
+      "y0": 13.73,
+      "y12m": 12.410826050907826,
+      "pu0": 848.94,
+      "pu12m": 914.1121015248582,
+      "expReturn12mPct": 19.608539095211185,
+      "expTotalReturn12mPct": 19.996120649940963,
+      "expReturn12mRealPct": 19.608539095211185,
+      "expTotalReturn12mRealPct": 19.996120649940963,
+      "expReturn12mNominalPct": 19.608539095211185,
+      "expTotalReturn12mNominalPct": 19.996120649940963,
+      "cashflows12mCount": 2,
+      "cashflows12mTotal": 101.29263027002766,
+      "totalReturnAssumptions": {
+        "couponRatePct": 10.0,
+        "couponFrequency": 2,
+        "couponLabel": "semestral_10pct",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2033-01-01"
+      },
+      "family": "nominal",
+      "ttmYears": 6.978781656399726
     },
     "Tesouro Renda+ Aposentadoria Extra 2074|15-12-2074": {
-      "y0": 7.07,
-      "y12m": 7.247234286250724,
-      "pu0": 350.73,
-      "pu12m": 367.395242044834,
-      "expReturn12mPct": 8.901845161420564,
-      "expTotalReturn12mPct": 8.901845161420564,
-      "expReturn12mRealPct": 4.75158727363898,
-      "expTotalReturn12mRealPct": 4.75158727363898,
-      "expReturn12mNominalPct": 8.901845161420564,
-      "expTotalReturn12mNominalPct": 8.901845161420564,
+      "y0": 7.1,
+      "y12m": 7.246527074050001,
+      "pu0": 347.29999999999995,
+      "pu12m": 368.2758431834654,
+      "expReturn12mPct": 10.353914731754887,
+      "expTotalReturn12mPct": 10.353914731754887,
+      "expReturn12mRealPct": 6.039689946290072,
+      "expTotalReturn12mRealPct": 6.039689946290072,
+      "expReturn12mNominalPct": 10.353914731754887,
+      "expTotalReturn12mNominalPct": 10.353914731754887,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
         "couponRatePct": 0.0,
         "couponFrequency": 12,
         "couponLabel": "amortizing_monthly_240",
-        "reinvestRatePct": 12.215,
+        "reinvestRatePct": 12.2122,
         "maturityISO": "2074-12-15"
       },
       "family": "real",
-      "ttmYears": 48.93360711841205
+      "ttmYears": 48.930869267624914
     },
-    "Tesouro Educa+ 2035|15-12-2035": {
-      "y0": 7.65,
-      "y12m": 7.649549041808113,
-      "pu0": 2665.785,
-      "pu12m": 2990.8587115014143,
-      "expReturn12mPct": 16.63943392475764,
-      "expTotalReturn12mPct": 16.63943392475764,
-      "expReturn12mRealPct": 12.194295920391717,
-      "expTotalReturn12mRealPct": 12.194295920391717,
-      "expReturn12mNominalPct": 16.63943392475764,
-      "expTotalReturn12mNominalPct": 16.63943392475764,
+    "Tesouro Renda+ Aposentadoria Extra 2054|15-12-2054": {
+      "y0": 7.2,
+      "y12m": 7.317966696913976,
+      "pu0": 1336.72,
+      "pu12m": 1467.3618402161633,
+      "expReturn12mPct": 14.239441071081306,
+      "expTotalReturn12mPct": 14.239441071081306,
+      "expReturn12mRealPct": 9.773313799162375,
+      "expTotalReturn12mRealPct": 9.773313799162375,
+      "expReturn12mNominalPct": 14.239441071081306,
+      "expTotalReturn12mNominalPct": 14.239441071081306,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
         "couponRatePct": 0.0,
         "couponFrequency": 12,
-        "couponLabel": "amortizing_monthly_60",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2035-12-15"
+        "couponLabel": "amortizing_monthly_240",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2054-12-15"
       },
       "family": "real",
-      "ttmYears": 9.932922655715263
+      "ttmYears": 28.930869267624914
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2069|15-12-2069": {
+      "y0": 7.08,
+      "y12m": 7.258287001045595,
+      "pu0": 491.245,
+      "pu12m": 519.5620187286281,
+      "expReturn12mPct": 10.067359354416316,
+      "expTotalReturn12mPct": 10.067359354416316,
+      "expReturn12mRealPct": 5.764337291703359,
+      "expTotalReturn12mRealPct": 5.764337291703359,
+      "expReturn12mNominalPct": 10.067359354416316,
+      "expTotalReturn12mNominalPct": 10.067359354416316,
+      "cashflows12mCount": 0,
+      "cashflows12mTotal": null,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 12,
+        "couponLabel": "amortizing_monthly_240",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2069-12-15"
+      },
+      "family": "real",
+      "ttmYears": 43.931553730321696
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2064|15-12-2064": {
+      "y0": 7.08,
+      "y12m": 7.273067128701378,
+      "pu0": 690.11,
+      "pu12m": 733.6182558964175,
+      "expReturn12mPct": 10.629539441185232,
+      "expTotalReturn12mPct": 10.629539441185232,
+      "expReturn12mRealPct": 6.304539261337694,
+      "expTotalReturn12mRealPct": 6.304539261337694,
+      "expReturn12mNominalPct": 10.629539441185232,
+      "expTotalReturn12mNominalPct": 10.629539441185232,
+      "cashflows12mCount": 0,
+      "cashflows12mTotal": null,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 12,
+        "couponLabel": "amortizing_monthly_240",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2064-12-15"
+      },
+      "family": "real",
+      "ttmYears": 38.93223819301848
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2079|15-12-2079": {
+      "y0": 7.13,
+      "y12m": 7.236947432026889,
+      "pu0": 244.115,
+      "pu12m": 261.2039458867141,
+      "expReturn12mPct": 11.353676924857181,
+      "expTotalReturn12mPct": 11.353676924857181,
+      "expReturn12mRealPct": 7.000366993717755,
+      "expTotalReturn12mRealPct": 7.000366993717755,
+      "expReturn12mNominalPct": 11.353676924857181,
+      "expTotalReturn12mNominalPct": 11.353676924857181,
+      "cashflows12mCount": 0,
+      "cashflows12mTotal": null,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 12,
+        "couponLabel": "amortizing_monthly_240",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2079-12-15"
+      },
+      "family": "real",
+      "ttmYears": 53.93018480492813
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2059|15-12-2059": {
+      "y0": 7.12,
+      "y12m": 7.292214373834827,
+      "pu0": 961.56,
+      "pu12m": 1036.8969007623791,
+      "expReturn12mPct": 12.222123546101816,
+      "expTotalReturn12mPct": 12.222123546101816,
+      "expReturn12mRealPct": 7.834862178374635,
+      "expTotalReturn12mRealPct": 7.834862178374635,
+      "expReturn12mNominalPct": 12.222123546101816,
+      "expTotalReturn12mNominalPct": 12.222123546101816,
+      "cashflows12mCount": 0,
+      "cashflows12mTotal": null,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 12,
+        "couponLabel": "amortizing_monthly_240",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2059-12-15"
+      },
+      "family": "real",
+      "ttmYears": 33.93018480492813
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2049|15-12-2049": {
+      "y0": 7.34,
+      "y12m": 7.354478370609964,
+      "pu0": 1859.925,
+      "pu12m": 2079.2076526278806,
+      "expReturn12mPct": 16.338035994733445,
+      "expTotalReturn12mPct": 16.338035994733445,
+      "expReturn12mRealPct": 11.789865324025461,
+      "expTotalReturn12mRealPct": 11.789865324025461,
+      "expReturn12mNominalPct": 16.338035994733445,
+      "expTotalReturn12mNominalPct": 16.338035994733445,
+      "cashflows12mCount": 0,
+      "cashflows12mTotal": null,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 12,
+        "couponLabel": "amortizing_monthly_240",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2049-12-15"
+      },
+      "family": "real",
+      "ttmYears": 23.9315537303217
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2084|15-12-2084": {
+      "y0": 7.13,
+      "y12m": 7.228989191696365,
+      "pu0": 173.37,
+      "pu12m": 185.19063336085986,
+      "expReturn12mPct": 11.164050458064523,
+      "expTotalReturn12mPct": 11.164050458064523,
+      "expReturn12mRealPct": 6.8181538679470854,
+      "expTotalReturn12mRealPct": 6.8181538679470854,
+      "expReturn12mNominalPct": 11.164050458064523,
+      "expTotalReturn12mNominalPct": 11.164050458064523,
+      "cashflows12mCount": 0,
+      "cashflows12mTotal": null,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 12,
+        "couponLabel": "amortizing_monthly_240",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2084-12-15"
+      },
+      "family": "real",
+      "ttmYears": 58.93223819301848
     },
     "Tesouro Educa+ 2032|15-12-2032": {
-      "y0": 7.81,
-      "y12m": 7.866975845348801,
-      "pu0": 3301.12,
-      "pu12m": 3702.5002084537414,
-      "expReturn12mPct": 16.602645972054297,
-      "expTotalReturn12mPct": 16.602645972054297,
-      "expReturn12mRealPct": 12.158909959460473,
-      "expTotalReturn12mRealPct": 12.158909959460473,
-      "expReturn12mNominalPct": 16.602645972054297,
-      "expTotalReturn12mNominalPct": 16.602645972054297,
+      "y0": 7.82,
+      "y12m": 7.871603030517655,
+      "pu0": 3301.24,
+      "pu12m": 3707.454514206755,
+      "expReturn12mPct": 16.87403221569037,
+      "expTotalReturn12mPct": 16.87403221569037,
+      "expReturn12mRealPct": 12.304907071486927,
+      "expTotalReturn12mRealPct": 12.304907071486927,
+      "expReturn12mNominalPct": 16.87403221569037,
+      "expTotalReturn12mNominalPct": 16.87403221569037,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
         "couponRatePct": 0.0,
         "couponFrequency": 12,
         "couponLabel": "amortizing_monthly_60",
-        "reinvestRatePct": 12.215,
+        "reinvestRatePct": 12.2122,
         "maturityISO": "2032-12-15"
       },
       "family": "real",
-      "ttmYears": 6.934976043805612
-    },
-    "Tesouro Educa+ 2033|15-12-2033": {
-      "y0": 7.76,
-      "y12m": 7.7764732948059265,
-      "pu0": 3070.89,
-      "pu12m": 3446.5958815683216,
-      "expReturn12mPct": 16.681157918260126,
-      "expTotalReturn12mPct": 16.681157918260126,
-      "expReturn12mRealPct": 12.234429809218872,
-      "expTotalReturn12mRealPct": 12.234429809218872,
-      "expReturn12mNominalPct": 16.681157918260126,
-      "expTotalReturn12mNominalPct": 16.681157918260126,
-      "cashflows12mCount": 0,
-      "cashflows12mTotal": null,
-      "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 12,
-        "couponLabel": "amortizing_monthly_60",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2033-12-15"
-      },
-      "family": "real",
-      "ttmYears": 7.9342915811088295
-    },
-    "Tesouro Educa+ 2045|15-12-2045": {
-      "y0": 7.21,
-      "y12m": 7.396303516090204,
-      "pu0": 1374.51,
-      "pu12m": 1489.6356125852456,
-      "expReturn12mPct": 12.66960411753082,
-      "expTotalReturn12mPct": 12.66960411753082,
-      "expReturn12mRealPct": 8.37575663947483,
-      "expTotalReturn12mRealPct": 8.37575663947483,
-      "expReturn12mNominalPct": 12.66960411753082,
-      "expTotalReturn12mNominalPct": 12.66960411753082,
-      "cashflows12mCount": 0,
-      "cashflows12mTotal": null,
-      "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 12,
-        "couponLabel": "amortizing_monthly_60",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2045-12-15"
-      },
-      "family": "real",
-      "ttmYears": 19.93429158110883
-    },
-    "Tesouro Educa+ 2040|15-12-2040": {
-      "y0": 7.38,
-      "y12m": 7.480503679715729,
-      "pu0": 1906.2649999999999,
-      "pu12m": 2108.9473634989963,
-      "expReturn12mPct": 15.015690790148618,
-      "expTotalReturn12mPct": 15.015690790148618,
-      "expReturn12mRealPct": 10.632433764402972,
-      "expTotalReturn12mRealPct": 10.632433764402972,
-      "expReturn12mNominalPct": 15.015690790148618,
-      "expTotalReturn12mNominalPct": 15.015690790148618,
-      "cashflows12mCount": 0,
-      "cashflows12mTotal": null,
-      "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 12,
-        "couponLabel": "amortizing_monthly_60",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2040-12-15"
-      },
-      "family": "real",
-      "ttmYears": 14.934976043805612
-    },
-    "Tesouro Educa+ 2046|15-12-2046": {
-      "y0": 7.18,
-      "y12m": 7.384295644039317,
-      "pu0": 1289.2350000000001,
-      "pu12m": 1389.9031721399192,
-      "expReturn12mPct": 12.079732230361628,
-      "expTotalReturn12mPct": 12.079732230361628,
-      "expReturn12mRealPct": 7.808364816338309,
-      "expTotalReturn12mRealPct": 7.808364816338309,
-      "expReturn12mNominalPct": 12.079732230361628,
-      "expTotalReturn12mNominalPct": 12.079732230361628,
-      "cashflows12mCount": 0,
-      "cashflows12mTotal": null,
-      "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 12,
-        "couponLabel": "amortizing_monthly_60",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2046-12-15"
-      },
-      "family": "real",
-      "ttmYears": 20.933607118412045
-    },
-    "Tesouro Educa+ 2044|15-12-2044": {
-      "y0": 7.25,
-      "y12m": 7.409578846572183,
-      "pu0": 1464.13,
-      "pu12m": 1596.8237080105955,
-      "expReturn12mPct": 13.384048091492918,
-      "expTotalReturn12mPct": 13.384048091492918,
-      "expReturn12mRealPct": 9.062973097374915,
-      "expTotalReturn12mRealPct": 9.062973097374915,
-      "expReturn12mNominalPct": 13.384048091492918,
-      "expTotalReturn12mNominalPct": 13.384048091492918,
-      "cashflows12mCount": 0,
-      "cashflows12mTotal": null,
-      "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 12,
-        "couponLabel": "amortizing_monthly_60",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2044-12-15"
-      },
-      "family": "real",
-      "ttmYears": 18.934976043805612
-    },
-    "Tesouro Educa+ 2034|15-12-2034": {
-      "y0": 7.71,
-      "y12m": 7.705959798835578,
-      "pu0": 2858.81,
-      "pu12m": 3209.9273504582193,
-      "expReturn12mPct": 16.7305512462659,
-      "expTotalReturn12mPct": 16.7305512462659,
-      "expReturn12mRealPct": 12.281940753607955,
-      "expTotalReturn12mRealPct": 12.281940753607955,
-      "expReturn12mNominalPct": 16.7305512462659,
-      "expTotalReturn12mNominalPct": 16.7305512462659,
-      "cashflows12mCount": 0,
-      "cashflows12mTotal": null,
-      "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 12,
-        "couponLabel": "amortizing_monthly_60",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2034-12-15"
-      },
-      "family": "real",
-      "ttmYears": 8.933607118412047
-    },
-    "Tesouro Educa+ 2047|15-12-2047": {
-      "y0": 7.16,
-      "y12m": 7.373381985587715,
-      "pu0": 1207.8449999999998,
-      "pu12m": 1297.108428592445,
-      "expReturn12mPct": 11.64510881224643,
-      "expTotalReturn12mPct": 11.64510881224643,
-      "expReturn12mRealPct": 7.390304930884772,
-      "expTotalReturn12mRealPct": 7.390304930884772,
-      "expReturn12mNominalPct": 11.64510881224643,
-      "expTotalReturn12mNominalPct": 11.64510881224643,
-      "cashflows12mCount": 0,
-      "cashflows12mTotal": null,
-      "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 12,
-        "couponLabel": "amortizing_monthly_60",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2047-12-15"
-      },
-      "family": "real",
-      "ttmYears": 21.932922655715263
-    },
-    "Tesouro Educa+ 2041|15-12-2041": {
-      "y0": 7.35,
-      "y12m": 7.459447862007327,
-      "pu0": 1782.43,
-      "pu12m": 1967.232676499957,
-      "expReturn12mPct": 14.740799646711821,
-      "expTotalReturn12mPct": 14.740799646711821,
-      "expReturn12mRealPct": 10.368018744071694,
-      "expTotalReturn12mRealPct": 10.368018744071694,
-      "expReturn12mNominalPct": 14.740799646711821,
-      "expTotalReturn12mNominalPct": 14.740799646711821,
-      "cashflows12mCount": 0,
-      "cashflows12mTotal": null,
-      "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 12,
-        "couponLabel": "amortizing_monthly_60",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2041-12-15"
-      },
-      "family": "real",
-      "ttmYears": 15.93429158110883
-    },
-    "Tesouro Educa+ 2043|15-12-2043": {
-      "y0": 7.28,
-      "y12m": 7.424376172566664,
-      "pu0": 1563.0900000000001,
-      "pu12m": 1711.670795029586,
-      "expReturn12mPct": 13.844192716264448,
-      "expTotalReturn12mPct": 13.844192716264448,
-      "expReturn12mRealPct": 9.505581574291044,
-      "expTotalReturn12mRealPct": 9.505581574291044,
-      "expReturn12mNominalPct": 13.844192716264448,
-      "expTotalReturn12mNominalPct": 13.844192716264448,
-      "cashflows12mCount": 0,
-      "cashflows12mTotal": null,
-      "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 12,
-        "couponLabel": "amortizing_monthly_60",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2043-12-15"
-      },
-      "family": "real",
-      "ttmYears": 17.932922655715263
+      "ttmYears": 6.93223819301848
     },
     "Tesouro Educa+ 2038|15-12-2038": {
-      "y0": 7.46,
-      "y12m": 7.532455857421777,
-      "pu0": 2179.1800000000003,
-      "pu12m": 2423.9153123662145,
-      "expReturn12mPct": 15.63757179499461,
-      "expTotalReturn12mPct": 15.63757179499461,
-      "expReturn12mRealPct": 11.230614835223074,
-      "expTotalReturn12mRealPct": 11.230614835223074,
-      "expReturn12mNominalPct": 15.63757179499461,
-      "expTotalReturn12mNominalPct": 15.63757179499461,
+      "y0": 7.44,
+      "y12m": 7.534229173723142,
+      "pu0": 2184.265,
+      "pu12m": 2426.682121406757,
+      "expReturn12mPct": 15.618374305141124,
+      "expTotalReturn12mPct": 15.618374305141124,
+      "expReturn12mRealPct": 11.098338407050278,
+      "expTotalReturn12mRealPct": 11.098338407050278,
+      "expReturn12mNominalPct": 15.618374305141124,
+      "expTotalReturn12mNominalPct": 15.618374305141124,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
         "couponRatePct": 0.0,
         "couponFrequency": 12,
         "couponLabel": "amortizing_monthly_60",
-        "reinvestRatePct": 12.215,
+        "reinvestRatePct": 12.2122,
         "maturityISO": "2038-12-15"
       },
       "family": "real",
-      "ttmYears": 12.933607118412047
-    },
-    "Tesouro Educa+ 2030|15-12-2030": {
-      "y0": 8.03,
-      "y12m": 8.152534327101725,
-      "pu0": 3815.0249999999996,
-      "pu12m": 3286.8148111114956,
-      "expReturn12mPct": 15.217830377120078,
-      "expTotalReturn12mPct": 16.820341918926562,
-      "expReturn12mRealPct": 10.82686979581009,
-      "expTotalReturn12mRealPct": 12.368309496668562,
-      "expReturn12mNominalPct": 15.217830377120078,
-      "expTotalReturn12mNominalPct": 16.820341918926562,
-      "cashflows12mCount": 12,
-      "cashflows12mTotal": 941.2579783161077,
-      "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 12,
-        "couponLabel": "amortizing_monthly_60",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2030-12-15"
-      },
-      "family": "real",
-      "ttmYears": 4.933607118412047
-    },
-    "Tesouro Educa+ 2036|15-12-2036": {
-      "y0": 7.59,
-      "y12m": 7.603308043793655,
-      "pu0": 2488.745,
-      "pu12m": 2787.7883162916983,
-      "expReturn12mPct": 16.453895010665033,
-      "expTotalReturn12mPct": 16.453895010665033,
-      "expReturn12mRealPct": 12.015827908913867,
-      "expTotalReturn12mRealPct": 12.015827908913867,
-      "expReturn12mNominalPct": 16.453895010665033,
-      "expTotalReturn12mNominalPct": 16.453895010665033,
-      "cashflows12mCount": 0,
-      "cashflows12mTotal": null,
-      "totalReturnAssumptions": {
-        "couponRatePct": 0.0,
-        "couponFrequency": 12,
-        "couponLabel": "amortizing_monthly_60",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2036-12-15"
-      },
-      "family": "real",
-      "ttmYears": 10.934976043805612
+      "ttmYears": 12.930869267624914
     },
     "Tesouro Educa+ 2037|15-12-2037": {
-      "y0": 7.52,
-      "y12m": 7.564917273673126,
-      "pu0": 2328.22,
-      "pu12m": 2599.016395130605,
-      "expReturn12mPct": 16.05387054082861,
-      "expTotalReturn12mPct": 16.05387054082861,
-      "expReturn12mRealPct": 11.631048403097877,
-      "expTotalReturn12mRealPct": 11.631048403097877,
-      "expReturn12mNominalPct": 16.05387054082861,
-      "expTotalReturn12mNominalPct": 16.05387054082861,
+      "y0": 7.51,
+      "y12m": 7.5669777218427425,
+      "pu0": 2331.215,
+      "pu12m": 2602.172986329861,
+      "expReturn12mPct": 16.16442045365578,
+      "expTotalReturn12mPct": 16.16442045365578,
+      "expReturn12mRealPct": 11.623037185753393,
+      "expTotalReturn12mRealPct": 11.623037185753393,
+      "expReturn12mNominalPct": 16.16442045365578,
+      "expTotalReturn12mNominalPct": 16.16442045365578,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
         "couponRatePct": 0.0,
         "couponFrequency": 12,
         "couponLabel": "amortizing_monthly_60",
-        "reinvestRatePct": 12.215,
+        "reinvestRatePct": 12.2122,
         "maturityISO": "2037-12-15"
       },
       "family": "real",
-      "ttmYears": 11.93429158110883
+      "ttmYears": 11.931553730321697
     },
-    "Tesouro Educa+ 2031|15-12-2031": {
-      "y0": 7.89,
-      "y12m": 7.987283709020205,
-      "pu0": 3548.7200000000003,
-      "pu12m": 3981.9423427340766,
-      "expReturn12mPct": 16.653522913985896,
-      "expTotalReturn12mPct": 16.653522913985896,
-      "expReturn12mRealPct": 12.207847977131925,
-      "expTotalReturn12mRealPct": 12.207847977131925,
-      "expReturn12mNominalPct": 16.653522913985896,
-      "expTotalReturn12mNominalPct": 16.653522913985896,
+    "Tesouro Educa+ 2041|15-12-2041": {
+      "y0": 7.32,
+      "y12m": 7.460578094467195,
+      "pu0": 1789.7849999999999,
+      "pu12m": 1969.267431682641,
+      "expReturn12mPct": 14.504651516279864,
+      "expTotalReturn12mPct": 14.504651516279864,
+      "expReturn12mRealPct": 10.028155989833486,
+      "expTotalReturn12mRealPct": 10.028155989833486,
+      "expReturn12mNominalPct": 14.504651516279864,
+      "expTotalReturn12mNominalPct": 14.504651516279864,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
         "couponRatePct": 0.0,
         "couponFrequency": 12,
         "couponLabel": "amortizing_monthly_60",
-        "reinvestRatePct": 12.215,
-        "maturityISO": "2031-12-15"
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2041-12-15"
       },
       "family": "real",
-      "ttmYears": 5.932922655715264
+      "ttmYears": 15.931553730321697
     },
-    "Tesouro Educa+ 2039|15-12-2039": {
-      "y0": 7.41,
-      "y12m": 7.504649856196344,
-      "pu0": 2039.7749999999999,
-      "pu12m": 2260.94081822211,
-      "expReturn12mPct": 15.23424365138657,
-      "expTotalReturn12mPct": 15.23424365138657,
-      "expReturn12mRealPct": 10.842657558902836,
-      "expTotalReturn12mRealPct": 10.842657558902836,
-      "expReturn12mNominalPct": 15.23424365138657,
-      "expTotalReturn12mNominalPct": 15.23424365138657,
+    "Tesouro Educa+ 2033|15-12-2033": {
+      "y0": 7.77,
+      "y12m": 7.780373400609039,
+      "pu0": 3070.71,
+      "pu12m": 3451.16801169564,
+      "expReturn12mPct": 16.962486924896126,
+      "expTotalReturn12mPct": 16.962486924896126,
+      "expReturn12mRealPct": 12.389903693140681,
+      "expTotalReturn12mRealPct": 12.389903693140681,
+      "expReturn12mNominalPct": 16.962486924896126,
+      "expTotalReturn12mNominalPct": 16.962486924896126,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
         "couponRatePct": 0.0,
         "couponFrequency": 12,
         "couponLabel": "amortizing_monthly_60",
-        "reinvestRatePct": 12.215,
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2033-12-15"
+      },
+      "family": "real",
+      "ttmYears": 7.931553730321697
+    },
+    "Tesouro Educa+ 2045|15-12-2045": {
+      "y0": 7.2,
+      "y12m": 7.396881850796155,
+      "pu0": 1377.2849999999999,
+      "pu12m": 1491.4679889675122,
+      "expReturn12mPct": 12.696236733766476,
+      "expTotalReturn12mPct": 12.696236733766476,
+      "expReturn12mRealPct": 8.290440175236945,
+      "expTotalReturn12mRealPct": 8.290440175236945,
+      "expReturn12mNominalPct": 12.696236733766476,
+      "expTotalReturn12mNominalPct": 12.696236733766476,
+      "cashflows12mCount": 0,
+      "cashflows12mTotal": null,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 12,
+        "couponLabel": "amortizing_monthly_60",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2045-12-15"
+      },
+      "family": "real",
+      "ttmYears": 19.9315537303217
+    },
+    "Tesouro Educa+ 2047|15-12-2047": {
+      "y0": 7.15,
+      "y12m": 7.373761056829061,
+      "pu0": 1210.5100000000002,
+      "pu12m": 1298.7217314320405,
+      "expReturn12mPct": 11.652132165397466,
+      "expTotalReturn12mPct": 11.652132165397466,
+      "expReturn12mRealPct": 7.287154292987275,
+      "expTotalReturn12mRealPct": 7.287154292987275,
+      "expReturn12mNominalPct": 11.652132165397466,
+      "expTotalReturn12mNominalPct": 11.652132165397466,
+      "cashflows12mCount": 0,
+      "cashflows12mTotal": null,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 12,
+        "couponLabel": "amortizing_monthly_60",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2047-12-15"
+      },
+      "family": "real",
+      "ttmYears": 21.930184804928132
+    },
+    "Tesouro Educa+ 2036|15-12-2036": {
+      "y0": 7.58,
+      "y12m": 7.605708244211053,
+      "pu0": 2491.715,
+      "pu12m": 2791.178614982214,
+      "expReturn12mPct": 16.575841014432456,
+      "expTotalReturn12mPct": 16.575841014432456,
+      "expReturn12mRealPct": 12.018373489031209,
+      "expTotalReturn12mRealPct": 12.018373489031209,
+      "expReturn12mNominalPct": 16.575841014432456,
+      "expTotalReturn12mNominalPct": 16.575841014432456,
+      "cashflows12mCount": 0,
+      "cashflows12mTotal": null,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 12,
+        "couponLabel": "amortizing_monthly_60",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2036-12-15"
+      },
+      "family": "real",
+      "ttmYears": 10.932238193018481
+    },
+    "Tesouro Educa+ 2039|15-12-2039": {
+      "y0": 7.39,
+      "y12m": 7.506177701589275,
+      "pu0": 2044.905,
+      "pu12m": 2263.499385903233,
+      "expReturn12mPct": 15.19311940743977,
+      "expTotalReturn12mPct": 15.19311940743977,
+      "expReturn12mRealPct": 10.689708612538617,
+      "expTotalReturn12mRealPct": 10.689708612538617,
+      "expReturn12mNominalPct": 15.19311940743977,
+      "expTotalReturn12mNominalPct": 15.19311940743977,
+      "cashflows12mCount": 0,
+      "cashflows12mTotal": null,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 12,
+        "couponLabel": "amortizing_monthly_60",
+        "reinvestRatePct": 12.2122,
         "maturityISO": "2039-12-15"
       },
       "family": "real",
-      "ttmYears": 13.932922655715263
+      "ttmYears": 13.930184804928132
     },
-    "Tesouro Educa+ 2042|15-12-2042": {
-      "y0": 7.32,
-      "y12m": 7.440877168754941,
-      "pu0": 1667.585,
-      "pu12m": 1835.1512058329458,
-      "expReturn12mPct": 14.408554682852582,
-      "expTotalReturn12mPct": 14.408554682852582,
-      "expReturn12mRealPct": 10.048435661927035,
-      "expTotalReturn12mRealPct": 10.048435661927035,
-      "expReturn12mNominalPct": 14.408554682852582,
-      "expTotalReturn12mNominalPct": 14.408554682852582,
+    "Tesouro Educa+ 2031|15-12-2031": {
+      "y0": 7.91,
+      "y12m": 7.992773380514799,
+      "pu0": 3548.1,
+      "pu12m": 3987.4519474676345,
+      "expReturn12mPct": 16.955030296506756,
+      "expTotalReturn12mPct": 16.955030296506756,
+      "expReturn12mRealPct": 12.382738577481888,
+      "expTotalReturn12mRealPct": 12.382738577481888,
+      "expReturn12mNominalPct": 16.955030296506756,
+      "expTotalReturn12mNominalPct": 16.955030296506756,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
         "couponRatePct": 0.0,
         "couponFrequency": 12,
         "couponLabel": "amortizing_monthly_60",
-        "reinvestRatePct": 12.215,
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2031-12-15"
+      },
+      "family": "real",
+      "ttmYears": 5.930184804928132
+    },
+    "Tesouro Educa+ 2034|15-12-2034": {
+      "y0": 7.71,
+      "y12m": 7.709260398854193,
+      "pu0": 2860.04,
+      "pu12m": 3214.035399215645,
+      "expReturn12mPct": 16.949358380747626,
+      "expTotalReturn12mPct": 16.949358380747626,
+      "expReturn12mRealPct": 12.377288402107855,
+      "expTotalReturn12mRealPct": 12.377288402107855,
+      "expReturn12mNominalPct": 16.949358380747626,
+      "expTotalReturn12mNominalPct": 16.949358380747626,
+      "cashflows12mCount": 0,
+      "cashflows12mTotal": null,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 12,
+        "couponLabel": "amortizing_monthly_60",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2034-12-15"
+      },
+      "family": "real",
+      "ttmYears": 8.930869267624914
+    },
+    "Tesouro Educa+ 2044|15-12-2044": {
+      "y0": 7.23,
+      "y12m": 7.410272851560992,
+      "pu0": 1469.1750000000002,
+      "pu12m": 1598.6079005913323,
+      "expReturn12mPct": 13.236834483767467,
+      "expTotalReturn12mPct": 13.236834483767467,
+      "expReturn12mRealPct": 8.809903557529374,
+      "expTotalReturn12mRealPct": 8.809903557529374,
+      "expReturn12mNominalPct": 13.236834483767467,
+      "expTotalReturn12mNominalPct": 13.236834483767467,
+      "cashflows12mCount": 0,
+      "cashflows12mTotal": null,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 12,
+        "couponLabel": "amortizing_monthly_60",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2044-12-15"
+      },
+      "family": "real",
+      "ttmYears": 18.93223819301848
+    },
+    "Tesouro Educa+ 2040|15-12-2040": {
+      "y0": 7.36,
+      "y12m": 7.4818188819636475,
+      "pu0": 1911.42,
+      "pu12m": 2111.331011479557,
+      "expReturn12mPct": 14.95278451002935,
+      "expTotalReturn12mPct": 14.95278451002935,
+      "expReturn12mRealPct": 10.458769473980457,
+      "expTotalReturn12mRealPct": 10.458769473980457,
+      "expReturn12mNominalPct": 14.95278451002935,
+      "expTotalReturn12mNominalPct": 14.95278451002935,
+      "cashflows12mCount": 0,
+      "cashflows12mTotal": null,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 12,
+        "couponLabel": "amortizing_monthly_60",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2040-12-15"
+      },
+      "family": "real",
+      "ttmYears": 14.932238193018481
+    },
+    "Tesouro Educa+ 2030|15-12-2030": {
+      "y0": 8.05,
+      "y12m": 8.158973085242414,
+      "pu0": 3815.085,
+      "pu12m": 3291.3573610934945,
+      "expReturn12mPct": 15.474275165680162,
+      "expTotalReturn12mPct": 17.087407215356087,
+      "expReturn12mRealPct": 10.959872743126065,
+      "expTotalReturn12mRealPct": 12.509940294475342,
+      "expReturn12mNominalPct": 15.474275165680162,
+      "expTotalReturn12mNominalPct": 17.087407215356087,
+      "cashflows12mCount": 12,
+      "cashflows12mTotal": 941.8560999485958,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 12,
+        "couponLabel": "amortizing_monthly_60",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2030-12-15"
+      },
+      "family": "real",
+      "ttmYears": 4.930869267624915
+    },
+    "Tesouro Educa+ 2043|15-12-2043": {
+      "y0": 7.26,
+      "y12m": 7.425199336547504,
+      "pu0": 1568.1799999999998,
+      "pu12m": 1713.5806474004567,
+      "expReturn12mPct": 13.717664811433927,
+      "expTotalReturn12mPct": 13.717664811433927,
+      "expReturn12mRealPct": 9.271936091549238,
+      "expTotalReturn12mRealPct": 9.271936091549238,
+      "expReturn12mNominalPct": 13.717664811433927,
+      "expTotalReturn12mNominalPct": 13.717664811433927,
+      "cashflows12mCount": 0,
+      "cashflows12mTotal": null,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 12,
+        "couponLabel": "amortizing_monthly_60",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2043-12-15"
+      },
+      "family": "real",
+      "ttmYears": 17.930184804928132
+    },
+    "Tesouro Educa+ 2046|15-12-2046": {
+      "y0": 7.17,
+      "y12m": 7.384769518770435,
+      "pu0": 1291.955,
+      "pu12m": 1391.6183215450374,
+      "expReturn12mPct": 12.096498171925285,
+      "expTotalReturn12mPct": 12.096498171925285,
+      "expReturn12mRealPct": 7.714148058178294,
+      "expTotalReturn12mRealPct": 7.714148058178294,
+      "expReturn12mNominalPct": 12.096498171925285,
+      "expTotalReturn12mNominalPct": 12.096498171925285,
+      "cashflows12mCount": 0,
+      "cashflows12mTotal": null,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 12,
+        "couponLabel": "amortizing_monthly_60",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2046-12-15"
+      },
+      "family": "real",
+      "ttmYears": 20.930869267624914
+    },
+    "Tesouro Educa+ 2035|15-12-2035": {
+      "y0": 7.65,
+      "y12m": 7.652357231789574,
+      "pu0": 2666.925,
+      "pu12m": 2994.6730618848424,
+      "expReturn12mPct": 16.857854473133948,
+      "expTotalReturn12mPct": 16.857854473133948,
+      "expReturn12mRealPct": 12.289361788758303,
+      "expTotalReturn12mRealPct": 12.289361788758303,
+      "expReturn12mNominalPct": 16.857854473133948,
+      "expTotalReturn12mNominalPct": 16.857854473133948,
+      "cashflows12mCount": 0,
+      "cashflows12mTotal": null,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 12,
+        "couponLabel": "amortizing_monthly_60",
+        "reinvestRatePct": 12.2122,
+        "maturityISO": "2035-12-15"
+      },
+      "family": "real",
+      "ttmYears": 9.930184804928132
+    },
+    "Tesouro Educa+ 2042|15-12-2042": {
+      "y0": 7.29,
+      "y12m": 7.441844642695922,
+      "pu0": 1674.9299999999998,
+      "pu12m": 1837.0295059421137,
+      "expReturn12mPct": 14.140235794413435,
+      "expTotalReturn12mPct": 14.140235794413435,
+      "expReturn12mRealPct": 9.677986897489088,
+      "expTotalReturn12mRealPct": 9.677986897489088,
+      "expReturn12mNominalPct": 14.140235794413435,
+      "expTotalReturn12mNominalPct": 14.140235794413435,
+      "cashflows12mCount": 0,
+      "cashflows12mTotal": null,
+      "totalReturnAssumptions": {
+        "couponRatePct": 0.0,
+        "couponFrequency": 12,
+        "couponLabel": "amortizing_monthly_60",
+        "reinvestRatePct": 12.2122,
         "maturityISO": "2042-12-15"
       },
       "family": "real",
-      "ttmYears": 16.933607118412045
+      "ttmYears": 16.930869267624914
     }
   },
   "selection": {
@@ -1290,20 +1290,20 @@
     "usedTotal": 51,
     "excludedTotal": 95,
     "universeByFamily": {
-      "other": 8,
-      "nominal": 60,
       "selic": 22,
-      "real": 56
+      "nominal": 60,
+      "real": 56,
+      "other": 8
     },
     "usedByFamily": {
       "real": 41,
       "nominal": 10
     },
     "excludedByFamily": {
-      "other": 8,
-      "nominal": 50,
       "selic": 22,
-      "real": 15
+      "nominal": 50,
+      "real": 15,
+      "other": 8
     },
     "excludedReasons": {
       "no_point_asof": 89,
@@ -1311,55 +1311,55 @@
     },
     "excludedSamples": [
       {
-        "key": "Tesouro IGPM+ com Juros Semestrais 2021|01-04-2021",
-        "family": "other",
+        "key": "Tesouro Selic 2010|17-03-2010",
+        "family": "selic",
         "reason": "no_point_asof"
       },
       {
-        "key": "Tesouro IGPM+ com Juros Semestrais 2017|01-07-2017",
-        "family": "other",
+        "key": "Tesouro Selic 2013|07-03-2013",
+        "family": "selic",
         "reason": "no_point_asof"
       },
       {
-        "key": "Tesouro IGPM+ com Juros Semestrais 2011|01-03-2011",
-        "family": "other",
+        "key": "Tesouro Prefixado 2009|01-04-2009",
+        "family": "nominal",
         "reason": "no_point_asof"
       },
       {
-        "key": "Tesouro IGPM+ com Juros Semestrais 2008|01-04-2008",
-        "family": "other",
+        "key": "Tesouro Prefixado 2009|01-07-2009",
+        "family": "nominal",
         "reason": "no_point_asof"
       },
       {
-        "key": "Tesouro IGPM+ com Juros Semestrais 2006|01-12-2006",
-        "family": "other",
+        "key": "Tesouro Prefixado 2009|01-10-2009",
+        "family": "nominal",
         "reason": "no_point_asof"
       },
       {
-        "key": "Tesouro IGPM+ com Juros Semestrais 2005|01-12-2005",
-        "family": "other",
+        "key": "Tesouro Prefixado 2010|01-01-2010",
+        "family": "nominal",
         "reason": "no_point_asof"
       },
       {
-        "key": "Tesouro IGPM+ com Juros Semestrais 2031|01-01-2031",
-        "family": "other",
-        "reason": "family_not_modeled"
+        "key": "Tesouro Prefixado 2011|01-01-2011",
+        "family": "nominal",
+        "reason": "no_point_asof"
       },
       {
-        "key": "Tesouro IGPM+ com Juros Semestrais 2005|01-07-2005",
-        "family": "other",
+        "key": "Tesouro Prefixado 2010|01-07-2010",
+        "family": "nominal",
         "reason": "no_point_asof"
       }
     ]
   },
   "diagnostics": {
     "fitRmse": {
-      "nominal": 0.03573379058871608,
-      "real": 0.11198348128375965
+      "nominal": 0.03492867287442678,
+      "real": 0.10887859445672285
     },
     "fitWeightedRmse": {
-      "nominal": 0.03573379058871602,
-      "real": 0.11198348128375955
+      "nominal": 0.03492867287442678,
+      "real": 0.1088785944567228
     },
     "nPoints": {
       "nominal": 10,
@@ -1377,7 +1377,7 @@
       "gridStep": 0.04873949579831932,
       "selectedTau": {
         "nominal": 0.5899159663865546,
-        "real": 0.9310924369747899
+        "real": 0.9798319327731093
       }
     },
     "var": {
@@ -1388,14 +1388,14 @@
       },
       "residualStd": {
         "nominal": [
-          0.1586716078038472,
-          0.3124791888404223,
-          0.5598683953552936
+          0.15866804813560287,
+          0.3124916994666493,
+          0.5601757918696371
         ],
         "real": [
-          0.06652650784520242,
-          0.40178264656161344,
-          0.6389391176448747
+          0.06648373293952979,
+          0.3646864821079621,
+          0.5907635839455868
         ]
       }
     },
@@ -1414,347 +1414,347 @@
     }
   },
   "meta": {
-    "Tesouro IGPM+ com Juros Semestrais 2031|01-01-2031": {
-      "name": "Tesouro IGPM+ com Juros Semestrais 2031",
-      "maturityISO": "2031-01-01",
-      "family": "other",
-      "ttmYears": 4.980150581793292
-    },
     "Tesouro IPCA+ com Juros Semestrais 2045|15-05-2045": {
       "name": "Tesouro IPCA+ com Juros Semestrais 2045",
       "maturityISO": "2045-05-15",
       "family": "real",
-      "ttmYears": 19.34839151266256
+      "ttmYears": 19.345653661875428
     },
     "Tesouro IPCA+ com Juros Semestrais 2035|15-05-2035": {
       "name": "Tesouro IPCA+ com Juros Semestrais 2035",
       "maturityISO": "2035-05-15",
       "family": "real",
-      "ttmYears": 9.347022587268993
+      "ttmYears": 9.344284736481862
     },
-    "Tesouro IPCA+ 2035|15-05-2035": {
-      "name": "Tesouro IPCA+ 2035",
-      "maturityISO": "2035-05-15",
-      "family": "real",
-      "ttmYears": 9.347022587268993
-    },
-    "Tesouro Selic 2031|01-03-2031": {
-      "name": "Tesouro Selic 2031",
-      "maturityISO": "2031-03-01",
-      "family": "selic",
-      "ttmYears": 5.1416837782340865
-    },
-    "Tesouro Selic 2026|01-03-2026": {
-      "name": "Tesouro Selic 2026",
-      "maturityISO": "2026-03-01",
-      "family": "selic",
-      "ttmYears": 0.14236824093086928
-    },
-    "Tesouro Selic 2027|01-03-2027": {
-      "name": "Tesouro Selic 2027",
-      "maturityISO": "2027-03-01",
-      "family": "selic",
-      "ttmYears": 1.1416837782340863
-    },
-    "Tesouro Selic 2028|01-03-2028": {
-      "name": "Tesouro Selic 2028",
-      "maturityISO": "2028-03-01",
-      "family": "selic",
-      "ttmYears": 2.1437371663244353
-    },
-    "Tesouro Selic 2029|01-03-2029": {
-      "name": "Tesouro Selic 2029",
-      "maturityISO": "2029-03-01",
-      "family": "selic",
-      "ttmYears": 3.143052703627652
-    },
-    "Tesouro Prefixado 2032|01-01-2032": {
-      "name": "Tesouro Prefixado 2032",
-      "maturityISO": "2032-01-01",
-      "family": "nominal",
-      "ttmYears": 5.979466119096509
-    },
-    "Tesouro Prefixado 2027|01-01-2027": {
-      "name": "Tesouro Prefixado 2027",
-      "maturityISO": "2027-01-01",
-      "family": "nominal",
-      "ttmYears": 0.9801505817932923
-    },
-    "Tesouro Prefixado 2028|01-01-2028": {
-      "name": "Tesouro Prefixado 2028",
-      "maturityISO": "2028-01-01",
-      "family": "nominal",
-      "ttmYears": 1.9794661190965093
-    },
-    "Tesouro Prefixado 2029|01-01-2029": {
-      "name": "Tesouro Prefixado 2029",
-      "maturityISO": "2029-01-01",
-      "family": "nominal",
-      "ttmYears": 2.9815195071868583
-    },
-    "Tesouro Prefixado 2031|01-01-2031": {
-      "name": "Tesouro Prefixado 2031",
+    "Tesouro IGPM+ com Juros Semestrais 2031|01-01-2031": {
+      "name": "Tesouro IGPM+ com Juros Semestrais 2031",
       "maturityISO": "2031-01-01",
-      "family": "nominal",
-      "ttmYears": 4.980150581793292
-    },
-    "Tesouro IPCA+ com Juros Semestrais 2026|15-08-2026": {
-      "name": "Tesouro IPCA+ com Juros Semestrais 2026",
-      "maturityISO": "2026-08-15",
-      "family": "real",
-      "ttmYears": 0.5995893223819302
-    },
-    "Tesouro IPCA+ com Juros Semestrais 2032|15-08-2032": {
-      "name": "Tesouro IPCA+ com Juros Semestrais 2032",
-      "maturityISO": "2032-08-15",
-      "family": "real",
-      "ttmYears": 6.6009582477754964
-    },
-    "Tesouro IPCA+ com Juros Semestrais 2060|15-08-2060": {
-      "name": "Tesouro IPCA+ com Juros Semestrais 2060",
-      "maturityISO": "2060-08-15",
-      "family": "real",
-      "ttmYears": 34.600958247775495
+      "family": "other",
+      "ttmYears": 4.97741273100616
     },
     "Tesouro IPCA+ com Juros Semestrais 2050|15-08-2050": {
       "name": "Tesouro IPCA+ com Juros Semestrais 2050",
       "maturityISO": "2050-08-15",
       "family": "real",
-      "ttmYears": 24.59958932238193
+      "ttmYears": 24.5968514715948
     },
-    "Tesouro IPCA+ com Juros Semestrais 2030|15-08-2030": {
-      "name": "Tesouro IPCA+ com Juros Semestrais 2030",
-      "maturityISO": "2030-08-15",
+    "Tesouro IPCA+ 2035|15-05-2035": {
+      "name": "Tesouro IPCA+ 2035",
+      "maturityISO": "2035-05-15",
       "family": "real",
-      "ttmYears": 4.59958932238193
+      "ttmYears": 9.344284736481862
+    },
+    "Tesouro Selic 2031|01-03-2031": {
+      "name": "Tesouro Selic 2031",
+      "maturityISO": "2031-03-01",
+      "family": "selic",
+      "ttmYears": 5.138945927446954
+    },
+    "Tesouro Prefixado 2032|01-01-2032": {
+      "name": "Tesouro Prefixado 2032",
+      "maturityISO": "2032-01-01",
+      "family": "nominal",
+      "ttmYears": 5.976728268309377
+    },
+    "Tesouro Prefixado 2031|01-01-2031": {
+      "name": "Tesouro Prefixado 2031",
+      "maturityISO": "2031-01-01",
+      "family": "nominal",
+      "ttmYears": 4.97741273100616
+    },
+    "Tesouro Prefixado 2028|01-01-2028": {
+      "name": "Tesouro Prefixado 2028",
+      "maturityISO": "2028-01-01",
+      "family": "nominal",
+      "ttmYears": 1.9767282683093772
+    },
+    "Tesouro Prefixado 2027|01-01-2027": {
+      "name": "Tesouro Prefixado 2027",
+      "maturityISO": "2027-01-01",
+      "family": "nominal",
+      "ttmYears": 0.9774127310061602
+    },
+    "Tesouro Prefixado 2029|01-01-2029": {
+      "name": "Tesouro Prefixado 2029",
+      "maturityISO": "2029-01-01",
+      "family": "nominal",
+      "ttmYears": 2.9787816563997263
+    },
+    "Tesouro IPCA+ com Juros Semestrais 2026|15-08-2026": {
+      "name": "Tesouro IPCA+ com Juros Semestrais 2026",
+      "maturityISO": "2026-08-15",
+      "family": "real",
+      "ttmYears": 0.5968514715947981
+    },
+    "Tesouro IPCA+ com Juros Semestrais 2032|15-08-2032": {
+      "name": "Tesouro IPCA+ com Juros Semestrais 2032",
+      "maturityISO": "2032-08-15",
+      "family": "real",
+      "ttmYears": 6.598220396988364
     },
     "Tesouro IPCA+ com Juros Semestrais 2040|15-08-2040": {
       "name": "Tesouro IPCA+ com Juros Semestrais 2040",
       "maturityISO": "2040-08-15",
       "family": "real",
-      "ttmYears": 14.600958247775496
+      "ttmYears": 14.598220396988363
+    },
+    "Tesouro IPCA+ com Juros Semestrais 2030|15-08-2030": {
+      "name": "Tesouro IPCA+ com Juros Semestrais 2030",
+      "maturityISO": "2030-08-15",
+      "family": "real",
+      "ttmYears": 4.596851471594798
     },
     "Tesouro IPCA+ com Juros Semestrais 2055|15-05-2055": {
       "name": "Tesouro IPCA+ com Juros Semestrais 2055",
       "maturityISO": "2055-05-15",
       "family": "real",
-      "ttmYears": 29.347022587268995
+      "ttmYears": 29.34428473648186
     },
-    "Tesouro IPCA+ 2040|15-08-2040": {
-      "name": "Tesouro IPCA+ 2040",
-      "maturityISO": "2040-08-15",
+    "Tesouro IPCA+ com Juros Semestrais 2060|15-08-2060": {
+      "name": "Tesouro IPCA+ com Juros Semestrais 2060",
+      "maturityISO": "2060-08-15",
       "family": "real",
-      "ttmYears": 14.600958247775496
-    },
-    "Tesouro IPCA+ 2029|15-05-2029": {
-      "name": "Tesouro IPCA+ 2029",
-      "maturityISO": "2029-05-15",
-      "family": "real",
-      "ttmYears": 3.34839151266256
-    },
-    "Tesouro IPCA+ 2026|15-08-2026": {
-      "name": "Tesouro IPCA+ 2026",
-      "maturityISO": "2026-08-15",
-      "family": "real",
-      "ttmYears": 0.5995893223819302
-    },
-    "Tesouro IPCA+ 2050|15-08-2050": {
-      "name": "Tesouro IPCA+ 2050",
-      "maturityISO": "2050-08-15",
-      "family": "real",
-      "ttmYears": 24.59958932238193
+      "ttmYears": 34.59822039698837
     },
     "Tesouro IPCA+ 2045|15-05-2045": {
       "name": "Tesouro IPCA+ 2045",
       "maturityISO": "2045-05-15",
       "family": "real",
-      "ttmYears": 19.34839151266256
+      "ttmYears": 19.345653661875428
     },
-    "Tesouro Prefixado com Juros Semestrais 2035|01-01-2035": {
-      "name": "Tesouro Prefixado com Juros Semestrais 2035",
-      "maturityISO": "2035-01-01",
-      "family": "nominal",
-      "ttmYears": 8.980150581793293
+    "Tesouro IPCA+ 2026|15-08-2026": {
+      "name": "Tesouro IPCA+ 2026",
+      "maturityISO": "2026-08-15",
+      "family": "real",
+      "ttmYears": 0.5968514715947981
     },
-    "Tesouro Prefixado com Juros Semestrais 2029|01-01-2029": {
-      "name": "Tesouro Prefixado com Juros Semestrais 2029",
-      "maturityISO": "2029-01-01",
-      "family": "nominal",
-      "ttmYears": 2.9815195071868583
+    "Tesouro IPCA+ 2050|15-08-2050": {
+      "name": "Tesouro IPCA+ 2050",
+      "maturityISO": "2050-08-15",
+      "family": "real",
+      "ttmYears": 24.5968514715948
     },
-    "Tesouro Prefixado com Juros Semestrais 2033|01-01-2033": {
-      "name": "Tesouro Prefixado com Juros Semestrais 2033",
-      "maturityISO": "2033-01-01",
-      "family": "nominal",
-      "ttmYears": 6.981519507186858
+    "Tesouro IPCA+ 2040|15-08-2040": {
+      "name": "Tesouro IPCA+ 2040",
+      "maturityISO": "2040-08-15",
+      "family": "real",
+      "ttmYears": 14.598220396988363
+    },
+    "Tesouro IPCA+ 2029|15-05-2029": {
+      "name": "Tesouro IPCA+ 2029",
+      "maturityISO": "2029-05-15",
+      "family": "real",
+      "ttmYears": 3.345653661875428
     },
     "Tesouro Prefixado com Juros Semestrais 2027|01-01-2027": {
       "name": "Tesouro Prefixado com Juros Semestrais 2027",
       "maturityISO": "2027-01-01",
       "family": "nominal",
-      "ttmYears": 0.9801505817932923
+      "ttmYears": 0.9774127310061602
+    },
+    "Tesouro Prefixado com Juros Semestrais 2029|01-01-2029": {
+      "name": "Tesouro Prefixado com Juros Semestrais 2029",
+      "maturityISO": "2029-01-01",
+      "family": "nominal",
+      "ttmYears": 2.9787816563997263
+    },
+    "Tesouro Prefixado com Juros Semestrais 2035|01-01-2035": {
+      "name": "Tesouro Prefixado com Juros Semestrais 2035",
+      "maturityISO": "2035-01-01",
+      "family": "nominal",
+      "ttmYears": 8.97741273100616
     },
     "Tesouro Prefixado com Juros Semestrais 2031|01-01-2031": {
       "name": "Tesouro Prefixado com Juros Semestrais 2031",
       "maturityISO": "2031-01-01",
       "family": "nominal",
-      "ttmYears": 4.980150581793292
+      "ttmYears": 4.97741273100616
     },
-    "Tesouro Renda+ Aposentadoria Extra 2059|15-12-2059": {
-      "name": "Tesouro Renda+ Aposentadoria Extra 2059",
-      "maturityISO": "2059-12-15",
-      "family": "real",
-      "ttmYears": 33.93292265571527
-    },
-    "Tesouro Renda+ Aposentadoria Extra 2049|15-12-2049": {
-      "name": "Tesouro Renda+ Aposentadoria Extra 2049",
-      "maturityISO": "2049-12-15",
-      "family": "real",
-      "ttmYears": 23.93429158110883
-    },
-    "Tesouro Renda+ Aposentadoria Extra 2069|15-12-2069": {
-      "name": "Tesouro Renda+ Aposentadoria Extra 2069",
-      "maturityISO": "2069-12-15",
-      "family": "real",
-      "ttmYears": 43.93429158110883
-    },
-    "Tesouro Renda+ Aposentadoria Extra 2064|15-12-2064": {
-      "name": "Tesouro Renda+ Aposentadoria Extra 2064",
-      "maturityISO": "2064-12-15",
-      "family": "real",
-      "ttmYears": 38.93497604380561
-    },
-    "Tesouro Renda+ Aposentadoria Extra 2079|15-12-2079": {
-      "name": "Tesouro Renda+ Aposentadoria Extra 2079",
-      "maturityISO": "2079-12-15",
-      "family": "real",
-      "ttmYears": 53.93292265571527
-    },
-    "Tesouro Renda+ Aposentadoria Extra 2084|15-12-2084": {
-      "name": "Tesouro Renda+ Aposentadoria Extra 2084",
-      "maturityISO": "2084-12-15",
-      "family": "real",
-      "ttmYears": 58.93497604380561
-    },
-    "Tesouro Renda+ Aposentadoria Extra 2054|15-12-2054": {
-      "name": "Tesouro Renda+ Aposentadoria Extra 2054",
-      "maturityISO": "2054-12-15",
-      "family": "real",
-      "ttmYears": 28.933607118412045
+    "Tesouro Prefixado com Juros Semestrais 2033|01-01-2033": {
+      "name": "Tesouro Prefixado com Juros Semestrais 2033",
+      "maturityISO": "2033-01-01",
+      "family": "nominal",
+      "ttmYears": 6.978781656399726
     },
     "Tesouro Renda+ Aposentadoria Extra 2074|15-12-2074": {
       "name": "Tesouro Renda+ Aposentadoria Extra 2074",
       "maturityISO": "2074-12-15",
       "family": "real",
-      "ttmYears": 48.93360711841205
+      "ttmYears": 48.930869267624914
     },
-    "Tesouro Educa+ 2035|15-12-2035": {
-      "name": "Tesouro Educa+ 2035",
-      "maturityISO": "2035-12-15",
+    "Tesouro Renda+ Aposentadoria Extra 2054|15-12-2054": {
+      "name": "Tesouro Renda+ Aposentadoria Extra 2054",
+      "maturityISO": "2054-12-15",
       "family": "real",
-      "ttmYears": 9.932922655715263
+      "ttmYears": 28.930869267624914
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2069|15-12-2069": {
+      "name": "Tesouro Renda+ Aposentadoria Extra 2069",
+      "maturityISO": "2069-12-15",
+      "family": "real",
+      "ttmYears": 43.931553730321696
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2064|15-12-2064": {
+      "name": "Tesouro Renda+ Aposentadoria Extra 2064",
+      "maturityISO": "2064-12-15",
+      "family": "real",
+      "ttmYears": 38.93223819301848
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2079|15-12-2079": {
+      "name": "Tesouro Renda+ Aposentadoria Extra 2079",
+      "maturityISO": "2079-12-15",
+      "family": "real",
+      "ttmYears": 53.93018480492813
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2059|15-12-2059": {
+      "name": "Tesouro Renda+ Aposentadoria Extra 2059",
+      "maturityISO": "2059-12-15",
+      "family": "real",
+      "ttmYears": 33.93018480492813
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2049|15-12-2049": {
+      "name": "Tesouro Renda+ Aposentadoria Extra 2049",
+      "maturityISO": "2049-12-15",
+      "family": "real",
+      "ttmYears": 23.9315537303217
+    },
+    "Tesouro Renda+ Aposentadoria Extra 2084|15-12-2084": {
+      "name": "Tesouro Renda+ Aposentadoria Extra 2084",
+      "maturityISO": "2084-12-15",
+      "family": "real",
+      "ttmYears": 58.93223819301848
     },
     "Tesouro Educa+ 2032|15-12-2032": {
       "name": "Tesouro Educa+ 2032",
       "maturityISO": "2032-12-15",
       "family": "real",
-      "ttmYears": 6.934976043805612
-    },
-    "Tesouro Educa+ 2033|15-12-2033": {
-      "name": "Tesouro Educa+ 2033",
-      "maturityISO": "2033-12-15",
-      "family": "real",
-      "ttmYears": 7.9342915811088295
-    },
-    "Tesouro Educa+ 2045|15-12-2045": {
-      "name": "Tesouro Educa+ 2045",
-      "maturityISO": "2045-12-15",
-      "family": "real",
-      "ttmYears": 19.93429158110883
-    },
-    "Tesouro Educa+ 2040|15-12-2040": {
-      "name": "Tesouro Educa+ 2040",
-      "maturityISO": "2040-12-15",
-      "family": "real",
-      "ttmYears": 14.934976043805612
-    },
-    "Tesouro Educa+ 2046|15-12-2046": {
-      "name": "Tesouro Educa+ 2046",
-      "maturityISO": "2046-12-15",
-      "family": "real",
-      "ttmYears": 20.933607118412045
-    },
-    "Tesouro Educa+ 2044|15-12-2044": {
-      "name": "Tesouro Educa+ 2044",
-      "maturityISO": "2044-12-15",
-      "family": "real",
-      "ttmYears": 18.934976043805612
-    },
-    "Tesouro Educa+ 2034|15-12-2034": {
-      "name": "Tesouro Educa+ 2034",
-      "maturityISO": "2034-12-15",
-      "family": "real",
-      "ttmYears": 8.933607118412047
-    },
-    "Tesouro Educa+ 2047|15-12-2047": {
-      "name": "Tesouro Educa+ 2047",
-      "maturityISO": "2047-12-15",
-      "family": "real",
-      "ttmYears": 21.932922655715263
-    },
-    "Tesouro Educa+ 2041|15-12-2041": {
-      "name": "Tesouro Educa+ 2041",
-      "maturityISO": "2041-12-15",
-      "family": "real",
-      "ttmYears": 15.93429158110883
-    },
-    "Tesouro Educa+ 2043|15-12-2043": {
-      "name": "Tesouro Educa+ 2043",
-      "maturityISO": "2043-12-15",
-      "family": "real",
-      "ttmYears": 17.932922655715263
+      "ttmYears": 6.93223819301848
     },
     "Tesouro Educa+ 2038|15-12-2038": {
       "name": "Tesouro Educa+ 2038",
       "maturityISO": "2038-12-15",
       "family": "real",
-      "ttmYears": 12.933607118412047
-    },
-    "Tesouro Educa+ 2030|15-12-2030": {
-      "name": "Tesouro Educa+ 2030",
-      "maturityISO": "2030-12-15",
-      "family": "real",
-      "ttmYears": 4.933607118412047
-    },
-    "Tesouro Educa+ 2036|15-12-2036": {
-      "name": "Tesouro Educa+ 2036",
-      "maturityISO": "2036-12-15",
-      "family": "real",
-      "ttmYears": 10.934976043805612
+      "ttmYears": 12.930869267624914
     },
     "Tesouro Educa+ 2037|15-12-2037": {
       "name": "Tesouro Educa+ 2037",
       "maturityISO": "2037-12-15",
       "family": "real",
-      "ttmYears": 11.93429158110883
+      "ttmYears": 11.931553730321697
     },
-    "Tesouro Educa+ 2031|15-12-2031": {
-      "name": "Tesouro Educa+ 2031",
-      "maturityISO": "2031-12-15",
+    "Tesouro Educa+ 2041|15-12-2041": {
+      "name": "Tesouro Educa+ 2041",
+      "maturityISO": "2041-12-15",
       "family": "real",
-      "ttmYears": 5.932922655715264
+      "ttmYears": 15.931553730321697
+    },
+    "Tesouro Educa+ 2033|15-12-2033": {
+      "name": "Tesouro Educa+ 2033",
+      "maturityISO": "2033-12-15",
+      "family": "real",
+      "ttmYears": 7.931553730321697
+    },
+    "Tesouro Educa+ 2045|15-12-2045": {
+      "name": "Tesouro Educa+ 2045",
+      "maturityISO": "2045-12-15",
+      "family": "real",
+      "ttmYears": 19.9315537303217
+    },
+    "Tesouro Educa+ 2047|15-12-2047": {
+      "name": "Tesouro Educa+ 2047",
+      "maturityISO": "2047-12-15",
+      "family": "real",
+      "ttmYears": 21.930184804928132
+    },
+    "Tesouro Educa+ 2036|15-12-2036": {
+      "name": "Tesouro Educa+ 2036",
+      "maturityISO": "2036-12-15",
+      "family": "real",
+      "ttmYears": 10.932238193018481
     },
     "Tesouro Educa+ 2039|15-12-2039": {
       "name": "Tesouro Educa+ 2039",
       "maturityISO": "2039-12-15",
       "family": "real",
-      "ttmYears": 13.932922655715263
+      "ttmYears": 13.930184804928132
+    },
+    "Tesouro Educa+ 2031|15-12-2031": {
+      "name": "Tesouro Educa+ 2031",
+      "maturityISO": "2031-12-15",
+      "family": "real",
+      "ttmYears": 5.930184804928132
+    },
+    "Tesouro Educa+ 2034|15-12-2034": {
+      "name": "Tesouro Educa+ 2034",
+      "maturityISO": "2034-12-15",
+      "family": "real",
+      "ttmYears": 8.930869267624914
+    },
+    "Tesouro Educa+ 2044|15-12-2044": {
+      "name": "Tesouro Educa+ 2044",
+      "maturityISO": "2044-12-15",
+      "family": "real",
+      "ttmYears": 18.93223819301848
+    },
+    "Tesouro Educa+ 2040|15-12-2040": {
+      "name": "Tesouro Educa+ 2040",
+      "maturityISO": "2040-12-15",
+      "family": "real",
+      "ttmYears": 14.932238193018481
+    },
+    "Tesouro Educa+ 2030|15-12-2030": {
+      "name": "Tesouro Educa+ 2030",
+      "maturityISO": "2030-12-15",
+      "family": "real",
+      "ttmYears": 4.930869267624915
+    },
+    "Tesouro Educa+ 2043|15-12-2043": {
+      "name": "Tesouro Educa+ 2043",
+      "maturityISO": "2043-12-15",
+      "family": "real",
+      "ttmYears": 17.930184804928132
+    },
+    "Tesouro Educa+ 2046|15-12-2046": {
+      "name": "Tesouro Educa+ 2046",
+      "maturityISO": "2046-12-15",
+      "family": "real",
+      "ttmYears": 20.930869267624914
+    },
+    "Tesouro Educa+ 2035|15-12-2035": {
+      "name": "Tesouro Educa+ 2035",
+      "maturityISO": "2035-12-15",
+      "family": "real",
+      "ttmYears": 9.930184804928132
     },
     "Tesouro Educa+ 2042|15-12-2042": {
       "name": "Tesouro Educa+ 2042",
       "maturityISO": "2042-12-15",
       "family": "real",
-      "ttmYears": 16.933607118412045
+      "ttmYears": 16.930869267624914
+    },
+    "Tesouro Selic 2028|01-03-2028": {
+      "name": "Tesouro Selic 2028",
+      "maturityISO": "2028-03-01",
+      "family": "selic",
+      "ttmYears": 2.1409993155373033
+    },
+    "Tesouro Selic 2029|01-03-2029": {
+      "name": "Tesouro Selic 2029",
+      "maturityISO": "2029-03-01",
+      "family": "selic",
+      "ttmYears": 3.14031485284052
+    },
+    "Tesouro Selic 2026|01-03-2026": {
+      "name": "Tesouro Selic 2026",
+      "maturityISO": "2026-03-01",
+      "family": "selic",
+      "ttmYears": 0.13963039014373715
+    },
+    "Tesouro Selic 2027|01-03-2027": {
+      "name": "Tesouro Selic 2027",
+      "maturityISO": "2027-03-01",
+      "family": "selic",
+      "ttmYears": 1.1389459274469542
     }
   }
 }
