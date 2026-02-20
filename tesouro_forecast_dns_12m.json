@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-02-19",
-  "asOfMarket": "2026-02-19",
-  "asOfMacro": "2026-02-19",
-  "generatedAtISO": "2026-02-19T18:50:41.318431Z",
+  "asOf": "2026-02-20",
+  "asOfMarket": "2026-02-20",
+  "asOfMacro": "2026-02-20",
+  "generatedAtISO": "2026-02-20T18:46:11.566873Z",
   "horizonMonths": 12,
   "warnings": [],
   "model": {
@@ -22,8 +22,8 @@
     }
   },
   "macro": {
-    "asOf": "2026-02-19",
-    "generatedAtISO": "2026-02-19T18:50:20.843506Z",
+    "asOf": "2026-02-20",
+    "generatedAtISO": "2026-02-20T18:45:53.918514Z",
     "ipca_12m": 3.968,
     "yearsCovered": [
       2026,
@@ -82,31 +82,31 @@
   },
   "curve": {
     "real": {
-      "tau": 1.7596638655462185,
+      "tau": 1.6134453781512605,
       "beta_asOf": [
-        6.804533123736474,
-        -7.865783803828013,
-        12.333735507426491
+        6.810315444997452,
+        -10.992825980797075,
+        15.824735784052514
       ],
       "beta_12m": [
-        6.720726446450285,
-        6.214485477262318,
-        -4.693155415693063
+        6.7212457751595025,
+        7.6632591728993695,
+        -5.94863477037099
       ]
     }
   },
   "bonds": {
     "Tesouro IPCA+ 2032|15-08-2032": {
-      "y0": 7.630000000000001,
-      "y12m": 7.240796345358932,
-      "pu0": 2865.795,
-      "pu12m": 3270.972795019291,
-      "expReturn12mPct": 18.667420228092247,
-      "expTotalReturn12mPct": 18.667420228092247,
-      "expReturn12mRealPct": 14.138408191070573,
-      "expTotalReturn12mRealPct": 14.138408191070573,
-      "expReturn12mNominalPct": 18.667420228092247,
-      "expTotalReturn12mNominalPct": 18.667420228092247,
+      "y0": 7.65,
+      "y12m": 7.247263112246627,
+      "pu0": 2864.12,
+      "pu12m": 3271.8867237132868,
+      "expReturn12mPct": 18.76999528337604,
+      "expTotalReturn12mPct": 18.76999528337604,
+      "expReturn12mRealPct": 14.237068408910481,
+      "expTotalReturn12mRealPct": 14.237068408910481,
+      "expReturn12mNominalPct": 18.76999528337604,
+      "expTotalReturn12mNominalPct": 18.76999528337604,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -117,19 +117,19 @@
         "maturityISO": "2032-08-15"
       },
       "family": "real",
-      "ttmYears": 6.485968514715948
+      "ttmYears": 6.483230663928816
     },
     "Tesouro IPCA+ 2040|15-08-2040": {
-      "y0": 7.27,
-      "y12m": 6.906726959529227,
-      "pu0": 1675.485,
-      "pu12m": 1955.938788115971,
-      "expReturn12mPct": 21.370853169584493,
-      "expTotalReturn12mPct": 21.370853169584493,
-      "expReturn12mRealPct": 16.7386630209146,
-      "expTotalReturn12mRealPct": 16.7386630209146,
-      "expReturn12mNominalPct": 21.370853169584493,
-      "expTotalReturn12mNominalPct": 21.370853169584493,
+      "y0": 7.26,
+      "y12m": 6.912983910254735,
+      "pu0": 1678.74,
+      "pu12m": 1955.5323223497014,
+      "expReturn12mPct": 21.11034733791639,
+      "expTotalReturn12mPct": 21.11034733791639,
+      "expReturn12mRealPct": 16.488099547857416,
+      "expTotalReturn12mRealPct": 16.488099547857416,
+      "expReturn12mNominalPct": 21.11034733791639,
+      "expTotalReturn12mNominalPct": 21.11034733791639,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -140,19 +140,19 @@
         "maturityISO": "2040-08-15"
       },
       "family": "real",
-      "ttmYears": 14.485968514715948
+      "ttmYears": 14.483230663928817
     },
     "Tesouro IPCA+ 2050|15-08-2050": {
       "y0": 6.96,
-      "y12m": 6.830065837380356,
-      "pu0": 895.655,
-      "pu12m": 1024.7740276638324,
-      "expReturn12mPct": 18.95618972500943,
-      "expTotalReturn12mPct": 18.95618972500943,
-      "expReturn12mRealPct": 14.416156629933674,
-      "expTotalReturn12mRealPct": 14.416156629933674,
-      "expReturn12mNominalPct": 18.95618972500943,
-      "expTotalReturn12mNominalPct": 18.95618972500943,
+      "y12m": 6.834247375430833,
+      "pu0": 896.185,
+      "pu12m": 1024.4349941091557,
+      "expReturn12mPct": 18.846507660294122,
+      "expTotalReturn12mPct": 18.846507660294122,
+      "expReturn12mRealPct": 14.310660645866168,
+      "expTotalReturn12mRealPct": 14.310660645866168,
+      "expReturn12mNominalPct": 18.846507660294122,
+      "expTotalReturn12mNominalPct": 18.846507660294122,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -163,21 +163,21 @@
         "maturityISO": "2050-08-15"
       },
       "family": "real",
-      "ttmYears": 24.484599589322382
+      "ttmYears": 24.48186173853525
     },
     "Tesouro IPCA+ com Juros Semestrais 2037|15-05-2037": {
-      "y0": 7.51,
-      "y12m": 6.966558844173388,
-      "pu0": 4184.200000000001,
-      "pu12m": 4558.809685210349,
-      "expReturn12mPct": 20.31950954199473,
-      "expTotalReturn12mPct": 20.750868087700947,
-      "expReturn12mRealPct": 15.727444542546486,
-      "expTotalReturn12mRealPct": 16.142340035107882,
-      "expReturn12mNominalPct": 20.31950954199473,
-      "expTotalReturn12mNominalPct": 20.750868087700947,
+      "y0": 7.52,
+      "y12m": 6.972984477839491,
+      "pu0": 4183.639999999999,
+      "pu12m": 4559.500298261542,
+      "expReturn12mPct": 20.355079676749877,
+      "expTotalReturn12mPct": 20.78899631855471,
+      "expReturn12mRealPct": 15.761657122143236,
+      "expTotalReturn12mRealPct": 16.17901307955787,
+      "expReturn12mNominalPct": 20.355079676749877,
+      "expTotalReturn12mNominalPct": 20.78899631855471,
       "cashflows12mCount": 2,
-      "cashflows12mTotal": 283.45804933888223,
+      "cashflows12mTotal": 283.55069376329027,
       "totalReturnAssumptions": {
         "couponRatePct": 6.0,
         "couponFrequency": 2,
@@ -186,21 +186,21 @@
         "maturityISO": "2037-05-15"
       },
       "family": "real",
-      "ttmYears": 11.233401779603012
+      "ttmYears": 11.23066392881588
     },
     "Tesouro IPCA+ com Juros Semestrais 2045|15-05-2045": {
       "y0": 7.220000000000001,
-      "y12m": 6.859994489925783,
-      "pu0": 4129.545,
-      "pu12m": 4471.952847581845,
-      "expReturn12mPct": 19.731424233758908,
-      "expTotalReturn12mPct": 20.168873661658203,
-      "expReturn12mRealPct": 15.161803856724099,
-      "expTotalReturn12mRealPct": 15.582557769369632,
-      "expReturn12mNominalPct": 19.731424233758908,
-      "expTotalReturn12mNominalPct": 20.168873661658203,
+      "y12m": 6.86514078412837,
+      "pu0": 4132.014999999999,
+      "pu12m": 4472.184332456567,
+      "expReturn12mPct": 19.667798788722422,
+      "expTotalReturn12mPct": 20.10750753162216,
+      "expReturn12mRealPct": 15.100606714299047,
+      "expTotalReturn12mRealPct": 15.523533713856352,
+      "expReturn12mNominalPct": 19.667798788722422,
+      "expTotalReturn12mNominalPct": 20.10750753162216,
       "cashflows12mCount": 2,
-      "cashflows12mTotal": 283.7056654933124,
+      "cashflows12mTotal": 283.79000206927617,
       "totalReturnAssumptions": {
         "couponRatePct": 6.0,
         "couponFrequency": 2,
@@ -209,21 +209,21 @@
         "maturityISO": "2045-05-15"
       },
       "family": "real",
-      "ttmYears": 19.23340177960301
+      "ttmYears": 19.23066392881588
     },
     "Tesouro IPCA+ com Juros Semestrais 2060|15-08-2060": {
-      "y0": 7.15,
-      "y12m": 6.798353091216272,
-      "pu0": 3968.46,
-      "pu12m": 4326.842218117586,
-      "expReturn12mPct": 20.872523759508855,
-      "expTotalReturn12mPct": 21.10465611266146,
-      "expReturn12mRealPct": 16.259352646495895,
-      "expTotalReturn12mRealPct": 16.482625531568807,
-      "expReturn12mNominalPct": 20.872523759508855,
-      "expTotalReturn12mNominalPct": 21.10465611266146,
+      "y0": 7.16,
+      "y12m": 6.80147181169935,
+      "pu0": 3965.76,
+      "pu12m": 4327.704357850095,
+      "expReturn12mPct": 20.979882162268602,
+      "expTotalReturn12mPct": 21.214695459534425,
+      "expReturn12mRealPct": 16.362613652535973,
+      "expTotalReturn12mRealPct": 16.58846516190986,
+      "expReturn12mNominalPct": 20.979882162268602,
+      "expTotalReturn12mNominalPct": 21.214695459534425,
       "cashflows12mCount": 2,
-      "cashflows12mTotal": 286.8636879175459,
+      "cashflows12mTotal": 286.95762933671506,
       "totalReturnAssumptions": {
         "couponRatePct": 6.0,
         "couponFrequency": 2,
@@ -232,19 +232,19 @@
         "maturityISO": "2060-08-15"
       },
       "family": "real",
-      "ttmYears": 34.48596851471595
+      "ttmYears": 34.483230663928815
     },
     "Tesouro Renda+ Aposentadoria Extra 2030|15-12-2049": {
       "y0": 7.29,
-      "y12m": 6.833121587608926,
-      "pu0": 1892.665,
-      "pu12m": 2220.1921590999905,
-      "expReturn12mPct": 21.959743746150416,
-      "expTotalReturn12mPct": 21.959743746150416,
-      "expReturn12mRealPct": 17.30507824152665,
-      "expTotalReturn12mRealPct": 17.30507824152665,
-      "expReturn12mNominalPct": 21.959743746150416,
-      "expTotalReturn12mNominalPct": 21.959743746150416,
+      "y12m": 6.837404712533077,
+      "pu0": 1893.805,
+      "pu12m": 2220.4940932182417,
+      "expReturn12mPct": 21.90290440869791,
+      "expTotalReturn12mPct": 21.90290440869791,
+      "expReturn12mRealPct": 17.250408210889812,
+      "expTotalReturn12mRealPct": 17.250408210889812,
+      "expReturn12mNominalPct": 21.90290440869791,
+      "expTotalReturn12mNominalPct": 21.90290440869791,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -255,19 +255,19 @@
         "maturityISO": "2049-12-15"
       },
       "family": "real",
-      "ttmYears": 23.81930184804928
+      "ttmYears": 23.81656399726215
     },
     "Tesouro Renda+ Aposentadoria Extra 2035|15-12-2054": {
       "y0": 7.140000000000001,
-      "y12m": 6.813619166836538,
-      "pu0": 1365.3600000000001,
-      "pu12m": 1603.3729796240339,
-      "expReturn12mPct": 22.09196251944654,
-      "expTotalReturn12mPct": 22.09196251944654,
-      "expReturn12mRealPct": 17.43225080740858,
-      "expTotalReturn12mRealPct": 17.43225080740858,
-      "expReturn12mNominalPct": 22.09196251944654,
-      "expTotalReturn12mNominalPct": 22.09196251944654,
+      "y12m": 6.8172503329648615,
+      "pu0": 1366.175,
+      "pu12m": 1603.4089493152492,
+      "expReturn12mPct": 22.021865165449395,
+      "expTotalReturn12mPct": 22.021865165449395,
+      "expReturn12mRealPct": 17.36482876024297,
+      "expTotalReturn12mRealPct": 17.36482876024297,
+      "expReturn12mNominalPct": 22.021865165449395,
+      "expTotalReturn12mNominalPct": 22.021865165449395,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -278,19 +278,19 @@
         "maturityISO": "2054-12-15"
       },
       "family": "real",
-      "ttmYears": 28.8186173853525
+      "ttmYears": 28.815879534565365
     },
     "Tesouro Renda+ Aposentadoria Extra 2040|15-12-2059": {
       "y0": 7.02,
-      "y12m": 6.799886525386704,
-      "pu0": 992.7950000000001,
-      "pu12m": 1158.076969973389,
-      "expReturn12mPct": 21.276745364544823,
-      "expTotalReturn12mPct": 21.276745364544823,
-      "expReturn12mRealPct": 16.64814689572256,
-      "expTotalReturn12mRealPct": 16.64814689572256,
-      "expReturn12mNominalPct": 21.276745364544823,
-      "expTotalReturn12mNominalPct": 21.276745364544823,
+      "y12m": 6.803056717502654,
+      "pu0": 993.385,
+      "pu12m": 1158.003685612589,
+      "expReturn12mPct": 21.197045642696068,
+      "expTotalReturn12mPct": 21.197045642696068,
+      "expReturn12mRealPct": 16.57148896073415,
+      "expTotalReturn12mRealPct": 16.57148896073415,
+      "expReturn12mNominalPct": 21.197045642696068,
+      "expTotalReturn12mNominalPct": 21.197045642696068,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -301,19 +301,19 @@
         "maturityISO": "2059-12-15"
       },
       "family": "real",
-      "ttmYears": 33.817932922655714
+      "ttmYears": 33.81519507186858
     },
     "Tesouro Renda+ Aposentadoria Extra 2045|15-12-2064": {
       "y0": 6.970000000000001,
-      "y12m": 6.789686532180179,
-      "pu0": 717.61,
-      "pu12m": 837.346087052082,
-      "expReturn12mPct": 21.315474949667433,
-      "expTotalReturn12mPct": 21.315474949667433,
-      "expReturn12mRealPct": 16.685398343401282,
-      "expTotalReturn12mRealPct": 16.685398343401282,
-      "expReturn12mNominalPct": 21.315474949667433,
-      "expTotalReturn12mNominalPct": 21.315474949667433,
+      "y12m": 6.792514423386873,
+      "pu0": 718.0350000000001,
+      "pu12m": 837.2333944682028,
+      "expReturn12mPct": 21.227351808853467,
+      "expTotalReturn12mPct": 21.227351808853467,
+      "expReturn12mRealPct": 16.600638474197325,
+      "expTotalReturn12mRealPct": 16.600638474197325,
+      "expReturn12mNominalPct": 21.227351808853467,
+      "expTotalReturn12mNominalPct": 21.227351808853467,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -324,19 +324,19 @@
         "maturityISO": "2064-12-15"
       },
       "family": "real",
-      "ttmYears": 38.81998631074607
+      "ttmYears": 38.81724845995893
     },
     "Tesouro Renda+ Aposentadoria Extra 2050|15-12-2069": {
-      "y0": 6.96,
-      "y12m": 6.781818920020597,
-      "pu0": 514.95,
-      "pu12m": 605.8311562663015,
-      "expReturn12mPct": 22.31683397357962,
-      "expTotalReturn12mPct": 22.31683397357962,
-      "expReturn12mRealPct": 17.6485399099527,
-      "expTotalReturn12mRealPct": 17.6485399099527,
-      "expReturn12mNominalPct": 22.31683397357962,
-      "expTotalReturn12mNominalPct": 22.31683397357962,
+      "y0": 6.970000000000001,
+      "y12m": 6.7843829216074045,
+      "pu0": 513.74,
+      "pu12m": 605.8334739667384,
+      "expReturn12mPct": 22.60539304195479,
+      "expTotalReturn12mPct": 22.60539304195479,
+      "expReturn12mRealPct": 17.926085951403124,
+      "expTotalReturn12mRealPct": 17.926085951403124,
+      "expReturn12mNominalPct": 22.60539304195479,
+      "expTotalReturn12mNominalPct": 22.60539304195479,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -347,19 +347,19 @@
         "maturityISO": "2069-12-15"
       },
       "family": "real",
-      "ttmYears": 43.81930184804928
+      "ttmYears": 43.81656399726215
     },
     "Tesouro Renda+ Aposentadoria Extra 2055|15-12-2074": {
-      "y0": 6.98,
-      "y12m": 6.775562688861326,
-      "pu0": 366.095,
-      "pu12m": 438.68549608737067,
-      "expReturn12mPct": 24.58311000481226,
-      "expTotalReturn12mPct": 24.58311000481226,
-      "expReturn12mRealPct": 19.82832218068278,
-      "expTotalReturn12mRealPct": 19.82832218068278,
-      "expReturn12mNominalPct": 24.58311000481226,
-      "expTotalReturn12mNominalPct": 24.58311000481226,
+      "y0": 7.0,
+      "y12m": 6.777916941262057,
+      "pu0": 363.82,
+      "pu12m": 438.77524914571757,
+      "expReturn12mPct": 25.38778820070904,
+      "expTotalReturn12mPct": 25.38778820070904,
+      "expReturn12mRealPct": 20.60228935894606,
+      "expTotalReturn12mRealPct": 20.60228935894606,
+      "expReturn12mNominalPct": 25.38778820070904,
+      "expTotalReturn12mNominalPct": 25.38778820070904,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -370,19 +370,19 @@
         "maturityISO": "2074-12-15"
       },
       "family": "real",
-      "ttmYears": 48.818617385352496
+      "ttmYears": 48.81587953456537
     },
     "Tesouro Renda+ Aposentadoria Extra 2060|15-12-2079": {
-      "y0": 7.01,
-      "y12m": 6.770468779378102,
-      "pu0": 258.765,
-      "pu12m": 317.8070175661695,
-      "expReturn12mPct": 27.6902208657257,
-      "expTotalReturn12mPct": 27.6902208657257,
-      "expReturn12mRealPct": 22.81684832422064,
-      "expTotalReturn12mRealPct": 22.81684832422064,
-      "expReturn12mNominalPct": 27.6902208657257,
-      "expTotalReturn12mNominalPct": 27.6902208657257,
+      "y0": 7.029999999999999,
+      "y12m": 6.772652312176255,
+      "pu0": 256.92,
+      "pu12m": 317.8788066375965,
+      "expReturn12mPct": 28.63624384437813,
+      "expTotalReturn12mPct": 28.63624384437813,
+      "expReturn12mRealPct": 23.726765778295377,
+      "expTotalReturn12mRealPct": 23.726765778295377,
+      "expReturn12mNominalPct": 28.63624384437813,
+      "expTotalReturn12mNominalPct": 28.63624384437813,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -393,19 +393,19 @@
         "maturityISO": "2079-12-15"
       },
       "family": "real",
-      "ttmYears": 53.817932922655714
+      "ttmYears": 53.81519507186858
     },
     "Tesouro Renda+ Aposentadoria Extra 2065|15-12-2084": {
-      "y0": 7.01,
-      "y12m": 6.766238689903908,
-      "pu0": 184.805,
-      "pu12m": 230.13234205755927,
-      "expReturn12mPct": 29.46835496355793,
-      "expTotalReturn12mPct": 29.46835496355793,
-      "expReturn12mRealPct": 24.527118886155286,
-      "expTotalReturn12mRealPct": 24.527118886155286,
-      "expReturn12mNominalPct": 29.46835496355793,
-      "expTotalReturn12mNominalPct": 29.46835496355793,
+      "y0": 7.029999999999999,
+      "y12m": 6.768280495245195,
+      "pu0": 183.315,
+      "pu12m": 230.1866646684338,
+      "expReturn12mPct": 30.551494161676484,
+      "expTotalReturn12mPct": 30.551494161676484,
+      "expReturn12mRealPct": 25.56891943836228,
+      "expTotalReturn12mRealPct": 25.56891943836228,
+      "expReturn12mNominalPct": 30.551494161676484,
+      "expTotalReturn12mNominalPct": 30.551494161676484,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -416,21 +416,21 @@
         "maturityISO": "2084-12-15"
       },
       "family": "real",
-      "ttmYears": 58.81998631074607
+      "ttmYears": 58.81724845995893
     },
     "Tesouro Educa+ 2027|15-12-2031": {
-      "y0": 7.699999999999999,
-      "y12m": 7.336011159331949,
-      "pu0": 3615.6,
-      "pu12m": 3929.328632285224,
-      "expReturn12mPct": 17.614353995604226,
-      "expTotalReturn12mPct": 17.642909338590584,
-      "expReturn12mRealPct": 13.125532852035459,
-      "expTotalReturn12mRealPct": 13.152998363525882,
-      "expReturn12mNominalPct": 17.614353995604226,
-      "expTotalReturn12mNominalPct": 17.642909338590584,
+      "y0": 7.73,
+      "y12m": 7.3458860862625315,
+      "pu0": 3614.62,
+      "pu12m": 3931.083478350093,
+      "expReturn12mPct": 17.698407353712465,
+      "expTotalReturn12mPct": 17.728450005483822,
+      "expReturn12mRealPct": 13.206378264189444,
+      "expTotalReturn12mRealPct": 13.235274320448443,
+      "expReturn12mNominalPct": 17.698407353712465,
+      "expTotalReturn12mNominalPct": 17.728450005483822,
       "cashflows12mCount": 2,
-      "cashflows12mTotal": 160.83813351296993,
+      "cashflows12mTotal": 160.89691166295088,
       "totalReturnAssumptions": {
         "couponRatePct": 0.0,
         "couponFrequency": 12,
@@ -439,19 +439,19 @@
         "maturityISO": "2031-12-15"
       },
       "family": "real",
-      "ttmYears": 5.817932922655715
+      "ttmYears": 5.815195071868583
     },
     "Tesouro Educa+ 2028|15-12-2032": {
-      "y0": 7.65,
-      "y12m": 7.202444901861555,
-      "pu0": 3365.0550000000003,
-      "pu12m": 3829.758277699823,
-      "expReturn12mPct": 18.32564656919282,
-      "expTotalReturn12mPct": 18.32564656919282,
-      "expReturn12mRealPct": 13.809678525308588,
-      "expTotalReturn12mRealPct": 13.809678525308588,
-      "expReturn12mNominalPct": 18.32564656919282,
-      "expTotalReturn12mNominalPct": 18.32564656919282,
+      "y0": 7.68,
+      "y12m": 7.208091333118737,
+      "pu0": 3363.21,
+      "pu12m": 3831.7156376909293,
+      "expReturn12mPct": 18.451066516646453,
+      "expTotalReturn12mPct": 18.451066516646453,
+      "expReturn12mRealPct": 13.9303117465436,
+      "expTotalReturn12mRealPct": 13.9303117465436,
+      "expReturn12mNominalPct": 18.451066516646453,
+      "expTotalReturn12mNominalPct": 18.451066516646453,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -462,19 +462,19 @@
         "maturityISO": "2032-12-15"
       },
       "family": "real",
-      "ttmYears": 6.8199863107460645
+      "ttmYears": 6.8172484599589325
     },
     "Tesouro Educa+ 2029|15-12-2033": {
-      "y0": 7.630000000000001,
-      "y12m": 7.114223694761733,
-      "pu0": 3130.33,
-      "pu12m": 3588.0323570204528,
-      "expReturn12mPct": 19.169719516697104,
-      "expTotalReturn12mPct": 19.169719516697104,
-      "expReturn12mRealPct": 14.621536931264533,
-      "expTotalReturn12mRealPct": 14.621536931264533,
-      "expReturn12mNominalPct": 19.169719516697104,
-      "expTotalReturn12mNominalPct": 19.169719516697104,
+      "y0": 7.66,
+      "y12m": 7.119200484556293,
+      "pu0": 3127.74,
+      "pu12m": 3589.8261318711197,
+      "expReturn12mPct": 19.328027034976248,
+      "expTotalReturn12mPct": 19.328027034976248,
+      "expReturn12mRealPct": 14.773802549800186,
+      "expTotalReturn12mRealPct": 14.773802549800186,
+      "expReturn12mNominalPct": 19.328027034976248,
+      "expTotalReturn12mNominalPct": 19.328027034976248,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -485,19 +485,19 @@
         "maturityISO": "2033-12-15"
       },
       "family": "real",
-      "ttmYears": 7.819301848049282
+      "ttmYears": 7.816563997262149
     },
     "Tesouro Educa+ 2030|15-12-2034": {
-      "y0": 7.609999999999999,
-      "y12m": 7.053529730146255,
-      "pu0": 2912.51,
-      "pu12m": 3361.944891813657,
-      "expReturn12mPct": 20.011497475401697,
-      "expTotalReturn12mPct": 20.011497475401697,
-      "expReturn12mRealPct": 15.43118793802103,
-      "expTotalReturn12mRealPct": 15.43118793802103,
-      "expReturn12mNominalPct": 20.011497475401697,
-      "expTotalReturn12mNominalPct": 20.011497475401697,
+      "y0": 7.630000000000001,
+      "y12m": 7.058921339307348,
+      "pu0": 2910.955,
+      "pu12m": 3363.3018657678654,
+      "expReturn12mPct": 20.124072127584736,
+      "expTotalReturn12mPct": 20.124072127584736,
+      "expReturn12mRealPct": 15.539466112250633,
+      "expTotalReturn12mRealPct": 15.539466112250633,
+      "expReturn12mNominalPct": 20.124072127584736,
+      "expTotalReturn12mNominalPct": 20.124072127584736,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -508,19 +508,19 @@
         "maturityISO": "2034-12-15"
       },
       "family": "real",
-      "ttmYears": 8.818617385352498
+      "ttmYears": 8.815879534565367
     },
     "Tesouro Educa+ 2031|15-12-2035": {
-      "y0": 7.58,
-      "y12m": 7.010079754158116,
-      "pu0": 2712.785,
-      "pu12m": 3150.4588868060605,
-      "expReturn12mPct": 20.741934780475614,
-      "expTotalReturn12mPct": 20.741934780475614,
-      "expReturn12mRealPct": 16.13374767281819,
-      "expTotalReturn12mRealPct": 16.13374767281819,
-      "expReturn12mNominalPct": 20.741934780475614,
-      "expTotalReturn12mNominalPct": 20.741934780475614,
+      "y0": 7.6,
+      "y12m": 7.016022751684832,
+      "pu0": 2710.835,
+      "pu12m": 3151.4965576930754,
+      "expReturn12mPct": 20.86858628807493,
+      "expTotalReturn12mPct": 20.86858628807493,
+      "expReturn12mRealPct": 16.255565450980058,
+      "expTotalReturn12mRealPct": 16.255565450980058,
+      "expReturn12mNominalPct": 20.86858628807493,
+      "expTotalReturn12mNominalPct": 20.86858628807493,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -531,19 +531,19 @@
         "maturityISO": "2035-12-15"
       },
       "family": "real",
-      "ttmYears": 9.817932922655714
+      "ttmYears": 9.815195071868583
     },
     "Tesouro Educa+ 2032|15-12-2036": {
-      "y0": 7.54,
-      "y12m": 6.977637092151564,
-      "pu0": 2530.27,
-      "pu12m": 2952.439006878505,
-      "expReturn12mPct": 21.314791965736624,
-      "expTotalReturn12mPct": 21.314791965736624,
-      "expReturn12mRealPct": 16.68474142595475,
-      "expTotalReturn12mRealPct": 16.68474142595475,
-      "expReturn12mNominalPct": 21.314791965736624,
-      "expTotalReturn12mNominalPct": 21.314791965736624,
+      "y0": 7.5600000000000005,
+      "y12m": 6.983966768372765,
+      "pu0": 2527.975,
+      "pu12m": 2953.186984986745,
+      "expReturn12mPct": 21.45568862631231,
+      "expTotalReturn12mPct": 21.45568862631231,
+      "expReturn12mRealPct": 16.820260682433364,
+      "expTotalReturn12mRealPct": 16.820260682433364,
+      "expReturn12mNominalPct": 21.45568862631231,
+      "expTotalReturn12mNominalPct": 21.45568862631231,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -554,19 +554,19 @@
         "maturityISO": "2036-12-15"
       },
       "family": "real",
-      "ttmYears": 10.819986310746064
+      "ttmYears": 10.817248459958932
     },
     "Tesouro Educa+ 2033|15-12-2037": {
-      "y0": 7.51,
-      "y12m": 6.95262935851448,
-      "pu0": 2359.945,
-      "pu12m": 2767.1888449271196,
-      "expReturn12mPct": 21.90923510055647,
-      "expTotalReturn12mPct": 21.90923510055647,
-      "expReturn12mRealPct": 17.25649728816221,
-      "expTotalReturn12mRealPct": 17.25649728816221,
-      "expReturn12mNominalPct": 21.90923510055647,
-      "expTotalReturn12mNominalPct": 21.90923510055647,
+      "y0": 7.52,
+      "y12m": 6.9591318497447325,
+      "pu0": 2359.375,
+      "pu12m": 2767.5394511016807,
+      "expReturn12mPct": 21.95413685918497,
+      "expTotalReturn12mPct": 21.95413685918497,
+      "expReturn12mRealPct": 17.299685344707004,
+      "expTotalReturn12mRealPct": 17.299685344707004,
+      "expReturn12mNominalPct": 21.95413685918497,
+      "expTotalReturn12mNominalPct": 21.95413685918497,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -577,19 +577,19 @@
         "maturityISO": "2037-12-15"
       },
       "family": "real",
-      "ttmYears": 11.819301848049282
+      "ttmYears": 11.816563997262149
     },
     "Tesouro Educa+ 2034|15-12-2038": {
-      "y0": 7.470000000000001,
-      "y12m": 6.932641671005859,
-      "pu0": 2204.78,
-      "pu12m": 2593.8306081545325,
-      "expReturn12mPct": 22.31396360118034,
-      "expTotalReturn12mPct": 22.31396360118034,
-      "expReturn12mRealPct": 17.645779087007885,
-      "expTotalReturn12mRealPct": 17.645779087007885,
-      "expReturn12mNominalPct": 22.31396360118034,
-      "expTotalReturn12mNominalPct": 22.31396360118034,
+      "y0": 7.48,
+      "y12m": 6.939142683536005,
+      "pu0": 2204.04,
+      "pu12m": 2594.007106316156,
+      "expReturn12mPct": 22.363355850836687,
+      "expTotalReturn12mPct": 22.363355850836687,
+      "expReturn12mRealPct": 17.693286252343697,
+      "expTotalReturn12mRealPct": 17.693286252343697,
+      "expReturn12mNominalPct": 22.363355850836687,
+      "expTotalReturn12mNominalPct": 22.363355850836687,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -600,19 +600,19 @@
         "maturityISO": "2038-12-15"
       },
       "family": "real",
-      "ttmYears": 12.818617385352498
+      "ttmYears": 12.815879534565367
     },
     "Tesouro Educa+ 2035|15-12-2039": {
-      "y0": 7.42,
-      "y12m": 6.916211444307995,
-      "pu0": 2063.4399999999996,
-      "pu12m": 2431.052670549374,
-      "expReturn12mPct": 22.49044510704328,
-      "expTotalReturn12mPct": 22.49044510704328,
-      "expReturn12mRealPct": 17.815525072179206,
-      "expTotalReturn12mRealPct": 17.815525072179206,
-      "expReturn12mNominalPct": 22.49044510704328,
-      "expTotalReturn12mNominalPct": 22.49044510704328,
+      "y0": 7.43,
+      "y12m": 6.922591584780088,
+      "pu0": 2062.545,
+      "pu12m": 2431.096299532556,
+      "expReturn12mPct": 22.54579661040159,
+      "expTotalReturn12mPct": 22.54579661040159,
+      "expReturn12mRealPct": 17.86876405278701,
+      "expTotalReturn12mRealPct": 17.86876405278701,
+      "expReturn12mNominalPct": 22.54579661040159,
+      "expTotalReturn12mNominalPct": 22.54579661040159,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -623,19 +623,19 @@
         "maturityISO": "2039-12-15"
       },
       "family": "real",
-      "ttmYears": 13.817932922655714
+      "ttmYears": 13.815195071868583
     },
     "Tesouro Educa+ 2036|15-12-2040": {
       "y0": 7.380000000000001,
-      "y12m": 6.90235546754288,
-      "pu0": 1930.3249999999998,
-      "pu12m": 2278.0970185838405,
-      "expReturn12mPct": 22.699126223887035,
-      "expTotalReturn12mPct": 22.699126223887035,
-      "expReturn12mRealPct": 18.016241751199445,
-      "expTotalReturn12mRealPct": 18.016241751199445,
-      "expReturn12mNominalPct": 22.699126223887035,
-      "expTotalReturn12mNominalPct": 22.699126223887035,
+      "y12m": 6.908542474374653,
+      "pu0": 1931.49,
+      "pu12m": 2277.8701891704604,
+      "expReturn12mPct": 22.61290911559182,
+      "expTotalReturn12mPct": 22.61290911559182,
+      "expReturn12mRealPct": 17.933315169659725,
+      "expTotalReturn12mRealPct": 17.933315169659725,
+      "expReturn12mNominalPct": 22.61290911559182,
+      "expTotalReturn12mNominalPct": 22.61290911559182,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -646,19 +646,19 @@
         "maturityISO": "2040-12-15"
       },
       "family": "real",
-      "ttmYears": 14.819986310746064
+      "ttmYears": 14.817248459958932
     },
     "Tesouro Educa+ 2037|15-12-2041": {
       "y0": 7.33,
-      "y12m": 6.890515896382668,
-      "pu0": 1809.2849999999999,
-      "pu12m": 2134.4437185471006,
-      "expReturn12mPct": 22.652785232788062,
-      "expTotalReturn12mPct": 22.652785232788062,
-      "expReturn12mRealPct": 17.971669391339717,
-      "expTotalReturn12mRealPct": 17.971669391339717,
-      "expReturn12mNominalPct": 22.652785232788062,
-      "expTotalReturn12mNominalPct": 22.652785232788062,
+      "y12m": 6.896473570901097,
+      "pu0": 1810.375,
+      "pu12m": 2134.1592340943253,
+      "expReturn12mPct": 22.56260015207834,
+      "expTotalReturn12mPct": 22.56260015207834,
+      "expReturn12mRealPct": 17.884926277391443,
+      "expTotalReturn12mRealPct": 17.884926277391443,
+      "expReturn12mNominalPct": 22.56260015207834,
+      "expTotalReturn12mNominalPct": 22.56260015207834,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -669,19 +669,19 @@
         "maturityISO": "2041-12-15"
       },
       "family": "real",
-      "ttmYears": 15.819301848049282
+      "ttmYears": 15.816563997262149
     },
     "Tesouro Educa+ 2038|15-12-2042": {
-      "y0": 7.279999999999999,
-      "y12m": 6.880217351996115,
-      "pu0": 1697.435,
-      "pu12m": 1999.811565841489,
-      "expReturn12mPct": 22.488583584884214,
-      "expTotalReturn12mPct": 22.488583584884214,
-      "expReturn12mRealPct": 17.813734596110553,
-      "expTotalReturn12mRealPct": 17.813734596110553,
-      "expReturn12mNominalPct": 22.488583584884214,
-      "expTotalReturn12mNominalPct": 22.488583584884214,
+      "y0": 7.27,
+      "y12m": 6.8859322210919345,
+      "pu0": 1700.6999999999998,
+      "pu12m": 1999.3071055665796,
+      "expReturn12mPct": 22.222591375049184,
+      "expTotalReturn12mPct": 22.222591375049184,
+      "expReturn12mRealPct": 17.557894135742913,
+      "expTotalReturn12mRealPct": 17.557894135742913,
+      "expReturn12mNominalPct": 22.222591375049184,
+      "expTotalReturn12mNominalPct": 22.222591375049184,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -692,19 +692,19 @@
         "maturityISO": "2042-12-15"
       },
       "family": "real",
-      "ttmYears": 16.8186173853525
+      "ttmYears": 16.815879534565365
     },
     "Tesouro Educa+ 2039|15-12-2043": {
       "y0": 7.220000000000001,
-      "y12m": 6.871151873695621,
-      "pu0": 1596.095,
-      "pu12m": 1873.2581634409032,
-      "expReturn12mPct": 22.022125710953166,
-      "expTotalReturn12mPct": 22.022125710953166,
-      "expReturn12mRealPct": 17.365079361874013,
-      "expTotalReturn12mRealPct": 17.365079361874013,
-      "expReturn12mNominalPct": 22.022125710953166,
-      "expTotalReturn12mNominalPct": 22.022125710953166,
+      "y12m": 6.876624717901024,
+      "pu0": 1597.055,
+      "pu12m": 1872.9176879115942,
+      "expReturn12mPct": 21.92661253168651,
+      "expTotalReturn12mPct": 21.92661253168651,
+      "expReturn12mRealPct": 17.273211499390694,
+      "expTotalReturn12mRealPct": 17.273211499390694,
+      "expReturn12mNominalPct": 21.92661253168651,
+      "expTotalReturn12mNominalPct": 21.92661253168651,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -715,19 +715,19 @@
         "maturityISO": "2043-12-15"
       },
       "family": "real",
-      "ttmYears": 17.817932922655714
+      "ttmYears": 17.815195071868583
     },
     "Tesouro Educa+ 2040|15-12-2044": {
       "y0": 7.17,
-      "y12m": 6.863073506749821,
-      "pu0": 1500.345,
-      "pu12m": 1754.9645852467124,
-      "expReturn12mPct": 21.612134541675545,
-      "expTotalReturn12mPct": 21.612134541675545,
-      "expReturn12mRealPct": 16.97073574722563,
-      "expTotalReturn12mRealPct": 16.97073574722563,
-      "expReturn12mNominalPct": 21.612134541675545,
-      "expTotalReturn12mNominalPct": 21.612134541675545,
+      "y12m": 6.868312579587716,
+      "pu0": 1501.24,
+      "pu12m": 1754.6054710594847,
+      "expReturn12mPct": 21.51476220665083,
+      "expTotalReturn12mPct": 21.51476220665083,
+      "expReturn12mRealPct": 16.87707968475958,
+      "expTotalReturn12mRealPct": 16.87707968475958,
+      "expReturn12mNominalPct": 21.51476220665083,
+      "expTotalReturn12mNominalPct": 21.51476220665083,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -738,19 +738,19 @@
         "maturityISO": "2044-12-15"
       },
       "family": "real",
-      "ttmYears": 18.819986310746064
+      "ttmYears": 18.817248459958932
     },
     "Tesouro Educa+ 2041|15-12-2045": {
-      "y0": 7.130000000000001,
-      "y12m": 6.855856800556361,
-      "pu0": 1409.505,
-      "pu12m": 1644.379331431714,
-      "expReturn12mPct": 21.292815797242604,
-      "expTotalReturn12mPct": 21.292815797242604,
-      "expReturn12mRealPct": 16.66360399088431,
-      "expTotalReturn12mRealPct": 16.66360399088431,
-      "expReturn12mNominalPct": 21.292815797242604,
-      "expTotalReturn12mNominalPct": 21.292815797242604,
+      "y0": 7.119999999999999,
+      "y12m": 6.860875745006313,
+      "pu0": 1412.6,
+      "pu12m": 1643.8299505051348,
+      "expReturn12mPct": 20.986629119437804,
+      "expTotalReturn12mPct": 20.986629119437804,
+      "expReturn12mRealPct": 16.369103108108085,
+      "expTotalReturn12mRealPct": 16.369103108108085,
+      "expReturn12mNominalPct": 20.986629119437804,
+      "expTotalReturn12mNominalPct": 20.986629119437804,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -761,19 +761,19 @@
         "maturityISO": "2045-12-15"
       },
       "family": "real",
-      "ttmYears": 19.81930184804928
+      "ttmYears": 19.81656399726215
     },
     "Tesouro Educa+ 2042|15-12-2046": {
-      "y0": 7.09,
-      "y12m": 6.849347903321976,
-      "pu0": 1325.2350000000001,
-      "pu12m": 1540.8150336532758,
-      "expReturn12mPct": 20.880792779291024,
-      "expTotalReturn12mPct": 20.880792779291024,
-      "expReturn12mRealPct": 16.267306074264233,
-      "expTotalReturn12mRealPct": 16.267306074264233,
-      "expReturn12mNominalPct": 20.880792779291024,
-      "expTotalReturn12mNominalPct": 20.880792779291024,
+      "y0": 7.08,
+      "y12m": 6.854161358670456,
+      "pu0": 1328.2649999999999,
+      "pu12m": 1540.2648607390431,
+      "expReturn12mPct": 20.561979003675333,
+      "expTotalReturn12mPct": 20.561979003675333,
+      "expReturn12mRealPct": 15.960660014307626,
+      "expTotalReturn12mRealPct": 15.960660014307626,
+      "expReturn12mNominalPct": 20.561979003675333,
+      "expTotalReturn12mNominalPct": 20.561979003675333,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -784,19 +784,19 @@
         "maturityISO": "2046-12-15"
       },
       "family": "real",
-      "ttmYears": 20.8186173853525
+      "ttmYears": 20.815879534565365
     },
     "Tesouro Educa+ 2043|15-12-2047": {
-      "y0": 7.0600000000000005,
-      "y12m": 6.843443877426198,
-      "pu0": 1244.815,
-      "pu12m": 1444.0336783400855,
-      "expReturn12mPct": 20.606912247733188,
-      "expTotalReturn12mPct": 20.606912247733188,
-      "expReturn12mRealPct": 16.003878354621804,
-      "expTotalReturn12mRealPct": 16.003878354621804,
-      "expReturn12mNominalPct": 20.606912247733188,
-      "expTotalReturn12mNominalPct": 20.606912247733188,
+      "y0": 7.050000000000001,
+      "y12m": 6.848066705649455,
+      "pu0": 1247.775,
+      "pu12m": 1443.4878438376786,
+      "expReturn12mPct": 20.275325397700495,
+      "expTotalReturn12mPct": 20.275325397700495,
+      "expReturn12mRealPct": 15.684946712161917,
+      "expTotalReturn12mRealPct": 15.684946712161917,
+      "expReturn12mNominalPct": 20.275325397700495,
+      "expTotalReturn12mNominalPct": 20.275325397700495,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -807,19 +807,19 @@
         "maturityISO": "2047-12-15"
       },
       "family": "real",
-      "ttmYears": 21.817932922655714
+      "ttmYears": 21.815195071868583
     },
     "Tesouro Educa+ 2044|15-12-2048": {
-      "y0": 7.029999999999999,
-      "y12m": 6.838047864109889,
-      "pu0": 1169.925,
-      "pu12m": 1353.304211428423,
-      "expReturn12mPct": 20.264403490642803,
-      "expTotalReturn12mPct": 20.264403490642803,
-      "expReturn12mRealPct": 15.674441646124592,
-      "expTotalReturn12mRealPct": 15.674441646124592,
-      "expReturn12mNominalPct": 20.264403490642803,
-      "expTotalReturn12mNominalPct": 20.264403490642803,
+      "y0": 7.02,
+      "y12m": 6.842493907070507,
+      "pu0": 1172.8200000000002,
+      "pu12m": 1352.772810513111,
+      "expReturn12mPct": 19.920434136037144,
+      "expTotalReturn12mPct": 19.920434136037144,
+      "expReturn12mRealPct": 15.343600084677167,
+      "expTotalReturn12mRealPct": 15.343600084677167,
+      "expReturn12mNominalPct": 19.920434136037144,
+      "expTotalReturn12mNominalPct": 19.920434136037144,
       "cashflows12mCount": 0,
       "cashflows12mTotal": null,
       "totalReturnAssumptions": {
@@ -830,7 +830,7 @@
         "maturityISO": "2048-12-15"
       },
       "family": "real",
-      "ttmYears": 22.819986310746064
+      "ttmYears": 22.817248459958932
     }
   },
   "selection": {
@@ -877,10 +877,10 @@
   },
   "diagnostics": {
     "fitRmse": {
-      "real": 0.06825033228677621
+      "real": 0.07346953788868561
     },
     "fitWeightedRmse": {
-      "real": 0.06825033228677634
+      "real": 0.07346953788868574
     },
     "nPoints": {
       "real": 32
@@ -896,7 +896,7 @@
       "gridMax": 6.0,
       "gridStep": 0.04873949579831932,
       "selectedTau": {
-        "real": 1.7596638655462185
+        "real": 1.6134453781512605
       }
     },
     "var": {
@@ -906,9 +906,9 @@
       },
       "residualStd": {
         "real": [
-          0.1969579843628691,
-          2.72780235960465,
-          3.665040484523968
+          0.19746181255108516,
+          4.079118854646406,
+          5.1965491749402
         ]
       }
     },
@@ -931,217 +931,217 @@
       "name": "Tesouro Selic 2031",
       "maturityISO": "2031-03-01",
       "family": "selic",
-      "ttmYears": 5.026694045174538
+      "ttmYears": 5.023956194387406
     },
     "Tesouro Prefixado 2029|01-01-2029": {
       "name": "Tesouro Prefixado 2029",
       "maturityISO": "2029-01-01",
       "family": "nominal",
-      "ttmYears": 2.86652977412731
+      "ttmYears": 2.863791923340178
     },
     "Tesouro Prefixado 2032|01-01-2032": {
       "name": "Tesouro Prefixado 2032",
       "maturityISO": "2032-01-01",
       "family": "nominal",
-      "ttmYears": 5.864476386036961
+      "ttmYears": 5.861738535249829
     },
     "Tesouro Prefixado com Juros Semestrais 2037|01-01-2037": {
       "name": "Tesouro Prefixado com Juros Semestrais 2037",
       "maturityISO": "2037-01-01",
       "family": "nominal",
-      "ttmYears": 10.86652977412731
+      "ttmYears": 10.863791923340179
     },
     "Tesouro IPCA+ 2032|15-08-2032": {
       "name": "Tesouro IPCA+ 2032",
       "maturityISO": "2032-08-15",
       "family": "real",
-      "ttmYears": 6.485968514715948
+      "ttmYears": 6.483230663928816
     },
     "Tesouro IPCA+ 2040|15-08-2040": {
       "name": "Tesouro IPCA+ 2040",
       "maturityISO": "2040-08-15",
       "family": "real",
-      "ttmYears": 14.485968514715948
+      "ttmYears": 14.483230663928817
     },
     "Tesouro IPCA+ 2050|15-08-2050": {
       "name": "Tesouro IPCA+ 2050",
       "maturityISO": "2050-08-15",
       "family": "real",
-      "ttmYears": 24.484599589322382
+      "ttmYears": 24.48186173853525
     },
     "Tesouro IPCA+ com Juros Semestrais 2037|15-05-2037": {
       "name": "Tesouro IPCA+ com Juros Semestrais 2037",
       "maturityISO": "2037-05-15",
       "family": "real",
-      "ttmYears": 11.233401779603012
+      "ttmYears": 11.23066392881588
     },
     "Tesouro IPCA+ com Juros Semestrais 2045|15-05-2045": {
       "name": "Tesouro IPCA+ com Juros Semestrais 2045",
       "maturityISO": "2045-05-15",
       "family": "real",
-      "ttmYears": 19.23340177960301
+      "ttmYears": 19.23066392881588
     },
     "Tesouro IPCA+ com Juros Semestrais 2060|15-08-2060": {
       "name": "Tesouro IPCA+ com Juros Semestrais 2060",
       "maturityISO": "2060-08-15",
       "family": "real",
-      "ttmYears": 34.48596851471595
+      "ttmYears": 34.483230663928815
     },
     "Tesouro Renda+ Aposentadoria Extra 2030|15-12-2049": {
       "name": "Tesouro Renda+ Aposentadoria Extra 2030",
       "maturityISO": "2049-12-15",
       "family": "real",
-      "ttmYears": 23.81930184804928
+      "ttmYears": 23.81656399726215
     },
     "Tesouro Renda+ Aposentadoria Extra 2035|15-12-2054": {
       "name": "Tesouro Renda+ Aposentadoria Extra 2035",
       "maturityISO": "2054-12-15",
       "family": "real",
-      "ttmYears": 28.8186173853525
+      "ttmYears": 28.815879534565365
     },
     "Tesouro Renda+ Aposentadoria Extra 2040|15-12-2059": {
       "name": "Tesouro Renda+ Aposentadoria Extra 2040",
       "maturityISO": "2059-12-15",
       "family": "real",
-      "ttmYears": 33.817932922655714
+      "ttmYears": 33.81519507186858
     },
     "Tesouro Renda+ Aposentadoria Extra 2045|15-12-2064": {
       "name": "Tesouro Renda+ Aposentadoria Extra 2045",
       "maturityISO": "2064-12-15",
       "family": "real",
-      "ttmYears": 38.81998631074607
+      "ttmYears": 38.81724845995893
     },
     "Tesouro Renda+ Aposentadoria Extra 2050|15-12-2069": {
       "name": "Tesouro Renda+ Aposentadoria Extra 2050",
       "maturityISO": "2069-12-15",
       "family": "real",
-      "ttmYears": 43.81930184804928
+      "ttmYears": 43.81656399726215
     },
     "Tesouro Renda+ Aposentadoria Extra 2055|15-12-2074": {
       "name": "Tesouro Renda+ Aposentadoria Extra 2055",
       "maturityISO": "2074-12-15",
       "family": "real",
-      "ttmYears": 48.818617385352496
+      "ttmYears": 48.81587953456537
     },
     "Tesouro Renda+ Aposentadoria Extra 2060|15-12-2079": {
       "name": "Tesouro Renda+ Aposentadoria Extra 2060",
       "maturityISO": "2079-12-15",
       "family": "real",
-      "ttmYears": 53.817932922655714
+      "ttmYears": 53.81519507186858
     },
     "Tesouro Renda+ Aposentadoria Extra 2065|15-12-2084": {
       "name": "Tesouro Renda+ Aposentadoria Extra 2065",
       "maturityISO": "2084-12-15",
       "family": "real",
-      "ttmYears": 58.81998631074607
+      "ttmYears": 58.81724845995893
     },
     "Tesouro Educa+ 2027|15-12-2031": {
       "name": "Tesouro Educa+ 2027",
       "maturityISO": "2031-12-15",
       "family": "real",
-      "ttmYears": 5.817932922655715
+      "ttmYears": 5.815195071868583
     },
     "Tesouro Educa+ 2028|15-12-2032": {
       "name": "Tesouro Educa+ 2028",
       "maturityISO": "2032-12-15",
       "family": "real",
-      "ttmYears": 6.8199863107460645
+      "ttmYears": 6.8172484599589325
     },
     "Tesouro Educa+ 2029|15-12-2033": {
       "name": "Tesouro Educa+ 2029",
       "maturityISO": "2033-12-15",
       "family": "real",
-      "ttmYears": 7.819301848049282
+      "ttmYears": 7.816563997262149
     },
     "Tesouro Educa+ 2030|15-12-2034": {
       "name": "Tesouro Educa+ 2030",
       "maturityISO": "2034-12-15",
       "family": "real",
-      "ttmYears": 8.818617385352498
+      "ttmYears": 8.815879534565367
     },
     "Tesouro Educa+ 2031|15-12-2035": {
       "name": "Tesouro Educa+ 2031",
       "maturityISO": "2035-12-15",
       "family": "real",
-      "ttmYears": 9.817932922655714
+      "ttmYears": 9.815195071868583
     },
     "Tesouro Educa+ 2032|15-12-2036": {
       "name": "Tesouro Educa+ 2032",
       "maturityISO": "2036-12-15",
       "family": "real",
-      "ttmYears": 10.819986310746064
+      "ttmYears": 10.817248459958932
     },
     "Tesouro Educa+ 2033|15-12-2037": {
       "name": "Tesouro Educa+ 2033",
       "maturityISO": "2037-12-15",
       "family": "real",
-      "ttmYears": 11.819301848049282
+      "ttmYears": 11.816563997262149
     },
     "Tesouro Educa+ 2034|15-12-2038": {
       "name": "Tesouro Educa+ 2034",
       "maturityISO": "2038-12-15",
       "family": "real",
-      "ttmYears": 12.818617385352498
+      "ttmYears": 12.815879534565367
     },
     "Tesouro Educa+ 2035|15-12-2039": {
       "name": "Tesouro Educa+ 2035",
       "maturityISO": "2039-12-15",
       "family": "real",
-      "ttmYears": 13.817932922655714
+      "ttmYears": 13.815195071868583
     },
     "Tesouro Educa+ 2036|15-12-2040": {
       "name": "Tesouro Educa+ 2036",
       "maturityISO": "2040-12-15",
       "family": "real",
-      "ttmYears": 14.819986310746064
+      "ttmYears": 14.817248459958932
     },
     "Tesouro Educa+ 2037|15-12-2041": {
       "name": "Tesouro Educa+ 2037",
       "maturityISO": "2041-12-15",
       "family": "real",
-      "ttmYears": 15.819301848049282
+      "ttmYears": 15.816563997262149
     },
     "Tesouro Educa+ 2038|15-12-2042": {
       "name": "Tesouro Educa+ 2038",
       "maturityISO": "2042-12-15",
       "family": "real",
-      "ttmYears": 16.8186173853525
+      "ttmYears": 16.815879534565365
     },
     "Tesouro Educa+ 2039|15-12-2043": {
       "name": "Tesouro Educa+ 2039",
       "maturityISO": "2043-12-15",
       "family": "real",
-      "ttmYears": 17.817932922655714
+      "ttmYears": 17.815195071868583
     },
     "Tesouro Educa+ 2040|15-12-2044": {
       "name": "Tesouro Educa+ 2040",
       "maturityISO": "2044-12-15",
       "family": "real",
-      "ttmYears": 18.819986310746064
+      "ttmYears": 18.817248459958932
     },
     "Tesouro Educa+ 2041|15-12-2045": {
       "name": "Tesouro Educa+ 2041",
       "maturityISO": "2045-12-15",
       "family": "real",
-      "ttmYears": 19.81930184804928
+      "ttmYears": 19.81656399726215
     },
     "Tesouro Educa+ 2042|15-12-2046": {
       "name": "Tesouro Educa+ 2042",
       "maturityISO": "2046-12-15",
       "family": "real",
-      "ttmYears": 20.8186173853525
+      "ttmYears": 20.815879534565365
     },
     "Tesouro Educa+ 2043|15-12-2047": {
       "name": "Tesouro Educa+ 2043",
       "maturityISO": "2047-12-15",
       "family": "real",
-      "ttmYears": 21.817932922655714
+      "ttmYears": 21.815195071868583
     },
     "Tesouro Educa+ 2044|15-12-2048": {
       "name": "Tesouro Educa+ 2044",
       "maturityISO": "2048-12-15",
       "family": "real",
-      "ttmYears": 22.819986310746064
+      "ttmYears": 22.817248459958932
     }
   }
 }
