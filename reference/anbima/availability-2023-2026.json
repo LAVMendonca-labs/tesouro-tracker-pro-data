@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "probeDate": "2026-07-12",
+  "endpoint": "https://www.anbima.com.br/informacoes/est-termo/CZ-down.asp",
+  "policy": {
+    "frequency": "one representative business date per month",
+    "retries": 0,
+    "requestedPeriod": "2023-01 to 2026-07",
+    "monthsTested": 43
+  },
+  "summary": [
+    { "year": 2023, "monthsTested": 12, "monthsWithData": 0 },
+    { "year": 2024, "monthsTested": 12, "monthsWithData": 0 },
+    { "year": 2025, "monthsTested": 12, "monthsWithData": 0 },
+    { "year": 2026, "monthsTested": 7, "monthsWithData": 4 }
+  ],
+  "availableRepresentativeDates": [
+    { "date": "2026-03-13", "vertices": 67, "bytes": 8570 },
+    { "date": "2026-04-15", "vertices": 67, "bytes": 8487 },
+    { "date": "2026-05-15", "vertices": 67, "bytes": 8497 },
+    { "date": "2026-06-15", "vertices": 67, "bytes": 8482 }
+  ],
+  "interpretation": "HTTP 200 is not evidence of data availability; empty dates return a valid CURVAZERO document without vertices. The endpoint did not provide 2023-2025 history in this bounded probe."
+}
