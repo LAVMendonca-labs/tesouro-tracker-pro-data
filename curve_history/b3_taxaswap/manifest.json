@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "status": "shadow",
+  "dataset": "B3 TaxaSwap PRE/DPL normalized weekly history",
+  "release": {
+    "tag": "curve-history-b3-taxaswap-v1",
+    "url": "https://github.com/LAVMendonca-labs/tesouro-tracker-pro-data/releases/tag/curve-history-b3-taxaswap-v1",
+    "publishedAt": "2026-07-13T01:43:57Z"
+  },
+  "assetManifest": {
+    "url": "https://github.com/LAVMendonca-labs/tesouro-tracker-pro-data/releases/download/curve-history-b3-taxaswap-v1/manifest.json",
+    "sha256": "8e4a0c3d4739a12a5a435c9086ea4a90bdefab1666ce1de735c7f743496c4515",
+    "bytes": 4661
+  },
+  "coverage": {
+    "frequency": "weekly",
+    "records": 603,
+    "firstDate": "2015-01-02",
+    "lastDate": "2026-07-10",
+    "annualAssets": 12
+  },
+  "sourcePolicy": {
+    "rawB3ArchivesRedistributed": false,
+    "derivedRecordsIncludeSourceSha256": true
+  },
+  "publication": {
+    "appConsumptionEnabled": false,
+    "prospectiveCanaryDaysRequired": 30
+  }
+}
